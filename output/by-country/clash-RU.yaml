@@ -4,9 +4,20 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 01 - shiqi
+  server: 104.18.47.113
+  port: 2082
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 02 - shiqi
   server: 104.18.34.14
-  port: 2052
+  port: 8080
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -15,7 +26,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 - shiqi
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -23,8 +34,22 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: 91.240.86.70
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 217.19.122.65
+- name: 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+  server: 46.8.200.91
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  tls: true
+  servername: cf3.rumedia-cdn.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  server: fbsv6.guardora.pro
   port: 443
   udp: true
   type: vless
@@ -38,21 +63,64 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  tls: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 07 - shiqi
+  server: 138.124.121.231
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  servername: amd.com
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 08 - shiqi
+  server: msk.frkn.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  sni: msk.frkn.org
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 02 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 03 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 07 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 01 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 02 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 03 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 07 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 08 - shiqi
 rules:
 - MATCH,PROXIES

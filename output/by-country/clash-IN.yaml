@@ -4,7 +4,23 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇳 印度 (India) 01 - xiaohe
+- name: 🇮🇳 印度 (India) 01 - shiqi
+  server: 35.244.28.130
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: tttyder.wsone.icu
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 02 - shiqi
+  server: 13.207.151.141
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 03 - shiqi
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -15,32 +31,8 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 02 - xiaohe
-  server: 35.244.28.130
-  port: 443
-  udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: tttyder.wsone.icu
-  skip-cert-verify: false
-- name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 13.207.151.141
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 35.154.58.87
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇮🇳 印度 (India) 05 - xiaohe
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 04 - shiqi
   server: 34.131.228.210
   port: 443
   udp: true
@@ -48,34 +40,48 @@ proxies:
   password: M7v%w11Se*
   sni: hyfuuf6.wsone.icu
   skip-cert-verify: true
-- name: 🇮🇳 印度 (India) 06 - xiaohe
-  server: 172.105.39.124
-  port: 7002
+- name: 🇮🇳 印度 (India) 05 - shiqi
+  server: 35.154.58.87
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇮🇳 印度 (India) 06 - shiqi
+  server: 148.113.5.44
+  port: 443
+  udp: true
+  type: vless
+  uuid: 72ea5a91-ffcc-43d2-9297-5993c3abf186
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
+    short-id: 221873918e0bb74d
+  servername: www.cloudflare.com
+  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇳 印度 (India) 01 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇮🇳 印度 (India) 04 - xiaohe
-  - 🇮🇳 印度 (India) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
+  - 🇮🇳 印度 (India) 01 - shiqi
+  - 🇮🇳 印度 (India) 02 - shiqi
+  - 🇮🇳 印度 (India) 03 - shiqi
+  - 🇮🇳 印度 (India) 04 - shiqi
+  - 🇮🇳 印度 (India) 05 - shiqi
+  - 🇮🇳 印度 (India) 06 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇳 印度 (India) 01 - xiaohe
-  - 🇮🇳 印度 (India) 02 - xiaohe
-  - 🇮🇳 印度 (India) 03 - xiaohe
-  - 🇮🇳 印度 (India) 04 - xiaohe
-  - 🇮🇳 印度 (India) 05 - xiaohe
-  - 🇮🇳 印度 (India) 06 - xiaohe
+  - 🇮🇳 印度 (India) 01 - shiqi
+  - 🇮🇳 印度 (India) 02 - shiqi
+  - 🇮🇳 印度 (India) 03 - shiqi
+  - 🇮🇳 印度 (India) 04 - shiqi
+  - 🇮🇳 印度 (India) 05 - shiqi
+  - 🇮🇳 印度 (India) 06 - shiqi
 rules:
 - MATCH,PROXIES

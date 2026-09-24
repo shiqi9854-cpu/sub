@@ -4,15 +4,15 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.97
+- name: 🇦🇺 澳大利亚 (Australia) 01 - shiqi
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
-- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+- name: 🇦🇺 澳大利亚 (Australia) 02 - shiqi
   server: 51.161.204.244
   port: 443
   udp: true
@@ -25,16 +25,7 @@ proxies:
     short-id: 0ad08b47f498efd2
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  server: 172.105.169.70
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 172.105.169.70
-  skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
+- name: 🇦🇺 澳大利亚 (Australia) 03 - shiqi
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
@@ -52,18 +43,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - shiqi
+  - 🇦🇺 澳大利亚 (Australia) 02 - shiqi
+  - 🇦🇺 澳大利亚 (Australia) 03 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - shiqi
+  - 🇦🇺 澳大利亚 (Australia) 02 - shiqi
+  - 🇦🇺 澳大利亚 (Australia) 03 - shiqi
 rules:
 - MATCH,PROXIES

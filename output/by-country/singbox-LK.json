@@ -5,12 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "free.sahanwickramasinghe.me",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi",
+      "server": "support.zoom.us",
       "server_port": 80,
       "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "free.sahanwickramasinghe.me"
+        }
       }
     },
     {
@@ -18,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
