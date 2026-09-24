@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - shiqi",
-      "server": "104.18.15.103",
+      "server": "104.18.14.103",
       "server_port": 443,
       "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
@@ -27,18 +27,65 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 02 - shiqi",
+      "server": "104.16.111.193",
+      "server_port": 443,
+      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.cwvps.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "a.cwvps.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - shiqi",
+      "server": "www.nextkyc.com",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi",
+        "🌐 其他地区 (Other) 02 - shiqi",
+        "🌐 其他地区 (Other) 03 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi",
+        "🌐 其他地区 (Other) 02 - shiqi",
+        "🌐 其他地区 (Other) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

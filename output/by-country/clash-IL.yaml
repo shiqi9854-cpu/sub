@@ -16,7 +16,7 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 02 - shiqi
   server: 185.95.231.233
   port: 443
@@ -55,15 +55,6 @@ proxies:
     headers:
       Host: platform118.halalkhor.info
 - name: 🇮🇱 以色列 (Israel) 05 - shiqi
-  server: platform113.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform113
-- name: 🇮🇱 以色列 (Israel) 06 - shiqi
   server: platform117.golnamakcert.top
   port: 80
   udp: true
@@ -72,8 +63,28 @@ proxies:
   network: ws
   ws-opts:
     path: /platform117
+- name: 🇮🇱 以色列 (Israel) 06 - shiqi
+  server: platform115.golnamakcert.top
+  port: 80
+  udp: true
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  network: ws
+  ws-opts:
+    path: /platform115
     headers:
-      Host: platform117.halalkhor.info
+      Host: platform115.halalkhor.info
+- name: 🇮🇱 以色列 (Israel) 07 - shiqi
+  server: platform113.golnamakcert.top
+  port: 80
+  udp: true
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,6 +96,7 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 04 - shiqi
   - 🇮🇱 以色列 (Israel) 05 - shiqi
   - 🇮🇱 以色列 (Israel) 06 - shiqi
+  - 🇮🇱 以色列 (Israel) 07 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -96,5 +108,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 04 - shiqi
   - 🇮🇱 以色列 (Israel) 05 - shiqi
   - 🇮🇱 以色列 (Israel) 06 - shiqi
+  - 🇮🇱 以色列 (Israel) 07 - shiqi
 rules:
 - MATCH,PROXIES

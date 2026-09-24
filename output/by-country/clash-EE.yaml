@@ -5,13 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - shiqi
-  server: 109.206.241.10
-  port: 449
+  server: 132.243.65.151
+  port: 443
   udp: true
-  type: trojan
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  sni: russiapower.accesscam.org
-  skip-cert-verify: true
+  type: vless
+  uuid: 17f388d7-1fa2-440f-a8f4-720b72d19195
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: RO5YMxxtJmZo2w370qG-seJ41toowHPbz6i2uXJ2gG0
+    short-id: 7a3f9e2b1c8d4f6a
+  servername: ee.global-cdn.org
+  client-fingerprint: safari
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   server: 94.183.170.135
   port: 443
@@ -47,7 +52,14 @@ proxies:
   tls: true
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
+  server: 109.206.241.10
+  port: 449
+  udp: true
+  type: trojan
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  sni: 109.206.241.10
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +69,7 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,5 +79,6 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
 rules:
 - MATCH,PROXIES

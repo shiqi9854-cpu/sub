@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -83,25 +83,39 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 05 - shiqi",
-      "server": "platform113.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform113"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 06 - shiqi",
       "server": "platform117.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform117",
+        "path": "/platform117"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 06 - shiqi",
+      "server": "platform115.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
         "headers": {
-          "Host": "platform117.halalkhor.info"
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 07 - shiqi",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
         }
       }
     },
@@ -115,7 +129,8 @@
         "🇮🇱 以色列 (Israel) 03 - shiqi",
         "🇮🇱 以色列 (Israel) 04 - shiqi",
         "🇮🇱 以色列 (Israel) 05 - shiqi",
-        "🇮🇱 以色列 (Israel) 06 - shiqi"
+        "🇮🇱 以色列 (Israel) 06 - shiqi",
+        "🇮🇱 以色列 (Israel) 07 - shiqi"
       ]
     },
     {
@@ -127,7 +142,8 @@
         "🇮🇱 以色列 (Israel) 03 - shiqi",
         "🇮🇱 以色列 (Israel) 04 - shiqi",
         "🇮🇱 以色列 (Israel) 05 - shiqi",
-        "🇮🇱 以色列 (Israel) 06 - shiqi"
+        "🇮🇱 以色列 (Israel) 06 - shiqi",
+        "🇮🇱 以色列 (Israel) 07 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
