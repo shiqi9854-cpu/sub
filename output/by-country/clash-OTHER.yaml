@@ -5,66 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - shiqi
-  server: 104.18.14.103
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
   tls: true
-  servername: server9.9966338.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
-- name: 🌐 其他地区 (Other) 02 - shiqi
-  server: 104.16.111.193
-  port: 443
-  udp: true
-  type: vless
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  tls: true
-  servername: a.cwvps.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 03 - shiqi
-  server: www.nextkyc.com
-  port: 8443
-  udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: playlux.homes
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /raccoonwsvless
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: playlux.homes
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - shiqi
-  - 🌐 其他地区 (Other) 02 - shiqi
-  - 🌐 其他地区 (Other) 03 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - shiqi
-  - 🌐 其他地区 (Other) 02 - shiqi
-  - 🌐 其他地区 (Other) 03 - shiqi
 rules:
 - MATCH,PROXIES

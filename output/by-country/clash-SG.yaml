@@ -5,13 +5,139 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - shiqi
-  server: 161.118.222.185
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  type: vless
+  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
+  network: ws
+  ws-opts:
+    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT?ed=2560
+    headers:
+      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 02 - shiqi
+  server: www.speedtest.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: 513beae3-56e7-4954-a17e-930e06237b27
+  tls: true
+  servername: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '/vl/3wSAeuGJbrGHwJ45DA6ircvHC6?ed=2560 '
+    headers:
+      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 03 - shiqi
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  type: vless
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+  network: ws
+  ws-opts:
+    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
+    headers:
+      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 04 - shiqi
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  tls: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 05 - shiqi
+  server: 188.114.97.8
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+  tls: true
+  servername: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 06 - shiqi
+  server: 172.67.158.158
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7fc7f295-b80e-4235-bb17-61e3ddc0744a
+  tls: true
+  servername: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/hVKvQ38dIVUYYMACe6IBe4E?ed=2560
+    headers:
+      Host: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 07 - shiqi
+  server: 172.64.155.209
+  port: 443
+  udp: true
+  type: vless
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+  tls: true
+  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 08 - shiqi
+  server: 129.153.71.28
+  port: 28863
+  udp: true
+  type: vless
+  uuid: 3e956106-7f92-4cbf-bf77-715d3890fa84
+  tls: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 09 - shiqi
+  server: 57.129.130.57
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 04d2aebd-246f-4348-805f-a8e6840365fc
+  tls: true
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 10 - shiqi
+  server: 158.178.229.235
   port: 56927
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: CCfsnvFZe4t1K0KIgQDv7syWOwYGtqCTS6zwlKWr+J8=
-- name: 🇸🇬 新加坡 (Singapore) 02 - shiqi
+  password: 4nphreJpAUpxvkVQmO2l37kEup8qRu7pcSYU0JbJLVM=
+- name: 🇸🇬 新加坡 (Singapore) 11 - shiqi
   server: 149.88.23.202
   port: 18000
   udp: true
@@ -19,28 +145,67 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 03 - shiqi
-  server: 158.178.229.235
+- name: 🇸🇬 新加坡 (Singapore) 12 - shiqi
+  server: 168.107.84.176
   port: 56927
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: 4nphreJpAUpxvkVQmO2l37kEup8qRu7pcSYU0JbJLVM=
-- name: 🇸🇬 新加坡 (Singapore) 04 - shiqi
-  server: 134.185.94.195
-  port: 56927
+  password: zfRw8qHR5DsiUSSiFqxRnNjXZ0/oOyLeNKOqv5VW0PM=
+- name: 🇸🇬 新加坡 (Singapore) 13 - shiqi
+  server: 45.32.120.173
+  port: 443
+  udp: true
+  type: vmess
+  uuid: XEXEVIL
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 14 - shiqi
+  server: 149.88.23.207
+  port: 18000
+  udp: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 15 - shiqi
+  server: 103.36.91.32
+  port: 8388
   udp: true
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 1YhAjbJV6i0trZIzLbwZPAvUcxOuDwYr8rBmfSC/5+g=
-- name: 🇸🇬 新加坡 (Singapore) 05 - shiqi
-  server: 68.183.227.4
-  port: 8080
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇸🇬 新加坡 (Singapore) 16 - shiqi
+  server: 57.129.52.47
+  port: 52014
   udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 06 - shiqi
+  type: vless
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 17 - shiqi
+  server: 210.152.85.154
+  port: 19364
+  udp: true
+  type: vless
+  uuid: 73fd7403-7286-4839-97ad-257ab536054c
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 18 - shiqi
   server: 5.223.74.174
   port: 2053
   udp: true
@@ -53,7 +218,32 @@ proxies:
     short-id: 36151c48e28cfb65
   servername: 5.223.74.174
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 07 - shiqi
+- name: 🇸🇬 新加坡 (Singapore) 19 - shiqi
+  server: 68.183.227.4
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 20 - shiqi
+  server: 138.2.73.238
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 138.2.73.238
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 21 - shiqi
+  server: 138.2.89.249
+  port: 443
+  udp: true
+  type: hysteria2
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+- name: 🇸🇬 新加坡 (Singapore) 22 - shiqi
   server: 206.206.76.75
   port: 443
   udp: true
@@ -66,38 +256,7 @@ proxies:
     short-id: 9930177816ab09da
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 08 - shiqi
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 09 - shiqi
-  server: 138.2.89.249
-  port: 443
-  udp: true
-  type: hysteria2
-  password: d042d150716709bb778cc73889cddb02
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-- name: 🇸🇬 新加坡 (Singapore) 10 - shiqi
-  server: 146.235.16.130
-  port: 19825
-  udp: true
-  type: vless
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: ''
-- name: 🇸🇬 新加坡 (Singapore) 11 - shiqi
+- name: 🇸🇬 新加坡 (Singapore) 23 - shiqi
   server: 54.169.200.246
   port: 41688
   udp: true
@@ -110,7 +269,32 @@ proxies:
     short-id: 7f342137c20387
   servername: www.intel.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 12 - shiqi
+- name: 🇸🇬 新加坡 (Singapore) 24 - shiqi
+  server: 217.217.254.126
+  port: 2053
+  udp: true
+  type: vless
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  tls: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+    short-id: 87829de0e2bb82cb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 25 - shiqi
+  server: 46.137.202.178
+  port: 12512
+  udp: true
+  type: vless
+  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA
+    short-id: e692a8250d2e2fd0
+  servername: www.intel.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 26 - shiqi
   server: 3.0.111.82
   port: 17623
   udp: true
@@ -122,8 +306,16 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 13 - shiqi
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 27 - shiqi
+  server: vpn-sg-001.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 28 - shiqi
   server: 3.0.111.82
   port: 10574
   udp: true
@@ -135,9 +327,37 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 14 - shiqi
-  server: 91.193.58.255
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 29 - shiqi
+  server: 211.48.30.184
+  port: 30017
+  udp: true
+  type: vless
+  uuid: beec57a5-8266-4279-b279-f495bdc70699
+  tls: true
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 30 - shiqi
+  server: 146.235.16.130
+  port: 19825
+  udp: true
+  type: vless
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 31 - shiqi
+  server: 91.193.58.122
   port: 2096
   udp: true
   type: vless
@@ -145,26 +365,28 @@ proxies:
   tls: true
   servername: free-server.techsonic.dev
   skip-cert-verify: false
-  client-fingerprint: qq
   network: ws
   ws-opts:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 15 - shiqi
-  server: 217.217.254.126
-  port: 2053
+- name: 🇸🇬 新加坡 (Singapore) 32 - shiqi
+  server: 45.77.241.190
+  port: 8441
   udp: true
   type: vless
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  uuid: 66b076d4-519d-4b05-872e-d0366d15bace
   tls: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-    short-id: 87829de0e2bb82cb
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 16 - shiqi
-  server: support.zoom.us
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 33 - shiqi
+  server: 170.114.45.6
   port: 80
   udp: true
   type: vless
@@ -174,7 +396,7 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 17 - shiqi
+- name: 🇸🇬 新加坡 (Singapore) 34 - shiqi
   server: 3.0.111.82
   port: 12972
   udp: true
@@ -186,15 +408,22 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 18 - shiqi
-  server: 149.88.23.207
-  port: 18000
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 35 - shiqi
+  server: 116.251.217.65
+  port: 443
   udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2388e166-3890-33ae-f77e-efac00000002
+  tls: true
+  servername: netlivpn4813.ddhshhshs.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: netlivpn4813.ddhshhshs.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -218,6 +447,23 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 16 - shiqi
   - 🇸🇬 新加坡 (Singapore) 17 - shiqi
   - 🇸🇬 新加坡 (Singapore) 18 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 19 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 20 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 21 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 22 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 23 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 24 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 25 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 26 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 27 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 28 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 29 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 30 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 31 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 32 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 33 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 34 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 35 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -241,5 +487,22 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 16 - shiqi
   - 🇸🇬 新加坡 (Singapore) 17 - shiqi
   - 🇸🇬 新加坡 (Singapore) 18 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 19 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 20 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 21 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 22 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 23 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 24 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 25 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 26 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 27 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 28 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 29 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 30 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 31 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 32 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 33 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 34 - shiqi
+  - 🇸🇬 新加坡 (Singapore) 35 - shiqi
 rules:
 - MATCH,PROXIES

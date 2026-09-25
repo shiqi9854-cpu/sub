@@ -11,8 +11,16 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  server: 118.167.206.152
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
+  server: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  sni: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi
+  server: hinet1.2yly.com
   port: 24215
   udp: true
   type: vless
@@ -21,8 +29,44 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  server: 109.120.155.155
+  port: 444
+  udp: true
+  type: vless
+  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
+  tls: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 05 (家宽) - shiqi
+  server: 95.181.162.170
+  port: 444
+  udp: true
+  type: vless
+  uuid: 7094cade-110a-4be0-b657-15d606dcea6d
+  tls: true
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi
+  server: test.keoplentuio.xyz
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi
   server: hk01.kfc-520.com
   port: 60001
   udp: true
@@ -36,15 +80,23 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 05 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 05 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi
 rules:
 - MATCH,PROXIES

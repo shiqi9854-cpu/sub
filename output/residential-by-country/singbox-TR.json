@@ -5,28 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - shiqi",
-      "server": "153.76.185.100",
-      "server_port": 3090,
-      "uuid": "0ea51e02-ed67-439b-a562-7e3d7b4430c3",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

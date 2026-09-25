@@ -6,6 +6,54 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - shiqi",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
+      "transport": {
+        "type": "ws",
+        "path": "/j100sy9wn073cxbvir",
+        "headers": {
+          "Host": "index.harmonica02.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - shiqi",
+      "server": "93.190.8.81",
+      "server_port": 3090,
+      "uuid": "0d5d672c-e82a-46d7-af19-b5bf0027ff83",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - shiqi",
+      "server": "93.190.9.223",
+      "server_port": 3090,
+      "uuid": "0d5d672c-e82a-46d7-af19-b5bf0027ff83",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - shiqi",
+      "server": "206.1.98.34",
+      "server_port": 26066,
+      "uuid": "Nitro_Skybot@",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - shiqi",
       "server": "78.135.73.47",
       "server_port": 443,
       "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
@@ -15,7 +63,7 @@
         "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -26,7 +74,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - shiqi",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - shiqi",
       "server": "153.56.210.210",
       "server_port": 443,
       "uuid": "8e826a69-63f6-0001-a67d-4a1958e8b2d2",
@@ -47,7 +95,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - shiqi",
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - shiqi",
       "server": "151.241.226.201",
       "server_port": 2053,
       "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
@@ -66,13 +114,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - shiqi",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -80,7 +121,10 @@
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
         "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 04 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 06 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 07 - shiqi"
       ]
     },
     {
@@ -90,7 +134,10 @@
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
         "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 04 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 06 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 07 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,6 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - shiqi
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  type: vless
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  network: ws
+  ws-opts:
+    path: /j100sy9wn073cxbvir
+    headers:
+      Host: index.harmonica02.workers.dev
+- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
+  server: 93.190.8.81
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 0d5d672c-e82a-46d7-af19-b5bf0027ff83
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇹🇷 土耳其 (Turkey) 03 - shiqi
+  server: 93.190.9.223
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 0d5d672c-e82a-46d7-af19-b5bf0027ff83
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇹🇷 土耳其 (Turkey) 04 - shiqi
+  server: 206.1.98.34
+  port: 26066
+  udp: true
+  type: vmess
+  uuid: Nitro_Skybot@
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇹🇷 土耳其 (Turkey) 05 - shiqi
   server: 78.135.73.47
   port: 443
   udp: true
@@ -16,8 +56,8 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: qq
-- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 06 - shiqi
   server: 153.56.210.210
   port: 443
   udp: true
@@ -30,7 +70,7 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 03 - shiqi
+- name: 🇹🇷 土耳其 (Turkey) 07 - shiqi
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -42,12 +82,6 @@ proxies:
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  server: test.keoplentuio.xyz
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +91,9 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 06 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 07 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,5 +103,8 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 06 - shiqi
+  - 🇹🇷 土耳其 (Turkey) 07 - shiqi
 rules:
 - MATCH,PROXIES

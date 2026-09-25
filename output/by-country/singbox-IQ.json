@@ -4,9 +4,35 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇶 IQ 01 - shiqi",
-      "server": "193.56.135.137",
+      "server": "172.67.166.189",
+      "server_port": 443,
+      "password": "f88f080e9b4f66c6",
+      "tls": {
+        "enabled": true,
+        "server_name": "Open-39.AVL-a47261.WorKErS.DeV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/SpBOfUvsW3IMjIayEnU4fVTehv9gf4?ed=2560",
+        "headers": {
+          "Host": "open-39.avl-a47261.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 02 - shiqi",
+      "server": "193.56.135.233",
       "server_port": 9543,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
       "flow": "xtls-rprx-vision",
@@ -15,7 +41,7 @@
         "server_name": "storage.yandexcloud.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -29,14 +55,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - shiqi"
+        "🇮🇶 IQ 01 - shiqi",
+        "🇮🇶 IQ 02 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - shiqi"
+        "🇮🇶 IQ 01 - shiqi",
+        "🇮🇶 IQ 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

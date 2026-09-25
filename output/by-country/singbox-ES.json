@@ -4,8 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇪🇸 西班牙 (Spain) 01 - shiqi",
+      "server": "66.163.118.73",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - shiqi",
+      "server": "85.90.217.42",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - shiqi",
       "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -13,23 +29,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - shiqi",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - shiqi",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "WSyL4XTwNsdv"
     },
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - shiqi",
-      "server": "85.90.217.42",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - shiqi",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - shiqi",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -38,7 +46,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -49,7 +57,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - shiqi",
+      "tag": "🇪🇸 西班牙 (Spain) 06 - shiqi",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -59,7 +67,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -70,7 +78,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - shiqi",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - shiqi",
       "server": "esbe.vihodest.net",
       "server_port": 443,
       "uuid": "88956de8-38db-449c-8410-4b70a4fb5c9b",
@@ -91,7 +99,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - shiqi",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - shiqi",
       "server": "87.76.179.117",
       "server_port": 7443,
       "uuid": "cb15d1b0-e48b-4c4c-b98a-fa1103aa3723",
@@ -101,7 +109,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -111,12 +119,11 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 08 - shiqi",
-      "server": "66.163.118.73",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - shiqi",
+      "server": "31.56.222.61",
+      "server_port": 45286,
+      "uuid": "79251d3c-aabc-475c-b598-67263479b382"
     },
     {
       "type": "selector",
@@ -130,7 +137,8 @@
         "🇪🇸 西班牙 (Spain) 05 - shiqi",
         "🇪🇸 西班牙 (Spain) 06 - shiqi",
         "🇪🇸 西班牙 (Spain) 07 - shiqi",
-        "🇪🇸 西班牙 (Spain) 08 - shiqi"
+        "🇪🇸 西班牙 (Spain) 08 - shiqi",
+        "🇪🇸 西班牙 (Spain) 09 - shiqi"
       ]
     },
     {
@@ -144,7 +152,8 @@
         "🇪🇸 西班牙 (Spain) 05 - shiqi",
         "🇪🇸 西班牙 (Spain) 06 - shiqi",
         "🇪🇸 西班牙 (Spain) 07 - shiqi",
-        "🇪🇸 西班牙 (Spain) 08 - shiqi"
+        "🇪🇸 西班牙 (Spain) 08 - shiqi",
+        "🇪🇸 西班牙 (Spain) 09 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
