@@ -18,21 +18,6 @@ proxies:
   servername: kazartip.thewalkingded.life
   client-fingerprint: firefox
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
-  server: 176.109.104.195
-  port: 9882
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   server: 77.73.232.61
   port: 19747
   udp: true
@@ -44,7 +29,7 @@ proxies:
     short-id: '2001'
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   server: 83.222.23.81
   port: 38065
   udp: true
@@ -55,19 +40,8 @@ proxies:
     public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
     short-id: fa
   servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - shiqi
+  client-fingerprint: chrome
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
   server: 109.248.170.119
   port: 13447
   udp: true
@@ -88,8 +62,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -99,7 +71,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 06 - shiqi
 rules:
 - MATCH,PROXIES

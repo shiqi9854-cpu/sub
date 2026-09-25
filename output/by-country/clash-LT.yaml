@@ -6,25 +6,25 @@ log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - shiqi
   server: 195.238.126.20
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 02 - shiqi
-  server: 195.238.126.20
   port: 9002
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: b8KkNDjEd5QqFyRm
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - shiqi
+- name: 🇱🇹 立陶宛 (Lithuania) 02 - shiqi
   server: 195.238.126.20
-  port: 9068
+  port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
+  password: M3t2ZEQcMGRWBjRa
+- name: 🇱🇹 立陶宛 (Lithuania) 03 - shiqi
+  server: 195.238.126.20
+  port: 9001
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - shiqi
   server: 195.238.126.20
   port: 9086
@@ -34,18 +34,18 @@ proxies:
   password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 05 - shiqi
   server: 195.238.126.20
+  port: 9008
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+- name: 🇱🇹 立陶宛 (Lithuania) 06 - shiqi
+  server: 195.238.126.20
   port: 9012
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: xaupMUvhptwxdDUg
-- name: 🇱🇹 立陶宛 (Lithuania) 06 - shiqi
-  server: 195.238.126.20
-  port: 9001
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
 - name: 🇱🇹 立陶宛 (Lithuania) 07 - shiqi
   server: 195.238.126.20
   port: 9045
@@ -55,20 +55,20 @@ proxies:
   password: Lp27rqyJq72bZsqX
 - name: 🇱🇹 立陶宛 (Lithuania) 08 - shiqi
   server: 195.238.126.20
+  port: 9068
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: mwgRg9hRq3b4Qnwb
+- name: 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
+  server: 195.238.126.20
   port: 9078
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: JCJpbRbQZNw9XFZG
-- name: 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
-  server: 195.238.126.20
-  port: 9008
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
 - name: 🇱🇹 立陶宛 (Lithuania) 10 - shiqi
-  server: 84.32.215.94
+  server: 84.32.215.5
   port: 443
   udp: true
   type: vless

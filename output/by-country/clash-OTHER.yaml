@@ -5,34 +5,38 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - shiqi
-  server: us7-2.998998.best
-  port: 443
+  server: cdn.snobvpn.online
+  port: 80
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  tls: true
-  servername: server9.9966338.xyz
-  skip-cert-verify: false
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: ws
   ws-opts:
-    path: /imnotarealherox
+    path: /snob-ws
     headers:
-      Host: server9.9966338.xyz
+      Host: cdn.snobvpn.online
 - name: 🌐 其他地区 (Other) 02 - shiqi
-  server: ccs2g.pai50288.uk
+  server: 104.16.71.213
   port: 443
   udp: true
-  type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-  tls: true
-  servername: ccs2g.pai50288.uk
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /pai50288
-    headers:
-      Host: ccs2g.pai50288.uk
+    path: /assignment
+- name: 🌐 其他地区 (Other) 03 - shiqi
+  server: 104.16.71.213
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +44,7 @@ proxy-groups:
   - AUTO
   - 🌐 其他地区 (Other) 01 - shiqi
   - 🌐 其他地区 (Other) 02 - shiqi
+  - 🌐 其他地区 (Other) 03 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +52,6 @@ proxy-groups:
   proxies:
   - 🌐 其他地区 (Other) 01 - shiqi
   - 🌐 其他地区 (Other) 02 - shiqi
+  - 🌐 其他地区 (Other) 03 - shiqi
 rules:
 - MATCH,PROXIES

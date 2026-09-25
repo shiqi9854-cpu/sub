@@ -4,19 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - shiqi",
-      "server": "45.134.9.133",
-      "server_port": 8443,
-      "uuid": "a6d20e79-d326-42c1-bc20-f4cecc6dc42d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ul-mexico1.09vpn.com",
-        "insecure": true
-      },
+      "type": "vmess",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi",
+      "server": "206.1.98.72",
+      "server_port": 21811,
+      "uuid": "Nitro_Skybot@",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/vless/"
+        "path": "/"
       }
     },
     {
@@ -24,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
