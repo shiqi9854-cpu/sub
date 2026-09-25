@@ -7,21 +7,29 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - shiqi",
       "server": "195.238.126.20",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - shiqi",
+      "server": "195.238.126.20",
+      "server_port": 9002,
+      "method": "aes-256-cfb",
+      "password": "b8KkNDjEd5QqFyRm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - shiqi",
+      "server": "195.238.126.20",
       "server_port": 9068,
       "method": "aes-256-cfb",
       "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - shiqi",
-      "server": "195.238.126.20",
-      "server_port": 9008,
-      "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - shiqi",
       "server": "195.238.126.20",
       "server_port": 9086,
       "method": "aes-256-cfb",
@@ -29,27 +37,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - shiqi",
-      "server": "195.238.126.20",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 05 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9078,
+      "server_port": 9012,
       "method": "aes-256-cfb",
-      "password": "JCJpbRbQZNw9XFZG"
+      "password": "xaupMUvhptwxdDUg"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9002,
+      "server_port": 9001,
       "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
+      "password": "UkXRsXvR6buDMG2Y"
     },
     {
       "type": "shadowsocks",
@@ -63,14 +63,22 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9001,
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
+      "password": "JCJpbRbQZNw9XFZG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
+      "server": "195.238.126.20",
+      "server_port": 9008,
+      "method": "aes-256-cfb",
+      "password": "y9VURyNzJWNRYEGQ"
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-      "server": "84.32.215.5",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
+      "server": "84.32.215.94",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
       "flow": "xtls-rprx-vision",
@@ -79,7 +87,7 @@
         "server_name": "lt.aether-runet.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -101,7 +109,8 @@
         "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
+        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
       ]
     },
     {
@@ -116,7 +125,8 @@
         "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
+        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

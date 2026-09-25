@@ -4,76 +4,48 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  server: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  sni: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  server: 465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  sni: 465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - shiqi
-  server: 57.129.52.47
-  port: 52014
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi
+  server: hinet1.2yly.com
+  port: 24215
   udp: true
   type: vless
-  uuid: ecc4675b-1607-4699-8b20-23af97b671af
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
   tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi
-  server: test.keoplentuio.xyz
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi
-  server: 24864168545164.oylfmxz.cn
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
+  server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
   port: 443
+  udp: true
+  type: hysteria2
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  server: v10.hdacd.com
+  port: 30807
   udp: true
   type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
-  tls: true
-  servername: 24864168545164.oylfmxz.cn
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  - 🇯🇵 日本 (Japan) 03 (家宽) - shiqi
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  - 🇯🇵 日本 (Japan) 03 (家宽) - shiqi
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 rules:
 - MATCH,PROXIES
