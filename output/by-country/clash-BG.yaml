@@ -13,25 +13,25 @@ proxies:
   password: aLpQtfEZe445QyHk
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - shiqi
   server: 213.183.63.60
-  port: 9028
+  port: 9085
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 9eeJ2fwnZA5Fxgz8
+  password: 9ej82EKe2gq7gLAM
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - shiqi
   server: 213.183.63.60
-  port: 9066
+  port: 9049
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 2KUaE2a8NWTvuCZ3
+  password: PRBf4BS2HvJqtWxY
 - name: 🇧🇬 保加利亚 (Bulgaria) 04 - shiqi
   server: 213.183.63.60
-  port: 9054
+  port: 9064
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: cp8pRSUAyLhTfVWH
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - shiqi
   server: 213.183.63.60
   port: 9061
@@ -41,42 +41,19 @@ proxies:
   password: 4R3hUfZ2FHhDmNcP
 - name: 🇧🇬 保加利亚 (Bulgaria) 06 - shiqi
   server: 213.183.63.60
-  port: 9085
+  port: 9066
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 9ej82EKe2gq7gLAM
+  password: 2KUaE2a8NWTvuCZ3
 - name: 🇧🇬 保加利亚 (Bulgaria) 07 - shiqi
-  server: 213.183.63.60
-  port: 9064
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - shiqi
   server: 213.183.63.60
   port: 9030
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: GeregetR8cvQHzYr
-- name: 🇧🇬 保加利亚 (Bulgaria) 09 - shiqi
-  server: 213.183.63.60
-  port: 9049
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 10 - shiqi
-  server: 131.123.37.199
-  port: 8081
-  udp: true
-  type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: ws
-  ws-opts:
-    path: /vless-test
-- name: 🇧🇬 保加利亚 (Bulgaria) 11 - shiqi
+- name: 🇧🇬 保加利亚 (Bulgaria) 08 - shiqi
   server: 193.148.59.178
   port: 443
   udp: true
@@ -88,7 +65,34 @@ proxies:
     public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE
     short-id: e3daad69
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇧🇬 保加利亚 (Bulgaria) 09 - shiqi
+  server: 131.123.37.199
+  port: 8081
+  udp: true
+  type: vless
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: ws
+  ws-opts:
+    path: /vless-test
+- name: 🇧🇬 保加利亚 (Bulgaria) 10 - shiqi
+  server: 131.123.41.18
+  port: 8081
+  udp: true
+  type: vless
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: ws
+  ws-opts:
+    path: /vless-test
+- name: 🇧🇬 保加利亚 (Bulgaria) 11 - shiqi
+  server: 131.123.41.177
+  port: 8081
+  udp: true
+  type: vless
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: ws
+  ws-opts:
+    path: /vless-test
 - name: 🇧🇬 保加利亚 (Bulgaria) 12 - shiqi
   server: 136.175.82.85
   port: 18775
@@ -103,24 +107,6 @@ proxies:
   servername: addons.mozilla.org
   client-fingerprint: chrome
 - name: 🇧🇬 保加利亚 (Bulgaria) 13 - shiqi
-  server: 131.123.41.177
-  port: 8081
-  udp: true
-  type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: ws
-  ws-opts:
-    path: /vless-test
-- name: 🇧🇬 保加利亚 (Bulgaria) 14 - shiqi
-  server: 131.123.41.18
-  port: 8081
-  udp: true
-  type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: ws
-  ws-opts:
-    path: /vless-test
-- name: 🇧🇬 保加利亚 (Bulgaria) 15 - shiqi
   server: 131.123.41.31
   port: 8081
   udp: true
@@ -129,7 +115,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vless-test
-- name: 🇧🇬 保加利亚 (Bulgaria) 16 - shiqi
+- name: 🇧🇬 保加利亚 (Bulgaria) 14 - shiqi
   server: 131.123.41.18
   port: 443
   udp: true
@@ -142,12 +128,6 @@ proxies:
     short-id: 84be686ea1d16478
   servername: sheetpeek.com
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 17 - shiqi
-  server: 31.56.222.61
-  port: 36587
-  udp: true
-  type: vless
-  uuid: 79251d3c-aabc-475c-b598-67263479b382
 proxy-groups:
 - name: PROXIES
   type: select
@@ -167,9 +147,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 12 - shiqi
   - 🇧🇬 保加利亚 (Bulgaria) 13 - shiqi
   - 🇧🇬 保加利亚 (Bulgaria) 14 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 15 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 16 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 17 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -189,8 +166,5 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 12 - shiqi
   - 🇧🇬 保加利亚 (Bulgaria) 13 - shiqi
   - 🇧🇬 保加利亚 (Bulgaria) 14 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 15 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 16 - shiqi
-  - 🇧🇬 保加利亚 (Bulgaria) 17 - shiqi
 rules:
 - MATCH,PROXIES

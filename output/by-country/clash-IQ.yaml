@@ -5,18 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - shiqi
-  server: 172.67.166.189
-  port: 443
-  udp: true
-  type: trojan
-  password: f88f080e9b4f66c6
-  sni: Open-39.AVL-a47261.WorKErS.DeV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/SpBOfUvsW3IMjIayEnU4fVTehv9gf4?ed=2560
-- name: 🇮🇶 IQ 02 - shiqi
-  server: 193.56.135.233
+  server: 193.56.135.212
   port: 9543
   udp: true
   type: vless
@@ -27,20 +16,18 @@ proxies:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: 123abcde
   servername: storage.yandexcloud.net
-  client-fingerprint: safari
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇶 IQ 01 - shiqi
-  - 🇮🇶 IQ 02 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇶 IQ 01 - shiqi
-  - 🇮🇶 IQ 02 - shiqi
 rules:
 - MATCH,PROXIES

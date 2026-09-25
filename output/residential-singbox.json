@@ -4,54 +4,38 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi",
-      "server": "36.224.141.124",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-      "server": "311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
+      "server": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
       "server_port": 443,
       "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com",
+        "server_name": "b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
+      "server": "465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com",
+      "server_port": 443,
+      "password": "aed1cc24-351d-11ef-ba52-f23c9164ca5d",
+      "tls": {
+        "enabled": true,
+        "server_name": "465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
-      "server": "hinet1.2yly.com",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tag": "🇯🇵 日本 (Japan) 03 (家宽) - shiqi",
+      "server": "57.129.52.47",
+      "server_port": 52014,
+      "uuid": "ecc4675b-1607-4699-8b20-23af97b671af",
       "tls": {
         "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-      "server": "109.120.155.155",
-      "server_port": 444,
-      "uuid": "99ab6748-3d57-4562-9451-843c15960b9b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
+        "server_name": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -62,50 +46,32 @@
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+          "Host": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 05 (家宽) - shiqi",
-      "server": "95.181.162.170",
-      "server_port": 444,
-      "uuid": "7094cade-110a-4be0-b657-15d606dcea6d",
-      "tls": {
-        "enabled": true,
-        "server_name": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi",
       "server": "test.keoplentuio.xyz",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi",
-      "server": "hk01.kfc-520.com",
-      "server_port": 60001,
-      "password": "8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3",
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi",
+      "server": "24864168545164.oylfmxz.cn",
+      "server_port": 443,
+      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "hk01.kfc-520.com",
-        "insecure": true
+        "server_name": "24864168545164.oylfmxz.cn",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -113,26 +79,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 05 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi"
+        "🇯🇵 日本 (Japan) 03 (家宽) - shiqi",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 05 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 06 (移动家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 07 (家宽) - shiqi"
+        "🇯🇵 日本 (Japan) 03 (家宽) - shiqi",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
