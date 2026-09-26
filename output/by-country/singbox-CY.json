@@ -14,7 +14,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -26,42 +26,42 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
-      "server": "132.243.242.97",
-      "server_port": 9543,
-      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "server": "2.56.123.227",
+      "server_port": 443,
+      "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandexcloud.net",
+        "server_name": "www.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-          "short_id": "123abcdf"
+          "public_key": "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw",
+          "short_id": "72104d27a0f5f62e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi",
-      "server": "dorado.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847",
+      "server": "2.56.121.43",
+      "server_port": 443,
+      "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "www.ikea.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
+          "public_key": "vnUSQFujh6K08KR6FHYWoBkZCAEZNWSKji0PPw9eMWM",
+          "short_id": "86229a5e3b1e6ef4"
         }
       }
     },

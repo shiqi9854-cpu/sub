@@ -13,32 +13,32 @@ proxies:
   sni: russiapower.accesscam.org
   skip-cert-verify: true
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
+  server: 144.31.170.72
+  port: 443
+  udp: true
+  type: vless
+  uuid: deea5046-3543-4b1b-a17f-3d08a65db91d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fkZTYNydTBVO-1LSiTvDcyBMx-zBP5Am780jECmUgg0
+  servername: est.bopen.bond
+  client-fingerprint: safari
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   server: 94.183.170.147
   port: 8443
   udp: true
   type: vless
-  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   tls: true
   reality-opts:
     public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg
     short-id: 72ccd4a7563c2953
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: 9d30d49278
-- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
-  server: netlivpn5002.whwbbb.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
-  tls: true
-  servername: netlivpn5002.whwbbb.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
 - name: 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
   server: 94.183.170.135
   port: 443
@@ -51,6 +51,14 @@ proxies:
     headers:
       Host: estproxy4.lockdwn.com
 - name: 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
+  server: 217.60.182.79
+  port: 443
+  udp: true
+  type: hysteria2
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  sni: cabinet.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
   server: 94.183.170.135
   port: 8443
   udp: true
@@ -60,28 +68,7 @@ proxies:
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
-  server: 217.60.182.79
-  port: 443
-  udp: true
-  type: hysteria2
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  sni: cabinet.wwwinternetvideo.click
-  skip-cert-verify: false
 - name: 🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi
-  server: 45.11.27.86
-  port: 443
-  udp: true
-  type: vless
-  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
-    short-id: d0aae44f
-  servername: 5post-gate.x5.ru
-  client-fingerprint: chrome
-- name: 🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi
   server: 5.181.201.43
   port: 443
   udp: true
@@ -106,7 +93,6 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi
-  - 🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -119,6 +105,5 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi
-  - 🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi
 rules:
 - MATCH,PROXIES

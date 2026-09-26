@@ -6,15 +6,25 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
-      "transport": {
-        "type": "ws",
-        "path": "/j100sy9wn073cxbvir",
-        "headers": {
-          "Host": "index.harmonica02.workers.dev"
+      "server": "206.1.98.86",
+      "server_port": 18443,
+      "uuid": "33e40dec-442b-46b2-b9b3-be1848ce7df8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bYVNm1Huc5MMhVUBDAO5O7O7mjZXjxESWUQzVPIoqjM",
+          "short_id": "ca"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@tunelm2mvpn@tunelm2mvpn@tunelm2mvpn"
       }
     },
     {
@@ -29,7 +39,7 @@
         "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -49,7 +59,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -59,22 +69,13 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - shiqi",
-      "server": "103.215.218.158",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 03 - shiqi"
       ]
     },
     {
@@ -83,8 +84,7 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
