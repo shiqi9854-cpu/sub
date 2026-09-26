@@ -5,12 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi",
-      "server": "free.sahanwickramasinghe.me",
-      "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "tag": "🇲🇺 MU 01 - shiqi",
+      "server": "199.181.197.40",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime19.workers.dev"
+        }
       }
     },
     {
@@ -18,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi"
+        "🇲🇺 MU 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi"
+        "🇲🇺 MU 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

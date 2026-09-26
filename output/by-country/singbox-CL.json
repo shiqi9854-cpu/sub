@@ -6,62 +6,45 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 01 - shiqi",
-      "server": "platform118.golnamakcert.top",
+      "server": "platform117.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform118",
-        "headers": {
-          "Host": "platform118.halalkhor.info"
-        }
+        "path": "/platform117"
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 02 - shiqi",
-      "server": "platform101.golnamakcert.top",
+      "server": "platform109.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform101",
+        "path": "/platform109",
         "headers": {
-          "Host": "platform101.halalkhor.info"
+          "Host": "platform109.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 03 - shiqi",
-      "server": "platform113.golnamakcert.top",
+      "server": "platform115.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform113",
+        "path": "/platform115",
         "headers": {
-          "Host": "platform113.halalkhor.info"
+          "Host": "platform115.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 04 - shiqi",
-      "server": "platform108.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform108",
-        "headers": {
-          "Host": "platform108.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 05 - shiqi",
       "server": "platform102.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -75,40 +58,71 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 06 - shiqi",
-      "server": "platform117.golnamakcert.top",
+      "tag": "🇨🇱 智利 (Chile) 05 - shiqi",
+      "server": "platform103.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform117",
+        "path": "/platform103",
         "headers": {
-          "Host": "platform117.halalkhor.info"
+          "Host": "platform103.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 06 - shiqi",
+      "server": "platform108.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 07 - shiqi",
-      "server": "platform109.golnamakcert.top",
+      "server": "platform118.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform109"
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 08 - shiqi",
-      "server": "platform115.golnamakcert.top",
+      "server": "platform113.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform115",
+        "path": "/platform113",
         "headers": {
-          "Host": "platform115.halalkhor.info"
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 09 - shiqi",
+      "server": "platform101.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform101",
+        "headers": {
+          "Host": "platform101.halalkhor.info"
         }
       }
     },
@@ -124,7 +138,8 @@
         "🇨🇱 智利 (Chile) 05 - shiqi",
         "🇨🇱 智利 (Chile) 06 - shiqi",
         "🇨🇱 智利 (Chile) 07 - shiqi",
-        "🇨🇱 智利 (Chile) 08 - shiqi"
+        "🇨🇱 智利 (Chile) 08 - shiqi",
+        "🇨🇱 智利 (Chile) 09 - shiqi"
       ]
     },
     {
@@ -138,7 +153,8 @@
         "🇨🇱 智利 (Chile) 05 - shiqi",
         "🇨🇱 智利 (Chile) 06 - shiqi",
         "🇨🇱 智利 (Chile) 07 - shiqi",
-        "🇨🇱 智利 (Chile) 08 - shiqi"
+        "🇨🇱 智利 (Chile) 08 - shiqi",
+        "🇨🇱 智利 (Chile) 09 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

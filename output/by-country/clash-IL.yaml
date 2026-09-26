@@ -31,7 +31,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 03 - shiqi
-  server: 193.202.10.2
+  server: arcturus.yokkastars.com
   port: 40443
   udp: true
   type: vless

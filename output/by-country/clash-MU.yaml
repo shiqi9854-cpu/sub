@@ -4,26 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi
-  server: free.sahanwickramasinghe.me
-  port: 80
+- name: 🇲🇺 MU 01 - shiqi
+  server: 199.181.197.40
+  port: 8880
   udp: true
   type: vless
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: vms.lifetime19.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi
+  - 🇲🇺 MU 01 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - shiqi
+  - 🇲🇺 MU 01 - shiqi
 rules:
 - MATCH,PROXIES

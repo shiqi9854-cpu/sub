@@ -7,41 +7,41 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - shiqi",
       "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - shiqi",
-      "server": "213.183.63.60",
-      "server_port": 9064,
-      "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - shiqi",
-      "server": "213.183.63.60",
       "server_port": 9054,
       "method": "aes-256-cfb",
       "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - shiqi",
+      "server": "213.183.63.60",
+      "server_port": 9049,
+      "method": "aes-256-cfb",
+      "password": "PRBf4BS2HvJqtWxY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - shiqi",
+      "server": "213.183.63.60",
+      "server_port": 9098,
+      "method": "aes-256-cfb",
+      "password": "aLpQtfEZe445QyHk"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - shiqi",
       "server": "213.183.63.60",
-      "server_port": 9028,
+      "server_port": 9066,
       "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
+      "password": "2KUaE2a8NWTvuCZ3"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - shiqi",
       "server": "213.183.63.60",
-      "server_port": 9098,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "shadowsocks",
@@ -55,29 +55,40 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - shiqi",
       "server": "213.183.63.60",
+      "server_port": 9028,
+      "method": "aes-256-cfb",
+      "password": "9eeJ2fwnZA5Fxgz8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - shiqi",
+      "server": "213.183.63.60",
       "server_port": 9061,
       "method": "aes-256-cfb",
       "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - shiqi",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - shiqi",
       "server": "213.183.63.60",
       "server_port": 9085,
       "method": "aes-256-cfb",
       "password": "9ej82EKe2gq7gLAM"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - shiqi",
-      "server": "213.183.63.60",
-      "server_port": 9066,
-      "method": "aes-256-cfb",
-      "password": "2KUaE2a8NWTvuCZ3"
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - shiqi",
+      "server": "131.123.41.177",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - shiqi",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - shiqi",
       "server": "193.148.59.178",
       "server_port": 443,
       "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
@@ -87,7 +98,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -98,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - shiqi",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - shiqi",
       "server": "136.175.82.85",
       "server_port": 18775,
       "uuid": "9ae5940b-0278-403d-a1e1-9dddc47bdcf6",
@@ -119,7 +130,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - shiqi",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - shiqi",
       "server": "131.123.37.199",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -130,44 +141,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - shiqi",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi",
       "server": "131.123.41.31",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
         "type": "ws",
         "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi",
-      "server": "131.123.41.177",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 15 - shiqi",
-      "server": "p.jigilibaw.ir",
-      "server_port": 10071,
-      "uuid": "7b11c7e2-cb50-4aad-8bc4-996fdde69b4d",
-      "tls": {
-        "enabled": true,
-        "server_name": "commondatastorage.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vKwb09bRtduMwrkaiyGl8_W40BxT2dSGb-3xmD1JuWY",
-          "short_id": "bd2efbd84a3817aa"
-        }
       }
     },
     {
@@ -188,8 +168,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 11 - shiqi",
         "🇧🇬 保加利亚 (Bulgaria) 12 - shiqi",
         "🇧🇬 保加利亚 (Bulgaria) 13 - shiqi",
-        "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi",
-        "🇧🇬 保加利亚 (Bulgaria) 15 - shiqi"
+        "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi"
       ]
     },
     {
@@ -209,8 +188,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 11 - shiqi",
         "🇧🇬 保加利亚 (Bulgaria) 12 - shiqi",
         "🇧🇬 保加利亚 (Bulgaria) 13 - shiqi",
-        "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi",
-        "🇧🇬 保加利亚 (Bulgaria) 15 - shiqi"
+        "🇧🇬 保加利亚 (Bulgaria) 14 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

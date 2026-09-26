@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - shiqi
-  server: 172.67.192.84
-  port: 2095
-  udp: true
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  network: ws
-  ws-opts:
-    path: /juvsrnmgdu8i0179k5
-    headers:
-      Host: index.harmonica02.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
   server: 188.114.97.6
   port: 8080
   udp: true
@@ -26,21 +15,7 @@ proxies:
     path: /j100sy9wn073cxbvir
     headers:
       Host: index.harmonica02.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 03 - shiqi
-  server: 103.215.218.158
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-- name: 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  server: 82.47.63.156
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
-- name: 🇹🇷 土耳其 (Turkey) 05 - shiqi
+- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
   server: 78.135.73.47
   port: 443
   udp: true
@@ -52,8 +27,8 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 06 - shiqi
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 03 - shiqi
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -64,7 +39,15 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 04 - shiqi
+  server: 103.215.218.158
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,8 +57,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 06 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,7 +66,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 06 - shiqi
 rules:
 - MATCH,PROXIES
