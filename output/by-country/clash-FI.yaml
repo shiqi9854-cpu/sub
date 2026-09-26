@@ -5,6 +5,44 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - shiqi
+  server: 2.26.147.118
+  port: 443
+  udp: true
+  type: vless
+  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: e1f8a3b6
+  servername: www.amd.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - shiqi
+  server: 2.26.147.116
+  port: 443
+  udp: true
+  type: vless
+  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: 6e3f0a5b
+  servername: www.amd.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - shiqi
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  tls: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+    short-id: d368b94e275ab080
+  servername: www.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
   server: 83.219.97.26
   port: 443
   udp: true
@@ -16,70 +54,32 @@ proxies:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
   servername: est1313.ggisopi.su
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 02 - shiqi
-  server: 2.27.175.71
+- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
+  server: 2.26.147.120
   port: 443
   udp: true
   type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  tls: true
-  servername: assets-fi.pleiades.codes
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇫🇮 芬兰 (Finland) 03 - shiqi
-  server: fi.riotvpn.eu
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
-  tls: true
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  servername: api.vkimages.io
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-yandex
-- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
-  server: 37.143.129.244
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0e6de971-69e8-4536-b06d-8b6eae57021b
+  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY
-    short-id: 48fd192dc4e46bc0
-  servername: gateway.icloud.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: 6e3f0a5b
+  servername: www.amd.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
-  server: 95.216.27.15
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  tls: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 06 - shiqi
-  server: 185.79.138.71
-  port: 448
+  server: 95.217.24.236
+  port: 2087
   udp: true
   type: vless
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  uuid: 10d85f65-f8d6-4504-b1e2-94649db1577a
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-    short-id: cd21e552537c7c0b
-  servername: www.samsung.com
-  client-fingerprint: chrome
+    public-key: KN8tFlpIwPgJGwUCG7Pp9c9c0juYKPvNIv4kFHwqbyk
+    short-id: a32cfb5deca913ad
+  servername: 62.238.41.21
+  client-fingerprint: random
 - name: 🇫🇮 芬兰 (Finland) 07 - shiqi
   server: 31.77.199.147
   port: 4443
@@ -94,37 +94,73 @@ proxies:
   servername: images.unsplash.com
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 08 - shiqi
-  server: a2.arshia-nova.ir
+  server: 185.218.194.71
   port: 443
   udp: true
   type: vless
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  uuid: 31216f81-3139-0021-bac4-646680314264
+  flow: xtls-rprx-vision
   tls: true
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: e1f8a3b6
+  servername: www.amd.com
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 09 - shiqi
-  server: iq5ny.pleiades.codes
-  port: 8443
+  server: 185.218.194.70
+  port: 443
   udp: true
-  type: hysteria2
-  password: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  sni: iq5ny.pleiades.codes
-  skip-cert-verify: false
+  type: vless
+  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: 6e3f0a5b
+  servername: www.amd.com
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 10 - shiqi
-  server: me6.movieseryalirani.ir
-  port: 57361
+  server: 2.26.147.117
+  port: 443
   udp: true
-  type: vmess
-  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: 6e3f0a5b
+  servername: www.amd.com
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 11 - shiqi
-  server: 104.21.33.198
+  server: 185.79.138.71
+  port: 448
+  udp: true
+  type: vless
+  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
+  tls: true
+  reality-opts:
+    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
+    short-id: cd21e552537c7c0b
+  servername: www.samsung.com
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 12 - shiqi
+  server: 212.193.18.183
+  port: 8446
+  udp: true
+  type: vless
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  tls: true
+  reality-opts:
+    public-key: f6xhmL1XqUJ4zdkaDsh9GuEyXc0JXM2Dp5KwU8VHb0c
+    short-id: 7f8e9d0c1b2a
+  servername: maps.apple.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: snob-grpc
+- name: 🇫🇮 芬兰 (Finland) 13 - shiqi
+  server: 172.67.149.27
   port: 80
   udp: true
   type: vless
@@ -134,8 +170,28 @@ proxies:
     path: /snob-ws
     headers:
       Host: fi.snobvpn.online
-- name: 🇫🇮 芬兰 (Finland) 12 - shiqi
-  server: me2.movieseryalirani.ir
+- name: 🇫🇮 芬兰 (Finland) 14 - shiqi
+  server: 212.193.18.183
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  tls: true
+  reality-opts:
+    public-key: XnPQT554eJohCPNsM8gw9oCS-3NTZmqxNoU36Td-tlM
+    short-id: a1b2c3d4e5f6
+  servername: maps.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 15 - shiqi
+  server: me6.movieseryalirani.ir
+  port: 57361
+  udp: true
+  type: vmess
+  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
+  alterId: 0
+  cipher: auto
+- name: 🇫🇮 芬兰 (Finland) 16 - shiqi
+  server: me3.movieseryalirani.ir
   port: 443
   udp: true
   type: vless
@@ -146,18 +202,32 @@ proxies:
     short-id: 8d814a
   servername: matrix-client.matrix.org
   client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 13 - shiqi
-  server: me1.movieseryalirani.ir
+- name: 🇫🇮 芬兰 (Finland) 17 - shiqi
+  server: 37.143.129.244
   port: 443
   udp: true
   type: vless
-  uuid: 63aaea7f-2847-4f41-afab-0836b1cf79d9
+  uuid: 0e6de971-69e8-4536-b06d-8b6eae57021b
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: CxRZ7oJWwR7okmOoqEEbVYCSfTaBlNA6ycf_UniyeEk
-    short-id: 8d814a
-  servername: matrix-client.matrix.org
+    public-key: 5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY
+    short-id: 48fd192dc4e46bc0
+  servername: gateway.icloud.com
   client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 18 - shiqi
+  server: 31.76.245.63
+  port: 443
+  udp: true
+  type: vless
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: a1b2c3d4e5f67890
+  servername: dzen.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -176,6 +246,11 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 11 - shiqi
   - 🇫🇮 芬兰 (Finland) 12 - shiqi
   - 🇫🇮 芬兰 (Finland) 13 - shiqi
+  - 🇫🇮 芬兰 (Finland) 14 - shiqi
+  - 🇫🇮 芬兰 (Finland) 15 - shiqi
+  - 🇫🇮 芬兰 (Finland) 16 - shiqi
+  - 🇫🇮 芬兰 (Finland) 17 - shiqi
+  - 🇫🇮 芬兰 (Finland) 18 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -194,5 +269,10 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 11 - shiqi
   - 🇫🇮 芬兰 (Finland) 12 - shiqi
   - 🇫🇮 芬兰 (Finland) 13 - shiqi
+  - 🇫🇮 芬兰 (Finland) 14 - shiqi
+  - 🇫🇮 芬兰 (Finland) 15 - shiqi
+  - 🇫🇮 芬兰 (Finland) 16 - shiqi
+  - 🇫🇮 芬兰 (Finland) 17 - shiqi
+  - 🇫🇮 芬兰 (Finland) 18 - shiqi
 rules:
 - MATCH,PROXIES

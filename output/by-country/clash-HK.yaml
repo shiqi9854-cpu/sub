@@ -5,13 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - shiqi
+  server: 212.192.12.110
+  port: 10090
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - shiqi
   server: 185.22.154.239
   port: 10301
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: bdb313adf74c2ede
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - shiqi
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - shiqi
+  server: 46.29.163.78
+  port: 30210
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - shiqi
+  server: 89.223.95.77
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - shiqi
   server: 47.240.80.220
   port: 2052
   udp: true
@@ -19,7 +41,7 @@ proxies:
   password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   sni: vpn.12169.top
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - shiqi
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - shiqi
   server: 34.92.145.185
   port: 443
   udp: true
@@ -30,86 +52,53 @@ proxies:
     public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
     short-id: 64b3f192fc0669e1
   servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - shiqi
-  server: 119.246.1.143
-  port: 443
-  udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - shiqi
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: css.rbxcdn.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - shiqi
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8
-  skip-cert-verify: true
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - shiqi
+  server: 103.149.182.79
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - shiqi
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: https://t.me/wangcai2🇨🇳
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - shiqi
-  server: 8.218.184.4
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: nycqg19zkwacpm1b.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - shiqi
-  server: 47.243.65.243
+  server: 202.146.222.89
   port: 443
   udp: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.89
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - shiqi
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
+  server: champion.xn--kivt58h.lol
+  port: 80
   udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  skip-cert-verify: false
+  type: vless
+  uuid: b5af4a3d-f525-43aa-9cc3-de1ba437e4ed
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /
+    headers:
+      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 11 - shiqi
+  server: 156.245.232.239
+  port: 35043
+  udp: true
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
   server: mz.hkychina.com
   port: 8443
   udp: true
@@ -117,7 +106,7 @@ proxies:
   password: HysTeria2026!Proxy
   sni: mz.hkychina.com
   skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   server: 47.239.6.251
   port: 13779
   udp: true
@@ -129,26 +118,20 @@ proxies:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
     short-id: af1bdd293097b664
   servername: tesla.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
-  server: hk2.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
-  server: champion.xn--kivt58h.lol
-  port: 80
+  server: hk3.mfm-oss.top
+  port: 60013
   udp: true
   type: vless
-  uuid: b5af4a3d-f525-43aa-9cc3-de1ba437e4ed
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
+  uuid: 2dd387bd-6d19-473a-8d5e-ecbca573b0f9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: nzwLXAhU6QUZGQfzHACFSxc0T1YHfBxZs9Rlc2jXews
+    short-id: 7a91fe90e1d176fc
+  servername: www.xiaohongshu.com
+  client-fingerprint: safari
 - name: 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
   server: 2.27.109.179
   port: 45464
@@ -156,6 +139,34 @@ proxies:
   type: trojan
   password: XuMweB2PWs
   sni: 2.27.109.179.sslip.io
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
+  server: hk2.xiaoliyu.cyou
+  port: 4433
+  udp: true
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
+  server: 47.238.210.5
+  port: 13779
+  udp: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 18 - shiqi
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  port: 443
+  udp: true
+  type: anytls
+  password: 9sK2mP8xQ7vL3nZ6
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
   skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
@@ -177,6 +188,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 18 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -197,5 +211,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 18 - shiqi
 rules:
 - MATCH,PROXIES
