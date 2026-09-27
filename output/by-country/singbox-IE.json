@@ -6,41 +6,27 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
-      "server": "52.56.145.227",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
-      "server": "52.56.145.227",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
-      "server": "18.169.206.105",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - shiqi",
-      "server": "18.169.206.105",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 05 - shiqi",
-      "server": "18.169.206.105",
+      "server": "18.133.172.254",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
     },
     {
       "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 06 - shiqi",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
+      "server": "18.133.172.254",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
+      "server": "18.133.172.254",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - shiqi",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
@@ -50,7 +36,7 @@
         "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -67,9 +53,7 @@
         "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 05 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 06 - shiqi"
+        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi"
       ]
     },
     {
@@ -79,9 +63,7 @@
         "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 05 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 06 - shiqi"
+        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
