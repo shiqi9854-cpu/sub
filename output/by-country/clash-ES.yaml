@@ -5,26 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - shiqi
-  server: 83.147.18.3
-  port: 443
+  server: 108.181.121.226
+  port: 8388
   udp: true
-  type: vless
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-  servername: www.cloudflare.com
-  client-fingerprint: random
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
 - name: 🇪🇸 西班牙 (Spain) 02 - shiqi
-  server: 85.90.217.42
-  port: 22324
+  server: 140.174.184.5
+  port: 8388
   udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
 - name: 🇪🇸 西班牙 (Spain) 03 - shiqi
   server: 212.227.235.66
   port: 2053
@@ -36,22 +29,8 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
     short-id: 29e8dcd2b37aaa7f
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇪🇸 西班牙 (Spain) 04 - shiqi
-  server: 140.174.184.5
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-- name: 🇪🇸 西班牙 (Spain) 05 - shiqi
-  server: 108.181.121.226
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-- name: 🇪🇸 西班牙 (Spain) 06 - shiqi
   server: 66.163.118.73
   port: 443
   udp: true
@@ -67,7 +46,7 @@ proxies:
     path: /linkvws
     headers:
       Host: mygptagent.org
-- name: 🇪🇸 西班牙 (Spain) 07 - shiqi
+- name: 🇪🇸 西班牙 (Spain) 05 - shiqi
   server: 46.28.71.247
   port: 443
   udp: true
@@ -79,8 +58,8 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 08 - shiqi
+  client-fingerprint: safari
+- name: 🇪🇸 西班牙 (Spain) 06 - shiqi
   server: 87.76.179.117
   port: 7443
   udp: true
@@ -92,15 +71,7 @@ proxies:
     public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
     short-id: d2061bb1
   servername: www.samsung.com
-  client-fingerprint: random
-- name: 🇪🇸 西班牙 (Spain) 09 - shiqi
-  server: 66.163.118.73
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -112,9 +83,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - shiqi
   - 🇪🇸 西班牙 (Spain) 05 - shiqi
   - 🇪🇸 西班牙 (Spain) 06 - shiqi
-  - 🇪🇸 西班牙 (Spain) 07 - shiqi
-  - 🇪🇸 西班牙 (Spain) 08 - shiqi
-  - 🇪🇸 西班牙 (Spain) 09 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -126,8 +94,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - shiqi
   - 🇪🇸 西班牙 (Spain) 05 - shiqi
   - 🇪🇸 西班牙 (Spain) 06 - shiqi
-  - 🇪🇸 西班牙 (Spain) 07 - shiqi
-  - 🇪🇸 西班牙 (Spain) 08 - shiqi
-  - 🇪🇸 西班牙 (Spain) 09 - shiqi
 rules:
 - MATCH,PROXIES

@@ -11,29 +11,17 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇳🇴 挪威 (Norway) 02 - shiqi
-  server: norw-1.failspace.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
-  tls: true
-  servername: norw-1.failspace.top
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇳🇴 挪威 (Norway) 01 - shiqi
-  - 🇳🇴 挪威 (Norway) 02 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇳🇴 挪威 (Norway) 01 - shiqi
-  - 🇳🇴 挪威 (Norway) 02 - shiqi
 rules:
 - MATCH,PROXIES

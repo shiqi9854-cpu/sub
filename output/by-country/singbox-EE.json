@@ -4,15 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - shiqi",
-      "server": "109.206.241.10",
-      "server_port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
+      "server": "94.183.170.135",
+      "server_port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -20,7 +19,7 @@
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi",
       "server": "94.183.170.147",
       "server_port": 8443,
-      "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1",
+      "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -40,25 +39,31 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi",
-      "server": "94.183.170.135",
-      "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws"
+      "server": "109.206.241.10",
+      "server_port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "109.206.241.10",
+        "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi",
-      "server": "77.239.126.219",
-      "server_port": 9443,
-      "password": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "tls": {
         "enabled": true,
-        "server_name": "onecloudstream.com",
-        "insecure": false
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -76,19 +81,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "server": "94.183.170.65",
+      "server_port": 443,
+      "password": "e60bc99b-6630-4799-af84-f90ebdc643b6",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "hys2.arkonsoft.top",
+        "insecure": false
       }
     },
     {
@@ -112,20 +113,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-      "server": "94.183.170.65",
-      "server_port": 443,
-      "password": "e60bc99b-6630-4799-af84-f90ebdc643b6",
-      "tls": {
-        "enabled": true,
-        "server_name": "hys2.arkonsoft.top",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
       "server": "5.181.201.44",
       "server_port": 443,
       "uuid": "47b63e55-a4e4-43ce-97dc-946e6a26971d",
@@ -135,7 +124,7 @@
         "server_name": "bababoy.karp1pdd.life",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -156,8 +145,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi"
+        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi"
       ]
     },
     {
@@ -171,8 +159,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi"
+        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

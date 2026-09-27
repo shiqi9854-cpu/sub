@@ -10,17 +10,30 @@ proxies:
   udp: true
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
+  server: 151.101.65.57
+  port: 80
+  udp: true
+  type: vless
+  uuid: 66fc196d-3623-4ba5-92ae-101a069af5b1
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: simorghtrr.global.ssl.fastly.net
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
 rules:
 - MATCH,PROXIES
