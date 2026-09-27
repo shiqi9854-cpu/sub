@@ -7,13 +7,21 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9086,
+      "server_port": 9034,
       "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "password": "Yg4MbdXFQ9HFFVY6"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - shiqi",
+      "server": "185.135.86.175",
+      "server_port": 9082,
+      "method": "aes-256-cfb",
+      "password": "45xgMgm386pjWjTx"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - shiqi",
       "server": "185.135.86.175",
       "server_port": 9036,
       "method": "aes-256-cfb",
@@ -21,35 +29,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - shiqi",
-      "server": "185.135.86.175",
-      "server_port": 9068,
-      "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9034,
+      "server_port": 9094,
       "method": "aes-256-cfb",
-      "password": "Yg4MbdXFQ9HFFVY6"
+      "password": "rpgbNnU9rDDU4aWZ"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9033,
+      "server_port": 9086,
       "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
+      "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9007,
+      "server_port": 9033,
       "method": "aes-256-cfb",
-      "password": "kSPmvwdFzGMMW5pY"
+      "password": "UTJA57ypk2XKQpnm"
     },
     {
       "type": "shadowsocks",
@@ -63,17 +63,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 08 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9094,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "rpgbNnU9rDDU4aWZ"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 09 - shiqi",
       "server": "185.135.86.175",
-      "server_port": 9082,
+      "server_port": 9007,
       "method": "aes-256-cfb",
-      "password": "45xgMgm386pjWjTx"
+      "password": "kSPmvwdFzGMMW5pY"
     },
     {
       "type": "vless",
@@ -87,54 +87,12 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
           "public_key": "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c",
           "short_id": "33acba1b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 11 - shiqi",
-      "server": "sql.popmintxo.cc",
-      "server_port": 443,
-      "uuid": "d806a58b-33aa-42e0-b170-395e49c16b37",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ",
-          "short_id": "b558b9305a0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 12 - shiqi",
-      "server": "195.123.213.28",
-      "server_port": 443,
-      "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
-          "short_id": "5c256336e3b673fa"
         }
       }
     },
@@ -152,9 +110,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 07 - shiqi",
         "🇱🇻 拉脱维亚 (Latvia) 08 - shiqi",
         "🇱🇻 拉脱维亚 (Latvia) 09 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 10 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 12 - shiqi"
+        "🇱🇻 拉脱维亚 (Latvia) 10 - shiqi"
       ]
     },
     {
@@ -170,9 +126,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 07 - shiqi",
         "🇱🇻 拉脱维亚 (Latvia) 08 - shiqi",
         "🇱🇻 拉脱维亚 (Latvia) 09 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 10 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 11 - shiqi",
-        "🇱🇻 拉脱维亚 (Latvia) 12 - shiqi"
+        "🇱🇻 拉脱维亚 (Latvia) 10 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

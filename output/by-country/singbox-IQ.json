@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - shiqi",
-      "server": "104.18.15.103",
-      "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "tag": "🇮🇶 IQ 01 - shiqi",
+      "server": "188.114.97.8",
+      "server_port": 8443,
+      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,21 +20,23 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "server9.9966338.xyz"
-        }
+          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - shiqi",
-      "server": "172.67.153.156",
+      "tag": "🇮🇶 IQ 02 - shiqi",
+      "server": "104.21.94.230",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "de78c0b1-c5c8-412a-bd92-430d1f2e2642",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
+        "server_name": "frosty-pond-7436.shhabbyat914.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -43,9 +45,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288",
+        "path": "/NmrU9ImDG7jA7oFEem",
         "headers": {
-          "Host": "ccs2g.pai50288.uk"
+          "Host": "frosty-pond-7436.shhabbyat914.workers.dev"
         }
       }
     },
@@ -54,16 +56,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - shiqi",
-        "🌐 其他地区 (Other) 02 - shiqi"
+        "🇮🇶 IQ 01 - shiqi",
+        "🇮🇶 IQ 02 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - shiqi",
-        "🌐 其他地区 (Other) 02 - shiqi"
+        "🇮🇶 IQ 01 - shiqi",
+        "🇮🇶 IQ 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

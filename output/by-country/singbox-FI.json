@@ -27,47 +27,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - shiqi",
-      "server": "45.149.147.97",
-      "server_port": 443,
-      "uuid": "f28e0ce1-ed75-4e90-b069-5215a80dfb4a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg",
-          "short_id": "d345ad4657adeef9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - shiqi",
-      "server": "185.79.138.71",
-      "server_port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-          "short_id": "cd21e552537c7c0b"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - shiqi",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
@@ -76,7 +35,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -87,28 +46,90 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - shiqi",
-      "server": "37.143.129.244",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - shiqi",
+      "server": "45.149.147.97",
       "server_port": 443,
-      "uuid": "0e6de971-69e8-4536-b06d-8b6eae57021b",
+      "uuid": "f28e0ce1-ed75-4e90-b069-5215a80dfb4a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY",
-          "short_id": "48fd192dc4e46bc0"
+          "public_key": "AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg",
+          "short_id": "d345ad4657adeef9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - shiqi",
+      "server": "185.79.138.71",
+      "server_port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+          "short_id": "cd21e552537c7c0b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - shiqi",
+      "server": "5.61.91.221",
+      "server_port": 443,
+      "uuid": "03446511-2806-0021-b02f-f10d2d3a33c6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-up.perecbass.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "4a7b1c8d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 06 - shiqi",
+      "server": "95.217.24.236",
+      "server_port": 2087,
+      "uuid": "10d85f65-f8d6-4504-b1e2-94649db1577a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "95.217.24.236",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KN8tFlpIwPgJGwUCG7Pp9c9c0juYKPvNIv4kFHwqbyk",
+          "short_id": "a32cfb5deca913ad"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - shiqi",
       "server": "212.193.18.183",
       "server_port": 8446,
       "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
@@ -132,7 +153,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - shiqi",
+      "tag": "🇫🇮 芬兰 (Finland) 08 - shiqi",
       "server": "144.31.27.215",
       "server_port": 43000,
       "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
@@ -142,7 +163,7 @@
         "server_name": "144.31.27.215",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -153,7 +174,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - shiqi",
+      "tag": "🇫🇮 芬兰 (Finland) 09 - shiqi",
       "server": "212.193.18.183",
       "server_port": 8443,
       "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
@@ -173,42 +194,43 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - shiqi",
-      "server": "31.77.17.199",
+      "tag": "🇫🇮 芬兰 (Finland) 10 - shiqi",
+      "server": "37.143.129.244",
       "server_port": 443,
-      "uuid": "deea5046-3543-4b1b-a17f-3d08a65db91d",
+      "uuid": "0e6de971-69e8-4536-b06d-8b6eae57021b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fi03.mcloud.mov",
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fkZTYNydTBVO-1LSiTvDcyBMx-zBP5Am780jECmUgg0",
-          "short_id": ""
+          "public_key": "5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY",
+          "short_id": "48fd192dc4e46bc0"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 10 - shiqi",
-      "server": "mstfl.banibus.ir",
-      "server_port": 8118,
-      "uuid": "eea1c59d-70fd-4829-8ed7-21ddfe55a0da",
+      "tag": "🇫🇮 芬兰 (Finland) 11 - shiqi",
+      "server": "31.77.199.147",
+      "server_port": 4443,
+      "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "play.googleapis.com",
+        "server_name": "images.unsplash.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM",
-          "short_id": ""
+          "public_key": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
+          "short_id": "7da2eae792187ab9"
         }
       }
     },
@@ -226,7 +248,8 @@
         "🇫🇮 芬兰 (Finland) 07 - shiqi",
         "🇫🇮 芬兰 (Finland) 08 - shiqi",
         "🇫🇮 芬兰 (Finland) 09 - shiqi",
-        "🇫🇮 芬兰 (Finland) 10 - shiqi"
+        "🇫🇮 芬兰 (Finland) 10 - shiqi",
+        "🇫🇮 芬兰 (Finland) 11 - shiqi"
       ]
     },
     {
@@ -242,7 +265,8 @@
         "🇫🇮 芬兰 (Finland) 07 - shiqi",
         "🇫🇮 芬兰 (Finland) 08 - shiqi",
         "🇫🇮 芬兰 (Finland) 09 - shiqi",
-        "🇫🇮 芬兰 (Finland) 10 - shiqi"
+        "🇫🇮 芬兰 (Finland) 10 - shiqi",
+        "🇫🇮 芬兰 (Finland) 11 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
