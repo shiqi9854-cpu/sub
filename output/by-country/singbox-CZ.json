@@ -5,14 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - shiqi",
-      "server": "188.114.97.8",
-      "server_port": 8443,
-      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
+      "tag": "🇨🇿 捷克 (Czech) 01 - shiqi",
+      "server": "172.67.166.189",
+      "server_port": 443,
+      "uuid": "3e43ffd1-3f7b-45b0-a955-c249010c7ebc",
       "tls": {
         "enabled": true,
-        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
+        "server_name": "open-39.avl-a47261.workers.dev",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,24 +23,25 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "path": "/vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560",
         "headers": {
-          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "open-39.avl-a47261.workers.dev"
+        }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 02 - shiqi",
-      "server": "104.21.94.230",
+      "type": "trojan",
+      "tag": "🇨🇿 捷克 (Czech) 02 - shiqi",
+      "server": "151.101.56.255",
       "server_port": 443,
-      "uuid": "de78c0b1-c5c8-412a-bd92-430d1f2e2642",
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
-        "server_name": "frosty-pond-7436.shhabbyat914.workers.dev",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -45,9 +49,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/NmrU9ImDG7jA7oFEem",
         "headers": {
-          "Host": "frosty-pond-7436.shhabbyat914.workers.dev"
+          "Host": "mitivpn---nl--s---mitivpn-2.global.ssl.fastly.net"
         }
       }
     },
@@ -56,16 +59,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - shiqi",
-        "🇮🇶 IQ 02 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi",
+        "🇨🇿 捷克 (Czech) 02 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - shiqi",
-        "🇮🇶 IQ 02 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi",
+        "🇨🇿 捷克 (Czech) 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
