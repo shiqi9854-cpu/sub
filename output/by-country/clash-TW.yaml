@@ -13,34 +13,22 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - shiqi
-  server: 36.224.178.15
-  port: 50099
+  server: 103.115.109.49
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - shiqi
-  server: 45.207.158.76
-  port: 9443
-  udp: true
-  type: vless
-  uuid: 966990b5-5868-4af1-add6-011c72b4a443
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  servername: www.amazon.com
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - shiqi
-  server: 160.187.100.109
+  server: vpn-tw-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 127.0.0.1
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - shiqi
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - shiqi
   server: 60.248.219.78
   port: 443
   udp: true
@@ -63,7 +51,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - shiqi
   - 🇹🇼 中国台湾 (Taiwan) 03 - shiqi
   - 🇹🇼 中国台湾 (Taiwan) 04 - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 05 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,6 +60,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - shiqi
   - 🇹🇼 中国台湾 (Taiwan) 03 - shiqi
   - 🇹🇼 中国台湾 (Taiwan) 04 - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 05 - shiqi
 rules:
 - MATCH,PROXIES

@@ -42,7 +42,7 @@ proxies:
     public-key: tLWqTzKtCCMxxOzSskvSwDB2an1bxxZ706kcNDqGNWg
     short-id: 50ace5ab34f6df9b
   servername: de2.dzvn.space
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 04 - shiqi
   server: 129.159.156.109
   port: 50160

@@ -6,30 +6,6 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi",
-      "server": "31.76.111.79",
-      "server_port": 2087,
-      "uuid": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "hh.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
-          "short_id": "a1b2c3d4e5f60718"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "game-grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
       "server": "194.76.154.31",
       "server_port": 40443,
       "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
@@ -48,43 +24,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi",
-      "server": "5.253.30.99",
-      "server_port": 40443,
-      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
-          "short_id": "88b6"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
