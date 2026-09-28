@@ -29,6 +29,18 @@
     {
       "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi",
       "server": "94.183.170.147",
       "server_port": 8443,
       "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1",
@@ -37,7 +49,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -52,63 +64,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi",
-      "server": "94.183.170.65",
-      "server_port": 443,
-      "password": "e60bc99b-6630-4799-af84-f90ebdc643b6",
-      "tls": {
-        "enabled": true,
-        "server_name": "hys2.arkonsoft.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
       "server": "94.183.170.65",
       "server_port": 8081,
       "uuid": "e60bc99b-6630-4799-af84-f90ebdc643b6",
       "transport": {
         "type": "ws",
-        "path": "/ws/generate",
-        "headers": {
-          "Host": "hys2.arkonsoft.top"
-        }
+        "path": "/ws/generate"
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
-      "server": "80.97.27.106",
-      "server_port": 114,
-      "method": "chacha20-ietf-poly1305",
-      "password": "9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-      "server": "5.181.201.44",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
+      "server": "5.181.201.43",
       "server_port": 443,
-      "uuid": "47b63e55-a4e4-43ce-97dc-946e6a26971d",
+      "uuid": "f495298f-2bdb-4fd8-9ac9-5dd33d1b482a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bababoy.karp1pdd.life",
+        "server_name": "est1.loozerp.wiki",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -118,36 +95,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "a88e61a0-2b38-f6df-c5c7-d20600000000",
-      "transport": {
-        "type": "ws",
-        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-        "headers": {
-          "Host": "netlivpn5002.whwbbb.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 10 - shiqi",
-      "server": "netlivpn5002.whwbbb.workers.dev",
+      "type": "hysteria2",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
+      "server": "94.183.170.65",
       "server_port": 443,
-      "uuid": "a88e61a0-2b38-f6df-c5c7-d20600000000",
+      "password": "e60bc99b-6630-4799-af84-f90ebdc643b6",
       "tls": {
         "enabled": true,
-        "server_name": "netlivpn5002.whwbbb.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport": {
-        "type": "ws"
+        "server_name": "hys2.arkonsoft.top",
+        "insecure": false
       }
     },
     {
@@ -161,10 +117,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 10 - shiqi"
+        "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi"
       ]
     },
     {
@@ -177,10 +130,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 08 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 09 - shiqi",
-        "🇪🇪 爱沙尼亚 (Estonia) 10 - shiqi"
+        "🇪🇪 爱沙尼亚 (Estonia) 07 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

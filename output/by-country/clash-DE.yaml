@@ -5,749 +5,95 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - shiqi
-  server: 172.67.151.243
-  port: 2086
-  udp: true
-  type: vless
-  uuid: b4a16091-a25d-4d33-aee3-f5ae04f34b14
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiRjJEdlF3U251aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTEzLjE1OCIsIjEwMy45Ny44OC4xMzMiLCIxOTQuMTgwLjE4OC4yNDEiLCIxMTYuMjAyLjEzMi4yMDUiXX0
-    headers:
-      Host: blue-brook-cc73.karren391.workers.dev
-- name: 🇩🇪 德国 (Germany) 02 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 20e295db-a6af-4006-bfd6-91453f169968
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: 057.electrocellco-cf-057.workers.dev
-- name: 🇩🇪 德国 (Germany) 03 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  network: ws
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-    headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-- name: 🇩🇪 德国 (Germany) 04 - shiqi
-  server: 188.114.96.8
-  port: 443
-  udp: true
-  type: vless
-  uuid: eb24c3b4-7936-45e2-a253-e54fd1955a7f
-  tls: true
-  servername: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/Sltu36eJc3zvD9Npaxsj2vJ
-    headers:
-      Host: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-- name: 🇩🇪 德国 (Germany) 05 - shiqi
-  server: 104.21.58.246
-  port: 443
-  udp: true
-  type: vless
-  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
-  tls: true
-  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/wufVnq4Dk8cyJO59lQ3WBXW8SFN435GD?ed=2560
-    headers:
-      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-- name: 🇩🇪 德国 (Germany) 06 - shiqi
-  server: 104.21.79.199
-  port: 443
-  udp: true
-  type: vless
-  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
-  tls: true
-  servername: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/cxl8Wn1ylnsk63nJ0
-    headers:
-      Host: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-- name: 🇩🇪 德国 (Germany) 07 - shiqi
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
-  tls: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇩🇪 德国 (Germany) 08 - shiqi
-  server: 172.67.140.37
-  port: 443
-  udp: true
-  type: vless
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-    headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-- name: 🇩🇪 德国 (Germany) 09 - shiqi
-  server: 172.67.166.127
-  port: 443
-  udp: true
-  type: vless
-  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
-  tls: true
-  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/yxEWGhBll97nYhYt0T3RefT62?ed=2560
-    headers:
-      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-- name: 🇩🇪 德国 (Germany) 10 - shiqi
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
-  tls: true
-  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/zXLTmz3hE3szn64f?ed=2560
-    headers:
-      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
-- name: 🇩🇪 德国 (Germany) 11 - shiqi
-  server: 104.21.56.77
-  port: 443
-  udp: true
-  type: vless
-  uuid: a4ec0cdd-a71d-4093-b8e1-aa9bfbcd75eb
-  tls: true
-  servername: 5xgovtcyqgoh5tedrlj6sg--sn9pbh.mahsapodcst.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/P7l2zlifeGb5UNmfWMkoVakVd
-    headers:
-      Host: 5xgovtcyqgoh5tedrlj6sg--sn9pbh.mahsapodcst.workers.dev
-- name: 🇩🇪 德国 (Germany) 12 - shiqi
-  server: 188.114.97.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
-  tls: true
-  servername: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
-    headers:
-      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
-- name: 🇩🇪 德国 (Germany) 13 - shiqi
-  server: open-39.avl-a47261.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
-  tls: true
-  servername: open-39.avl-a47261.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560
-- name: 🇩🇪 德国 (Germany) 14 - shiqi
-  server: 172.67.191.121
-  port: 443
-  udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: 47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/V2VWNDZAAEIdXVjOCkLfJnefnR5Pum?ed=2560
-- name: 🇩🇪 德国 (Germany) 15 - shiqi
-  server: 45.130.125.207
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
-  tls: true
-  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-- name: 🇩🇪 德国 (Germany) 16 - shiqi
-  server: 188.114.97.8
-  port: 443
-  udp: true
-  type: vless
-  uuid: eb24c3b4-7936-45e2-a253-e54fd1955a7f
-  tls: true
-  servername: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/6NGHNFKsvK41KeQo
-    headers:
-      Host: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-- name: 🇩🇪 德国 (Germany) 17 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: ffa431ab-a59b-4092-a418-905fcb1e4d5f
-  network: ws
-  ws-opts:
-    path: /vl/rYScQPG1EEjxXdswdMEU2b3rM4
-    headers:
-      Host: s0p42f8wwpdde5tf7m4l6l.ab1x-sn9o4y3n7ondkrd.workers.dev
-- name: 🇩🇪 德国 (Germany) 18 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
-  network: ws
-  ws-opts:
-    path: /vl/zM8ELyqEIYeZ3ijacV9kuK?ed
-    headers:
-      Host: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
-- name: 🇩🇪 德国 (Germany) 19 - shiqi
-  server: 104.19.164.155
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
-  tls: true
-  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
-- name: 🇩🇪 德国 (Germany) 20 - shiqi
-  server: 104.18.216.180
-  port: 2087
-  udp: true
-  type: vless
-  uuid: 845bd981-8725-4f9e-9ae8-6f500ec84001
-  tls: true
-  servername: w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /vl/n4iEhIlCgZ2KerLvX8CLDGWraBrBwAq?ed=2560
-    headers:
-      Host: w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev
-- name: 🇩🇪 德国 (Germany) 21 - shiqi
-  server: 188.114.96.0
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
-  tls: true
-  servername: open-39.avl-a47261.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/DJ4khtSll0Q9gBBwF?ed=2560
-    headers:
-      Host: open-39.avl-a47261.workers.dev
-- name: 🇩🇪 德国 (Germany) 22 - shiqi
-  server: 172.67.182.245
-  port: 443
-  udp: true
-  type: vless
-  uuid: 96e341a7-3077-4613-b482-41bd9c90cc4d
-  tls: true
-  servername: eZaCCesS-proJEcT-4C7950.Ez-dC9bBB.WorKErs.dEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
-- name: 🇩🇪 德国 (Germany) 23 - shiqi
-  server: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-- name: 🇩🇪 德国 (Germany) 24 - shiqi
-  server: 172.64.155.209
-  port: 443
-  udp: true
-  type: vless
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  tls: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇩🇪 德国 (Germany) 25 - shiqi
-  server: 104.21.70.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: d9abc6e3-83bf-4c28-ae68-72465e2abe39
-  tls: true
-  servername: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /vl/xQhNe7rLrdM0emZlaW5LMsNwcoIgnT
-    headers:
-      Host: ikt-kkc25f27k-3tehr8mc.ade-1007.workers.dev
-- name: 🇩🇪 德国 (Germany) 26 - shiqi
-  server: www.speedtest.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: eb24c3b4-7936-45e2-a253-e54fd1955a7f
-  tls: true
-  servername: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/5XS6voHZVYs7mzpMKkTEfkiDauqBCt0S
-    headers:
-      Host: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
-- name: 🇩🇪 德国 (Germany) 27 - shiqi
-  server: 188.114.97.0
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
-  tls: true
-  servername: open-39.avl-a47261.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/opTpxA0twTE9wdy6dR?ed=2560
-    headers:
-      Host: open-39.avl-a47261.workers.dev
-- name: 🇩🇪 德国 (Germany) 28 - shiqi
-  server: 104.21.91.50
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
-  tls: true
-  servername: open-39.avl-a47261.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560
-    headers:
-      Host: open-39.avl-a47261.workers.dev
-- name: 🇩🇪 德国 (Germany) 29 - shiqi
-  server: 172.67.162.201
-  port: 2053
-  udp: true
-  type: vless
-  uuid: dc1e9f00-c064-4870-9bfc-463db50257d7
-  tls: true
-  servername: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoicVkwaG9XUUQyUDhzRkZ5UiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
-- name: 🇩🇪 德国 (Germany) 30 - shiqi
-  server: 172.67.216.233
-  port: 443
-  udp: true
-  type: vless
-  uuid: 23e34376-aa47-4c8d-97ea-02915e01fcca
-  tls: true
-  servername: J3Bx1S9MK2syLW66yJ-hSk.TJsJrKk8GbHTS0Q5-0Os.wOrKeRS.DEv
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/uwojyr8LT2gMeHnQJVf2HntOGHsvRH3?ed=2560
-    headers:
-      Host: j3bx1s9mk2sylw66yj-hsk.tjsjrkk8gbhts0q5-0os.workers.dev
-- name: 🇩🇪 德国 (Germany) 31 - shiqi
-  server: www.speedtest.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 709b1cf4-a386-4cbf-bcf4-46f03c4788a8
-  tls: true
-  servername: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/1mwugQaZADT6PqPOiKcsn?ed=2560
-    headers:
-      Host: q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev
-- name: 🇩🇪 德国 (Germany) 32 - shiqi
-  server: chatgpt.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: a43a9a45-7387-4faf-ad06-24b1ae181fdc
-  tls: true
-  servername: snowy-glade-85fa.arshiatakalloo88.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVzg3NkFVRjZaUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: snowy-glade-85fa.arshiatakalloo88.workers.dev
-- name: 🇩🇪 德国 (Germany) 33 - shiqi
-  server: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
-  tls: true
-  servername: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/cxl8Wn1ylnsk63nJ0?ed=2560
-    headers:
-      Host: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-- name: 🇩🇪 德国 (Germany) 34 - shiqi
-  server: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7fc7f295-b80e-4235-bb17-61e3ddc0744a
-  tls: true
-  servername: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/AV21Gwm6013FI8fP?ed=2560
-- name: 🇩🇪 德国 (Germany) 35 - shiqi
-  server: 104.21.70.21
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: 🇩🇪 德国 (Germany) 36 - shiqi
-  server: 104.21.15.145
-  port: 2053
-  udp: true
-  type: vless
-  uuid: dc1e9f00-c064-4870-9bfc-463db50257d7
-  tls: true
-  servername: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoicVkwaG9XUUQyUDhzRkZ5UiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
-- name: 🇩🇪 德国 (Germany) 37 - shiqi
-  server: www.speedtest.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
-  tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/qAuPpP8UsUmtA5NiXmiGs
-    headers:
-      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
-- name: 🇩🇪 德国 (Germany) 38 - shiqi
-  server: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
-  tls: true
-  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/6871nrbnl9WsdAiOUInt?ed=2560
-    headers:
-      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-- name: 🇩🇪 德国 (Germany) 39 - shiqi
-  server: 104.21.69.37
-  port: 443
-  udp: true
-  type: vless
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  tls: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/uWq9DFRgj8BwQiSXmZ46
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-- name: 🇩🇪 德国 (Germany) 40 - shiqi
-  server: 188.114.97.1
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
-  tls: true
-  servername: bold-term-4edd.mbigspot.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
-- name: 🇩🇪 德国 (Germany) 41 - shiqi
-  server: 104.21.61.141
-  port: 443
-  udp: true
-  type: vless
-  uuid: f85183cf-af02-4656-b1e9-3a61dced201f
-  tls: true
-  servername: fReeWORLd.aliAicODe47649.woRKers.Dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/a6yBMrki2p7ptrchleFfb?ed=2560
-    headers:
-      Host: freeworld.aliaicode47649.workers.dev
-- name: 🇩🇪 德国 (Germany) 42 - shiqi
-  server: 172.67.173.89
-  port: 443
-  udp: true
-  type: vless
-  uuid: ffa431ab-a59b-4092-a418-905fcb1e4d5f
-  tls: true
-  servername: s0p42f8wwpdde5tf7m4l6l.ab1x-sn9o4y3n7ondkrd.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/rYScQPG1EEjxXdswdMEU2b3rM4?ed=2560
-    headers:
-      Host: s0p42f8wwpdde5tf7m4l6l.ab1x-sn9o4y3n7ondkrd.workers.dev
-- name: 🇩🇪 德国 (Germany) 43 - shiqi
-  server: 104.21.42.129
-  port: 2087
-  udp: true
-  type: trojan
-  password: eabf1999fefbb7d2
-  sni: WaYSi.wAYsI6688.WOrkeRS.deV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ
-- name: 🇩🇪 德国 (Germany) 44 - shiqi
-  server: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
-  port: 443
-  udp: true
-  type: vless
-  uuid: af0db32b-2cb0-48c7-b04e-96003f8c2369
-  tls: true
-  servername: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/ZONyHuyg0cpDAFQTzm3u?ed=2560
-    headers:
-      Host: dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev
-- name: 🇩🇪 德国 (Germany) 45 - shiqi
-  server: www.speedtest.net
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7fc7f295-b80e-4235-bb17-61e3ddc0744a
-  tls: true
-  servername: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/dirxIBhljtrTSM76Q
-    headers:
-      Host: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-- name: 🇩🇪 德国 (Germany) 46 - shiqi
-  server: 172.67.173.75
-  port: 80
-  udp: true
-  type: vless
-  uuid: 923e051a-f598-4ea5-9c6c-f7e37c438a60
-  network: ws
-  ws-opts:
-    path: /vl/D2pryqVs9LAgCYdTK76lsafWY
-    headers:
-      Host: vkvd8bpskvxgjwdvcidxgoccr.javanbaghe.workers.dev
-- name: 🇩🇪 德国 (Germany) 47 - shiqi
-  server: 172.66.47.45
-  port: 443
-  udp: true
-  type: vless
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
-  tls: true
-  servername: ezaccess-project-f62c30.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-f62c30.pages.dev
-- name: 🇩🇪 德国 (Germany) 48 - shiqi
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: 20e295db-a6af-4006-bfd6-91453f169968
-  tls: true
-  servername: 057.electrocellco-cf-057.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: 057.electrocellco-cf-057.workers.dev
-- name: 🇩🇪 德国 (Germany) 49 - shiqi
-  server: 172.66.44.124
-  port: 8443
-  udp: true
-  type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇩🇪 德国 (Germany) 50 - shiqi
   server: 185.226.172.8
   port: 8008
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 51 - shiqi
-  server: 206.189.52.4
-  port: 17000
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-- name: 🇩🇪 德国 (Germany) 52 - shiqi
-  server: 130.61.178.43
+- name: 🇩🇪 德国 (Germany) 02 - shiqi
+  server: 130.61.43.139
   port: 59924
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: SgyJkGCcYNgfF87vVJTcRI9Vd9Xa/GISuFw17bdtB6c=
-- name: 🇩🇪 德国 (Germany) 53 - shiqi
+  password: foHuoXlfaX4nHHz/zioppturXfvYRcBoJ6GU8GoLj1E=
+- name: 🇩🇪 德国 (Germany) 03 - shiqi
+  server: 216.106.187.60
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 04 - shiqi
   server: 51.195.126.38
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2YdE4lFOid5a
-- name: 🇩🇪 德国 (Germany) 54 - shiqi
+- name: 🇩🇪 德国 (Germany) 05 - shiqi
+  server: 31.77.8.97
+  port: 110
+  udp: true
+  type: vmess
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 06 - shiqi
   server: 130.61.227.119
   port: 59924
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: QQyhsWE4kraFnuIyxSx/tfdFnd1+IUu3YrQM92BGVrQ=
-- name: 🇩🇪 德国 (Germany) 55 - shiqi
-  server: 130.61.237.178
+- name: 🇩🇪 德国 (Germany) 07 - shiqi
+  server: 130.61.85.241
   port: 59924
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: +Md6uvx0q4r8xi+D4f0ohkfMPiaCVx5nHy7ScOhNlLM=
-- name: 🇩🇪 德国 (Germany) 56 - shiqi
-  server: 130.61.113.24
-  port: 59924
+  password: vxAQDuju4saWX0wdawcE10nQ00PXMgJrQwgI0xdf0So=
+- name: 🇩🇪 德国 (Germany) 08 - shiqi
+  server: 206.189.52.4
+  port: 17000
   udp: true
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: oMQ6jTVdLMvHwjWj4KPKjSlk4BFJIhqosaz3MeQavE0=
-- name: 🇩🇪 德国 (Germany) 57 - shiqi
-  server: 91.107.191.154
-  port: 8080
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+- name: 🇩🇪 德国 (Germany) 09 - shiqi
+  server: 2.58.81.221
+  port: 80
   udp: true
-  type: vmess
-  uuid: a6fae451-7d8d-4452-991f-2245e0d4ff0e
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 58 - shiqi
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 10 - shiqi
+  server: 35.246.185.109
+  port: 443
+  udp: true
+  type: trojan
+  password: M7v%w11Se*
+  sni: dggg.wsone.icu
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 11 - shiqi
+  server: 213.202.208.199
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇩🇪 德国 (Germany) 12 - shiqi
+  server: 199.247.7.55
+  port: 80
+  udp: true
+  type: vless
+  uuid: 4c250d79-700a-4968-b50d-bae96983e1d7
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 13 - shiqi
   server: 185.255.114.91
   port: 8443
   udp: true
@@ -760,47 +106,20 @@ proxies:
     short-id: 1be482b8e08aa0ef
   servername: nl2.reddotcorp.org
   client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 59 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 91875754-7fcc-5ba9-9573-5a43215dfd0f
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
-- name: 🇩🇪 德国 (Germany) 60 - shiqi
-  server: 136.244.85.41
-  port: 80
-  udp: true
-  type: vless
-  uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 61 - shiqi
-  server: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
+- name: 🇩🇪 德国 (Germany) 14 - shiqi
+  server: 31.77.161.15
   port: 443
   udp: true
   type: vless
-  uuid: f98cc943-3c25-a499-948d-1c0500000001
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  flow: xtls-rprx-vision
   tls: true
-  servername: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 62 - shiqi
-  server: 35.246.185.109
-  port: 443
-  udp: true
-  type: trojan
-  password: M7v%w11Se*
-  sni: dggg.wsone.icu
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 63 - shiqi
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  servername: nvidia.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 15 - shiqi
   server: 172.104.237.173
   port: 20855
   udp: true
@@ -813,36 +132,61 @@ proxies:
     short-id: efe9
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 64 - shiqi
-  server: 169.150.210.233
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 65 - shiqi
-  server: 31.77.161.15
-  port: 443
-  udp: true
-  type: vless
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  servername: nvidia.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 66 - shiqi
-  server: 199.247.7.55
+- name: 🇩🇪 德国 (Germany) 16 - shiqi
+  server: 192.248.179.81
   port: 80
   udp: true
   type: vless
-  uuid: 4c250d79-700a-4968-b50d-bae96983e1d7
+  uuid: 2787849c-1a49-4457-9db7-efcdb2578268
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 67 - shiqi
+- name: 🇩🇪 德国 (Germany) 17 - shiqi
+  server: 8.209.74.72
+  port: 20001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+- name: 🇩🇪 德国 (Germany) 18 - shiqi
+  server: 209.46.102.22
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+- name: 🇩🇪 德国 (Germany) 19 - shiqi
+  server: 89.169.53.176
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
+    short-id: df3aff719526dc5a
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 20 - shiqi
+  server: 45.77.143.204
+  port: 80
+  udp: true
+  type: vless
+  uuid: 8ccc4581-eba9-4226-abbc-64e7d8fb415e
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 21 - shiqi
+  server: 136.244.85.41
+  port: 80
+  udp: true
+  type: vless
+  uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 22 - shiqi
   server: 104.194.159.237
   port: 8443
   udp: true
@@ -855,191 +199,19 @@ proxies:
     short-id: 1aec480577a542ee
   servername: github.com
   client-fingerprint: qq
-- name: 🇩🇪 德国 (Germany) 68 - shiqi
-  server: 163.8.195.241
-  port: 2087
+- name: 🇩🇪 德国 (Germany) 23 - shiqi
+  server: 162.55.242.208
+  port: 2053
   udp: true
   type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-- name: 🇩🇪 德国 (Germany) 69 - shiqi
-  server: 8.209.74.72
-  port: 20001
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-- name: 🇩🇪 德国 (Germany) 70 - shiqi
-  server: 167.233.191.98
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6289ae55-053b-470c-a2f8-e0841a567b48
-  flow: xtls-rprx-vision
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
   tls: true
   reality-opts:
-    public-key: qI8F1K9Ev5BUzjsuzUCQSBiq7B-6C503e5LIQez3ZjU
-    short-id: dd878b254cfa
-  servername: www.sony.com
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 71 - shiqi
-  server: 144.31.125.60
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
-    short-id: 85c86a9863
-  servername: www.intel.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 72 - shiqi
-  server: 178.105.120.168
-  port: 80
-  udp: true
-  type: vless
-  uuid: 1d9cbbf4-bb99-4b09-8750-1cc22d510018
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 73 - shiqi
-  server: 179.254.127.41
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7013d889-14f4-4475-a5ff-a5ecd992b522
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU
-  servername: www.google.com
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: 4d14da19b19cfc8c
+  servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 74 - shiqi
-  server: 89.169.53.176
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
-    short-id: df3aff719526dc5a
-  servername: de.wvpn.one
-  client-fingerprint: random
-- name: 🇩🇪 德国 (Germany) 75 - shiqi
-  server: 91.98.109.64
-  port: 80
-  udp: true
-  type: vless
-  uuid: a8721465-2ee4-4c06-90bc-18145e8f8ea2
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 76 - shiqi
-  server: 192.248.179.81
-  port: 80
-  udp: true
-  type: vless
-  uuid: 2787849c-1a49-4457-9db7-efcdb2578268
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 77 - shiqi
-  server: 178.105.120.90
-  port: 80
-  udp: true
-  type: vless
-  uuid: 80399442-9994-4a53-84a0-5a56aa783ab7
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 78 - shiqi
-  server: 188.34.184.151
-  port: 80
-  udp: true
-  type: vless
-  uuid: dc31fe25-d91d-4691-94cb-1085d31ab4f8
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 79 - shiqi
-  server: 209.46.102.22
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-- name: 🇩🇪 德国 (Germany) 80 - shiqi
-  server: 45.77.143.204
-  port: 80
-  udp: true
-  type: vless
-  uuid: 8ccc4581-eba9-4226-abbc-64e7d8fb415e
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 81 - shiqi
-  server: 185.249.153.108
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4cf9c712-11c4-47d8-aa31-a1693a1aa4e5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw
-    short-id: 73c9e31ccafda20e
-  servername: www.nordivablog.ru
-  client-fingerprint: ios
-- name: 🇩🇪 德国 (Germany) 82 - shiqi
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 83 - shiqi
-  server: 159.69.103.251
-  port: 80
-  udp: true
-  type: vless
-  uuid: 1bbef2cd-2851-4f00-b37e-a2478a1e5a70
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0Ag8wyoyN-M84yS4cbZ04wtqawZCHAzfKFT1A1xBFms
-    short-id: 253126232f9bb9be
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 84 - shiqi
-  server: nasnet-571296497-direct.mbghalibaf.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: nasnet
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nasnet-571296497-direct.mbghalibaf.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 85 - shiqi
-  server: 45.32.157.84
-  port: 443
-  udp: true
-  type: trojan
-  password: Tg3RnK7Xp8B1
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 86 - shiqi
+- name: 🇩🇪 德国 (Germany) 24 - shiqi
   server: 2.26.51.75
   port: 443
   udp: true
@@ -1052,55 +224,8 @@ proxies:
     short-id: d4f6a8c1b2e3f9aa
   servername: 4pda.to
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 87 - shiqi
-  server: 82.24.203.20
-  port: 2087
-  udp: true
-  type: vless
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
-  network: ws
-  ws-opts:
-    path: /fd5ba98a3970
-    headers:
-      Host: 82.24.203.20
-- name: 🇩🇪 德国 (Germany) 88 - shiqi
-  server: 162.55.242.208
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
-  tls: true
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: 4d14da19b19cfc8c
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 89 - shiqi
-  server: 193.24.210.211
-  port: 25040
-  udp: true
-  type: trojan
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  sni: /gay-anal
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 90 - shiqi
-  server: 82.118.19.153
-  port: 443
-  udp: true
-  type: vless
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 91 - shiqi
-  server: 57.129.96.67
+- name: 🇩🇪 德国 (Germany) 25 - shiqi
+  server: nasnet-571299667-direct.mbghalibaf.com
   port: 443
   udp: true
   type: vless
@@ -1108,9 +233,9 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: nasnet-571299667-direct.mbghalibaf.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 92 - shiqi
-  server: aidrivercat.org
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 26 - shiqi
+  server: 193.108.117.54
   port: 443
   udp: true
   type: vmess
@@ -1125,44 +250,36 @@ proxies:
     path: /linkvws
     headers:
       Host: aidrivercat.org
-- name: 🇩🇪 德国 (Germany) 93 - shiqi
-  server: 130.61.179.238
-  port: 59924
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: GTwsqiixAcHe5gpz1xMI0plgyuxyPSb40Ty0tEzmbv0=
-- name: 🇩🇪 德国 (Germany) 94 - shiqi
-  server: 104.24.237.67
-  port: 443
-  udp: true
-  type: vless
-  uuid: 91875754-7fcc-5ba9-9573-5a43215dfd0f
-  tls: true
-  servername: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: node-8966333989-b9acc5.dsjvhbsdcjy.workers.dev
-- name: 🇩🇪 德国 (Germany) 95 - shiqi
-  server: 80.97.27.106
-  port: 116
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
-- name: 🇩🇪 德国 (Germany) 96 - shiqi
-  server: arianet.on1a.com
-  port: 22445
+- name: 🇩🇪 德国 (Germany) 27 - shiqi
+  server: node8.quaxly.com
+  port: 25040
   udp: true
   type: trojan
-  password: kkn5qxbfabmm5pko
-  sni: arianet.on1a.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 97 - shiqi
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  sni: /gay-anal
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 28 - shiqi
+  server: 169.150.210.233
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 29 - shiqi
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 30 - shiqi
   server: 2.26.125.147
   port: 2096
   udp: true
@@ -1171,59 +288,38 @@ proxies:
   tls: true
   servername: stf94fd.rumedia-cdn.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-- name: 🇩🇪 德国 (Germany) 98 - shiqi
-  server: 2.26.125.224
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 11d826ce-d6e5-4154-8658-6829bb17dca2
-  tls: true
-  servername: stf4f33.rumedia-cdn.com
-  skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /cdn/v3/live
     headers:
-      Host: stf4f33.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 99 - shiqi
-  server: 2.58.81.221
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 100 - shiqi
-  server: port2.axiomed.ir
+      Host: stf94fd.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 31 - shiqi
+  server: 179.254.127.41
   port: 443
   udp: true
   type: vless
-  uuid: 1e534c59-85c2-4042-a407-e491f68cb3a5
-  tls: true
-  servername: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/Z8Ag5xQbwmhIHsvyDj3?ed=2560
-    headers:
-      Host: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
-- name: 🇩🇪 德国 (Germany) 101 - shiqi
-  server: dlv5.far30bazi.ir
-  port: 443
-  udp: true
-  type: vless
-  uuid: f114f195-cf52-474c-83ea-0dcfa84d9258
+  uuid: 7013d889-14f4-4475-a5ff-a5ecd992b522
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 6yOrgIsMRfTe-Gr9TYgyan-0mnKTNfk6fDBxVOiT4HM
-    short-id: 5002b5329814b487
-  servername: 0cc0f6a1.vless-reality-sni.staticedge-delivery.net
+    public-key: 9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU
+  servername: www.google.com
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 102 - shiqi
+- name: 🇩🇪 德国 (Germany) 32 - shiqi
+  server: 82.39.171.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 33 - shiqi
   server: 82.39.171.142
   port: 443
   udp: true
@@ -1235,8 +331,204 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   servername: yahoo.com
-  client-fingerprint: ios
-- name: 🇩🇪 德国 (Germany) 103 - shiqi
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 34 - shiqi
+  server: rubifen.adaspoloandco.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  tls: true
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  client-fingerprint: qq
+  network: ws
+  ws-opts:
+    path: /GOrbEh
+    headers:
+      Host: rubifen.adaspoloandco.com
+- name: 🇩🇪 德国 (Germany) 35 - shiqi
+  server: 82.118.19.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 36 - shiqi
+  server: de1.xiaoliyu.cyou
+  port: 4433
+  udp: true
+  type: hysteria2
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 37 - shiqi
+  server: 64.118.158.56
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: 5c6481cdd4
+  servername: buckeye-retail-website.amazon.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 38 - shiqi
+  server: 2.58.81.221
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 39 - shiqi
+  server: 193.163.203.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 40 - shiqi
+  server: 130.61.179.238
+  port: 59924
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: GTwsqiixAcHe5gpz1xMI0plgyuxyPSb40Ty0tEzmbv0=
+- name: 🇩🇪 德国 (Germany) 41 - shiqi
+  server: 91.107.191.154
+  port: 8080
+  udp: true
+  type: vmess
+  uuid: a6fae451-7d8d-4452-991f-2245e0d4ff0e
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 42 - shiqi
+  server: 82.24.203.20
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
+  network: ws
+  ws-opts:
+    path: /fd5ba98a3970
+- name: 🇩🇪 德国 (Germany) 43 - shiqi
+  server: 104.27.122.195
+  port: 443
+  udp: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-6f00f7d92039
+  tls: true
+  servername: zeus-panel-0mvqo2.zeus-y14qx2.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/6f00f7d92039/loc-0
+    headers:
+      Host: zeus-panel-0mvqo2.zeus-y14qx2.workers.dev
+- name: 🇩🇪 德国 (Germany) 44 - shiqi
+  server: 85.115.209.170
+  port: 2018
+  udp: true
+  type: vless
+  uuid: 834e5553-d80e-4078-8d7e-482fafe9bbaf
+  tls: true
+  reality-opts:
+    public-key: Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0
+    short-id: cd5f260bcdd9c92d
+  servername: gemini.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 45 - shiqi
+  server: 130.61.146.229
+  port: 59924
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: MKHwqx5R2L0MzLTo/BQ7xr5Ve6nfPBPfo0HERkDcG9s=
+- name: 🇩🇪 德国 (Germany) 46 - shiqi
+  server: 45.32.157.84
+  port: 443
+  udp: true
+  type: trojan
+  password: Tg3RnK7Xp8B1
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 47 - shiqi
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 48 - shiqi
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 49 - shiqi
+  server: ov-germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
+  network: ws
+  ws-opts:
+    path: /vless/
+- name: 🇩🇪 德国 (Germany) 50 - shiqi
+  server: OV-Germany1.09vpn.com
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  network: ws
+  ws-opts:
+    path: /vless/
+- name: 🇩🇪 德国 (Germany) 51 - shiqi
+  server: 176.123.162.100
+  port: 9880
+  udp: true
+  type: vless
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇩🇪 德国 (Germany) 52 - shiqi
+  server: 130.61.178.43
+  port: 59924
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: SgyJkGCcYNgfF87vVJTcRI9Vd9Xa/GISuFw17bdtB6c=
+- name: 🇩🇪 德国 (Germany) 53 - shiqi
   server: 176.108.241.137
   port: 9891
   udp: true
@@ -1251,261 +543,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 104 - shiqi
-  server: 176.123.167.90
-  port: 9881
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aa
-  servername: dl.google.com
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 105 - shiqi
-  server: 176.108.246.58
-  port: 9881
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 106 - shiqi
-  server: 176.108.247.104
-  port: 9881
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 107 - shiqi
-  server: 85.115.209.170
-  port: 2018
-  udp: true
-  type: vless
-  uuid: 834e5553-d80e-4078-8d7e-482fafe9bbaf
-  tls: true
-  reality-opts:
-    public-key: Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0
-    short-id: cd5f260bcdd9c92d
-  servername: gemini.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 108 - shiqi
-  server: 104.27.122.195
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-6f00f7d92039
-  tls: true
-  servername: zeus-panel-0mvqo2.zeus-y14qx2.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/6f00f7d92039/loc-0
-    headers:
-      Host: zeus-panel-0mvqo2.zeus-y14qx2.workers.dev
-- name: 🇩🇪 德国 (Germany) 109 - shiqi
-  server: 77.110.104.238
-  port: 443
-  udp: true
-  type: vless
-  uuid: 937fbdad-d97b-4540-9136-de1886df866f
-  tls: true
-  reality-opts:
-    public-key: lvBVTmcLFcPyhVE2MGeTd0ls2FNOvBD7UhJNEmvprUQ
-    short-id: f182f2fcf956838e
-  servername: www.wikipedia.org
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ru217125de65grpc
-- name: 🇩🇪 德国 (Germany) 110 - shiqi
-  server: 64.118.158.56
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: 5c6481cdd4
-  servername: buckeye-retail-website.amazon.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 111 - shiqi
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 112 - shiqi
-  server: 130.61.85.241
-  port: 59924
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: vxAQDuju4saWX0wdawcE10nQ00PXMgJrQwgI0xdf0So=
-- name: 🇩🇪 德国 (Germany) 113 - shiqi
-  server: 104.27.88.172
-  port: 80
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-- name: 🇩🇪 德国 (Germany) 114 - shiqi
-  server: 213.202.208.199
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇩🇪 德国 (Germany) 115 - shiqi
-  server: 216.106.187.60
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: kentspark.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: kentspark.org
-- name: 🇩🇪 德国 (Germany) 116 - shiqi
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-9568000eed47
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/9568000eed47/loc-1
-    headers:
-      Host: urzpn8e9ub5s.shoameni2.workers.dev
-- name: 🇩🇪 德国 (Germany) 117 - shiqi
-  server: 104.17.154.178
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-9568000eed47
-  tls: true
-  servername: urzpn8e9ub5s.shoameni2.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/9568000eed47/loc-1
-    headers:
-      Host: urzpn8e9ub5s.shoameni2.workers.dev
-- name: 🇩🇪 德国 (Germany) 118 - shiqi
-  server: 82.39.171.12
-  port: 443
-  udp: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: edge
-- name: 🇩🇪 德国 (Germany) 119 - shiqi
-  server: undef.network
-  port: 2052
-  udp: true
-  type: vless
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 120 - shiqi
-  server: cctvhikvision.center
-  port: 2053
-  udp: true
-  type: vless
-  uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 121 - shiqi
-  server: rubifen.adaspoloandco.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  tls: true
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /GOrbEh
-- name: 🇩🇪 德国 (Germany) 122 - shiqi
-  server: de3-ohl.vpvr4ib84nuv6hdkt.ru
-  port: 3409
-  udp: true
-  type: hysteria2
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: de3-ohl.vpvr4ib84nuv6hdkt.ru
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 123 - shiqi
-  server: 130.61.232.1
-  port: 59924
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: UoUzY5YlcUBJpgXi/Z3PEaf58E+++FJ+3AKry5V7J9Y=
-- name: 🇩🇪 德国 (Germany) 124 - shiqi
-  server: 130.61.146.229
-  port: 59924
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: MKHwqx5R2L0MzLTo/BQ7xr5Ve6nfPBPfo0HERkDcG9s=
-- name: 🇩🇪 德国 (Germany) 125 - shiqi
-  server: 216.106.187.60
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1564,78 +601,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 51 - shiqi
   - 🇩🇪 德国 (Germany) 52 - shiqi
   - 🇩🇪 德国 (Germany) 53 - shiqi
-  - 🇩🇪 德国 (Germany) 54 - shiqi
-  - 🇩🇪 德国 (Germany) 55 - shiqi
-  - 🇩🇪 德国 (Germany) 56 - shiqi
-  - 🇩🇪 德国 (Germany) 57 - shiqi
-  - 🇩🇪 德国 (Germany) 58 - shiqi
-  - 🇩🇪 德国 (Germany) 59 - shiqi
-  - 🇩🇪 德国 (Germany) 60 - shiqi
-  - 🇩🇪 德国 (Germany) 61 - shiqi
-  - 🇩🇪 德国 (Germany) 62 - shiqi
-  - 🇩🇪 德国 (Germany) 63 - shiqi
-  - 🇩🇪 德国 (Germany) 64 - shiqi
-  - 🇩🇪 德国 (Germany) 65 - shiqi
-  - 🇩🇪 德国 (Germany) 66 - shiqi
-  - 🇩🇪 德国 (Germany) 67 - shiqi
-  - 🇩🇪 德国 (Germany) 68 - shiqi
-  - 🇩🇪 德国 (Germany) 69 - shiqi
-  - 🇩🇪 德国 (Germany) 70 - shiqi
-  - 🇩🇪 德国 (Germany) 71 - shiqi
-  - 🇩🇪 德国 (Germany) 72 - shiqi
-  - 🇩🇪 德国 (Germany) 73 - shiqi
-  - 🇩🇪 德国 (Germany) 74 - shiqi
-  - 🇩🇪 德国 (Germany) 75 - shiqi
-  - 🇩🇪 德国 (Germany) 76 - shiqi
-  - 🇩🇪 德国 (Germany) 77 - shiqi
-  - 🇩🇪 德国 (Germany) 78 - shiqi
-  - 🇩🇪 德国 (Germany) 79 - shiqi
-  - 🇩🇪 德国 (Germany) 80 - shiqi
-  - 🇩🇪 德国 (Germany) 81 - shiqi
-  - 🇩🇪 德国 (Germany) 82 - shiqi
-  - 🇩🇪 德国 (Germany) 83 - shiqi
-  - 🇩🇪 德国 (Germany) 84 - shiqi
-  - 🇩🇪 德国 (Germany) 85 - shiqi
-  - 🇩🇪 德国 (Germany) 86 - shiqi
-  - 🇩🇪 德国 (Germany) 87 - shiqi
-  - 🇩🇪 德国 (Germany) 88 - shiqi
-  - 🇩🇪 德国 (Germany) 89 - shiqi
-  - 🇩🇪 德国 (Germany) 90 - shiqi
-  - 🇩🇪 德国 (Germany) 91 - shiqi
-  - 🇩🇪 德国 (Germany) 92 - shiqi
-  - 🇩🇪 德国 (Germany) 93 - shiqi
-  - 🇩🇪 德国 (Germany) 94 - shiqi
-  - 🇩🇪 德国 (Germany) 95 - shiqi
-  - 🇩🇪 德国 (Germany) 96 - shiqi
-  - 🇩🇪 德国 (Germany) 97 - shiqi
-  - 🇩🇪 德国 (Germany) 98 - shiqi
-  - 🇩🇪 德国 (Germany) 99 - shiqi
-  - 🇩🇪 德国 (Germany) 100 - shiqi
-  - 🇩🇪 德国 (Germany) 101 - shiqi
-  - 🇩🇪 德国 (Germany) 102 - shiqi
-  - 🇩🇪 德国 (Germany) 103 - shiqi
-  - 🇩🇪 德国 (Germany) 104 - shiqi
-  - 🇩🇪 德国 (Germany) 105 - shiqi
-  - 🇩🇪 德国 (Germany) 106 - shiqi
-  - 🇩🇪 德国 (Germany) 107 - shiqi
-  - 🇩🇪 德国 (Germany) 108 - shiqi
-  - 🇩🇪 德国 (Germany) 109 - shiqi
-  - 🇩🇪 德国 (Germany) 110 - shiqi
-  - 🇩🇪 德国 (Germany) 111 - shiqi
-  - 🇩🇪 德国 (Germany) 112 - shiqi
-  - 🇩🇪 德国 (Germany) 113 - shiqi
-  - 🇩🇪 德国 (Germany) 114 - shiqi
-  - 🇩🇪 德国 (Germany) 115 - shiqi
-  - 🇩🇪 德国 (Germany) 116 - shiqi
-  - 🇩🇪 德国 (Germany) 117 - shiqi
-  - 🇩🇪 德国 (Germany) 118 - shiqi
-  - 🇩🇪 德国 (Germany) 119 - shiqi
-  - 🇩🇪 德国 (Germany) 120 - shiqi
-  - 🇩🇪 德国 (Germany) 121 - shiqi
-  - 🇩🇪 德国 (Germany) 122 - shiqi
-  - 🇩🇪 德国 (Germany) 123 - shiqi
-  - 🇩🇪 德国 (Germany) 124 - shiqi
-  - 🇩🇪 德国 (Germany) 125 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1694,77 +659,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 51 - shiqi
   - 🇩🇪 德国 (Germany) 52 - shiqi
   - 🇩🇪 德国 (Germany) 53 - shiqi
-  - 🇩🇪 德国 (Germany) 54 - shiqi
-  - 🇩🇪 德国 (Germany) 55 - shiqi
-  - 🇩🇪 德国 (Germany) 56 - shiqi
-  - 🇩🇪 德国 (Germany) 57 - shiqi
-  - 🇩🇪 德国 (Germany) 58 - shiqi
-  - 🇩🇪 德国 (Germany) 59 - shiqi
-  - 🇩🇪 德国 (Germany) 60 - shiqi
-  - 🇩🇪 德国 (Germany) 61 - shiqi
-  - 🇩🇪 德国 (Germany) 62 - shiqi
-  - 🇩🇪 德国 (Germany) 63 - shiqi
-  - 🇩🇪 德国 (Germany) 64 - shiqi
-  - 🇩🇪 德国 (Germany) 65 - shiqi
-  - 🇩🇪 德国 (Germany) 66 - shiqi
-  - 🇩🇪 德国 (Germany) 67 - shiqi
-  - 🇩🇪 德国 (Germany) 68 - shiqi
-  - 🇩🇪 德国 (Germany) 69 - shiqi
-  - 🇩🇪 德国 (Germany) 70 - shiqi
-  - 🇩🇪 德国 (Germany) 71 - shiqi
-  - 🇩🇪 德国 (Germany) 72 - shiqi
-  - 🇩🇪 德国 (Germany) 73 - shiqi
-  - 🇩🇪 德国 (Germany) 74 - shiqi
-  - 🇩🇪 德国 (Germany) 75 - shiqi
-  - 🇩🇪 德国 (Germany) 76 - shiqi
-  - 🇩🇪 德国 (Germany) 77 - shiqi
-  - 🇩🇪 德国 (Germany) 78 - shiqi
-  - 🇩🇪 德国 (Germany) 79 - shiqi
-  - 🇩🇪 德国 (Germany) 80 - shiqi
-  - 🇩🇪 德国 (Germany) 81 - shiqi
-  - 🇩🇪 德国 (Germany) 82 - shiqi
-  - 🇩🇪 德国 (Germany) 83 - shiqi
-  - 🇩🇪 德国 (Germany) 84 - shiqi
-  - 🇩🇪 德国 (Germany) 85 - shiqi
-  - 🇩🇪 德国 (Germany) 86 - shiqi
-  - 🇩🇪 德国 (Germany) 87 - shiqi
-  - 🇩🇪 德国 (Germany) 88 - shiqi
-  - 🇩🇪 德国 (Germany) 89 - shiqi
-  - 🇩🇪 德国 (Germany) 90 - shiqi
-  - 🇩🇪 德国 (Germany) 91 - shiqi
-  - 🇩🇪 德国 (Germany) 92 - shiqi
-  - 🇩🇪 德国 (Germany) 93 - shiqi
-  - 🇩🇪 德国 (Germany) 94 - shiqi
-  - 🇩🇪 德国 (Germany) 95 - shiqi
-  - 🇩🇪 德国 (Germany) 96 - shiqi
-  - 🇩🇪 德国 (Germany) 97 - shiqi
-  - 🇩🇪 德国 (Germany) 98 - shiqi
-  - 🇩🇪 德国 (Germany) 99 - shiqi
-  - 🇩🇪 德国 (Germany) 100 - shiqi
-  - 🇩🇪 德国 (Germany) 101 - shiqi
-  - 🇩🇪 德国 (Germany) 102 - shiqi
-  - 🇩🇪 德国 (Germany) 103 - shiqi
-  - 🇩🇪 德国 (Germany) 104 - shiqi
-  - 🇩🇪 德国 (Germany) 105 - shiqi
-  - 🇩🇪 德国 (Germany) 106 - shiqi
-  - 🇩🇪 德国 (Germany) 107 - shiqi
-  - 🇩🇪 德国 (Germany) 108 - shiqi
-  - 🇩🇪 德国 (Germany) 109 - shiqi
-  - 🇩🇪 德国 (Germany) 110 - shiqi
-  - 🇩🇪 德国 (Germany) 111 - shiqi
-  - 🇩🇪 德国 (Germany) 112 - shiqi
-  - 🇩🇪 德国 (Germany) 113 - shiqi
-  - 🇩🇪 德国 (Germany) 114 - shiqi
-  - 🇩🇪 德国 (Germany) 115 - shiqi
-  - 🇩🇪 德国 (Germany) 116 - shiqi
-  - 🇩🇪 德国 (Germany) 117 - shiqi
-  - 🇩🇪 德国 (Germany) 118 - shiqi
-  - 🇩🇪 德国 (Germany) 119 - shiqi
-  - 🇩🇪 德国 (Germany) 120 - shiqi
-  - 🇩🇪 德国 (Germany) 121 - shiqi
-  - 🇩🇪 德国 (Germany) 122 - shiqi
-  - 🇩🇪 德国 (Germany) 123 - shiqi
-  - 🇩🇪 德国 (Germany) 124 - shiqi
-  - 🇩🇪 德国 (Germany) 125 - shiqi
 rules:
 - MATCH,PROXIES

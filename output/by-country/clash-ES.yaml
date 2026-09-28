@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - shiqi
-  server: 83.147.18.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 02 - shiqi
   server: 66.163.118.73
   port: 22324
   udp: true
@@ -25,14 +12,25 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
-- name: 🇪🇸 西班牙 (Spain) 03 - shiqi
-  server: 85.90.217.42
-  port: 22324
+- name: 🇪🇸 西班牙 (Spain) 02 - shiqi
+  server: 108.181.121.226
+  port: 8388
   udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+- name: 🇪🇸 西班牙 (Spain) 03 - shiqi
+  server: 212.227.235.66
+  port: 2053
+  udp: true
+  type: vless
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  tls: true
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+    short-id: 29e8dcd2b37aaa7f
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇪🇸 西班牙 (Spain) 04 - shiqi
   server: 185.174.137.172
   port: 8446
@@ -49,13 +47,32 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
 - name: 🇪🇸 西班牙 (Spain) 06 - shiqi
-  server: 108.181.121.226
-  port: 8388
+  server: 193.238.154.5
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+  tls: true
+  servername: assets-es.pleiades.codes
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
 - name: 🇪🇸 西班牙 (Spain) 07 - shiqi
+  server: 46.28.71.247
+  port: 443
+  udp: true
+  type: vless
+  uuid: 12c53e32-e589-47d6-b857-e4132294f767
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
+    short-id: 0dfc23fe80778c00
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 08 - shiqi
   server: 66.163.118.73
   port: 443
   udp: true
@@ -71,44 +88,6 @@ proxies:
     path: /linkvws
     headers:
       Host: mygptagent.org
-- name: 🇪🇸 西班牙 (Spain) 08 - shiqi
-  server: 87.76.179.117
-  port: 7443
-  udp: true
-  type: vless
-  uuid: cb15d1b0-e48b-4c4c-b98a-fa1103aa3723
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: d2061bb1
-  servername: www.samsung.com
-  client-fingerprint: edge
-- name: 🇪🇸 西班牙 (Spain) 09 - shiqi
-  server: 46.28.71.247
-  port: 443
-  udp: true
-  type: vless
-  uuid: 12c53e32-e589-47d6-b857-e4132294f767
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
-    short-id: 0dfc23fe80778c00
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 10 - shiqi
-  server: 212.227.235.66
-  port: 2053
-  udp: true
-  type: vless
-  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
-  tls: true
-  reality-opts:
-    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-    short-id: 29e8dcd2b37aaa7f
-  servername: www.apple.com
-  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -122,8 +101,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - shiqi
   - 🇪🇸 西班牙 (Spain) 07 - shiqi
   - 🇪🇸 西班牙 (Spain) 08 - shiqi
-  - 🇪🇸 西班牙 (Spain) 09 - shiqi
-  - 🇪🇸 西班牙 (Spain) 10 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -137,7 +114,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - shiqi
   - 🇪🇸 西班牙 (Spain) 07 - shiqi
   - 🇪🇸 西班牙 (Spain) 08 - shiqi
-  - 🇪🇸 西班牙 (Spain) 09 - shiqi
-  - 🇪🇸 西班牙 (Spain) 10 - shiqi
 rules:
 - MATCH,PROXIES

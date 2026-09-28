@@ -12,18 +12,7 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  server: hinet1.2yly.com
-  port: 24215
-  udp: true
-  type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
   server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
   port: 443
   udp: true
@@ -37,15 +26,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
 rules:
 - MATCH,PROXIES
