@@ -16,7 +16,7 @@ proxies:
     public-key: iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M
     short-id: f3a9c21e8b6d4571
   servername: table.vkroom-it-service.xyz
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇮🇷 IR 02 - shiqi
   server: afra4.nimbaha9.ir
   port: 2052
@@ -26,8 +26,6 @@ proxies:
   network: ws
   ws-opts:
     path: /eyurri
-    headers:
-      Host: afra4.nimbaha9.ir
 proxy-groups:
 - name: PROXIES
   type: select

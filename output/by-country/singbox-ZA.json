@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇿🇦 南非 (South Africa) 01 - shiqi",
-      "server": "102.133.165.160",
-      "server_port": 16233,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 02 - shiqi",
       "server": "102.37.156.224",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -21,80 +13,38 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 03 - shiqi",
+      "tag": "🇿🇦 南非 (South Africa) 02 - shiqi",
       "server": "139.84.247.164",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "tfAcRikawhNoZAhu"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇿🇦 南非 (South Africa) 03 - shiqi",
+      "server": "102.133.165.160",
+      "server_port": 16233,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+    },
+    {
       "type": "vless",
       "tag": "🇿🇦 南非 (South Africa) 04 - shiqi",
-      "server": "platform118.golnamakcert.top",
+      "server": "139.84.246.240",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform118",
+        "path": "/platform103",
         "headers": {
-          "Host": "platform118.halalkhor.info"
+          "Host": "platform103.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇿🇦 南非 (South Africa) 05 - shiqi",
-      "server": "platform115.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform115"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 06 - shiqi",
-      "server": "platform106.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform106"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 07 - shiqi",
-      "server": "platform101.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform101",
-        "headers": {
-          "Host": "platform101.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 08 - shiqi",
-      "server": "platform107.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform107",
-        "headers": {
-          "Host": "platform107.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 09 - shiqi",
-      "server": "platform117.golnamakcert.top",
+      "server": "139.84.228.106",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -107,19 +57,106 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 10 - shiqi",
-      "server": "platform103.golnamakcert.top",
+      "tag": "🇿🇦 南非 (South Africa) 06 - shiqi",
+      "server": "139.84.234.100",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform103"
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 07 - shiqi",
+      "server": "139.84.246.73",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 08 - shiqi",
+      "server": "139.84.250.125",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 09 - shiqi",
+      "server": "139.84.243.189",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform101",
+        "headers": {
+          "Host": "platform101.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 10 - shiqi",
+      "server": "139.84.247.122",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇿🇦 南非 (South Africa) 11 - shiqi",
-      "server": "platform102.golnamakcert.top",
+      "server": "139.84.245.78",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 12 - shiqi",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇿🇦 南非 (South Africa) 13 - shiqi",
+      "server": "139.84.249.25",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -132,8 +169,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 12 - shiqi",
-      "server": "platform108.golnamakcert.top",
+      "tag": "🇿🇦 南非 (South Africa) 14 - shiqi",
+      "server": "139.84.245.154",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -142,17 +179,6 @@
         "headers": {
           "Host": "platform108.halalkhor.info"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 13 - shiqi",
-      "server": "platform113.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform113"
       }
     },
     {
@@ -172,7 +198,8 @@
         "🇿🇦 南非 (South Africa) 10 - shiqi",
         "🇿🇦 南非 (South Africa) 11 - shiqi",
         "🇿🇦 南非 (South Africa) 12 - shiqi",
-        "🇿🇦 南非 (South Africa) 13 - shiqi"
+        "🇿🇦 南非 (South Africa) 13 - shiqi",
+        "🇿🇦 南非 (South Africa) 14 - shiqi"
       ]
     },
     {
@@ -191,7 +218,8 @@
         "🇿🇦 南非 (South Africa) 10 - shiqi",
         "🇿🇦 南非 (South Africa) 11 - shiqi",
         "🇿🇦 南非 (South Africa) 12 - shiqi",
-        "🇿🇦 南非 (South Africa) 13 - shiqi"
+        "🇿🇦 南非 (South Africa) 13 - shiqi",
+        "🇿🇦 南非 (South Africa) 14 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

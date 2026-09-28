@@ -5,33 +5,104 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - shiqi
+  server: 172.66.44.124
+  port: 2096
+  udp: true
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  network: ws
+  ws-opts:
+    path: /9BozNyvQ8VdRvsYX?ed=2560
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🇷🇺 俄罗斯 (Russia) 02 - shiqi
+  server: 104.21.69.37
+  port: 443
+  udp: true
+  type: vless
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  tls: true
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vl/uWq9DFRgj8BwQiSXmZ46
+    headers:
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 03 - shiqi
+  server: 94.249.187.46
+  port: 1080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: IXa3ylzS_jBOAsQy071tIQ
+- name: 🇷🇺 俄罗斯 (Russia) 04 - shiqi
   server: 176.32.35.2
   port: 10090
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 895b4b796a357570
-- name: 🇷🇺 俄罗斯 (Russia) 02 - shiqi
+- name: 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  server: 147.45.46.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: ce5949b7-5137-4007-8a0a-063aad88b920
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: sellflow.org
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I=
+- name: 🇷🇺 俄罗斯 (Russia) 07 - shiqi
   server: 91.240.86.70
   port: 22443
   udp: true
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  sni: 91.240.86.70
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - shiqi
-  server: 45.12.75.242
-  port: 26424
+  sni: itsallproxy.quattro-tech.ru
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 08 - shiqi
+  server: 217.19.122.200
+  port: 443
   udp: true
   type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 09 - shiqi
+  server: 45.130.254.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+    public-key: G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ
+    short-id: eba1498e012ef580
+  servername: amazon.de
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 10 - shiqi
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -43,7 +114,19 @@ proxies:
     public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 11 - shiqi
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  tls: true
+  reality-opts:
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -53,6 +136,13 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - shiqi
   - 🇷🇺 俄罗斯 (Russia) 03 - shiqi
   - 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 07 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 08 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 09 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 10 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 11 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +152,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - shiqi
   - 🇷🇺 俄罗斯 (Russia) 03 - shiqi
   - 🇷🇺 俄罗斯 (Russia) 04 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 05 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 06 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 07 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 08 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 09 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 10 - shiqi
+  - 🇷🇺 俄罗斯 (Russia) 11 - shiqi
 rules:
 - MATCH,PROXIES
