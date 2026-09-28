@@ -14,7 +14,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -47,49 +47,31 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-      "flow": "xtls-rprx-vision",
+      "server": "secret-test-de1.minetis.net",
+      "server_port": 2087,
+      "uuid": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "hh.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
+          "public_key": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "short_id": "a1b2c3d4e5f60718"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "game-grpc"
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 04 - shiqi",
-      "server": "5.253.28.240",
-      "server_port": 40443,
-      "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
-          "short_id": "88b6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 05 - shiqi",
-      "server": "5.253.28.218",
+      "server": "hydra.yokkastars.com",
       "server_port": 2443,
       "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8",
       "tls": {
@@ -97,7 +79,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -118,8 +100,7 @@
         "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
         "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 04 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 05 - shiqi"
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - shiqi"
       ]
     },
     {
@@ -129,8 +110,7 @@
         "🇨🇾 塞浦路斯 (Cyprus) 01 - shiqi",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - shiqi",
         "🇨🇾 塞浦路斯 (Cyprus) 03 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 04 - shiqi",
-        "🇨🇾 塞浦路斯 (Cyprus) 05 - shiqi"
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

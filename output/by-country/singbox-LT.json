@@ -31,25 +31,25 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 04 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9001,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 05 - shiqi",
-      "server": "195.238.126.84",
-      "server_port": 9039,
+      "server": "195.238.126.20",
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "qYEN5HX4JKeVCdEC"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9002,
+      "server_port": 9011,
       "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
+      "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "shadowsocks",
@@ -63,29 +63,21 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-      "server": "195.238.126.20",
-      "server_port": 9068,
-      "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
-      "server": "195.238.126.20",
       "server_port": 9045,
       "method": "aes-256-cfb",
       "password": "Lp27rqyJq72bZsqX"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
+      "server": "195.238.126.20",
+      "server_port": 9001,
+      "method": "aes-256-cfb",
+      "password": "UkXRsXvR6buDMG2Y"
+    },
+    {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 11 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
       "server": "94.176.234.161",
       "server_port": 443,
       "uuid": "d448490d-4ee6-442f-80e1-5e1c186c4ce1",
@@ -95,7 +87,7 @@
         "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -118,8 +110,7 @@
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 11 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
       ]
     },
     {
@@ -135,8 +126,7 @@
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 11 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
-      "server": "104.18.34.14",
-      "server_port": 8080,
+      "server": "162.159.38.127",
+      "server_port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -26,40 +26,9 @@
       "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - shiqi",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21018,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-      "server": "80.240.18.227",
-      "server_port": 10051,
-      "uuid": "d161dcf1-fde2-44cc-b08d-d8944895e842",
-      "tls": {
-        "enabled": true,
-        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi",
-      "server": "118.167.230.191",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
+      "server": "hinet1.2yly.com",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "tls": {
@@ -67,7 +36,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -77,47 +46,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 06 (家宽) - shiqi",
-      "server": "144.31.243.120",
-      "server_port": 8443,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
-      "tls": {
-        "enabled": true,
-        "server_name": "yf.962456.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=kr.william.us.ci",
-        "headers": {
-          "Host": "yf.962456.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - shiqi",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - shiqi"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi"
       ]
     },
     {
@@ -126,11 +61,7 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - shiqi",
-        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - shiqi",
-        "🇰🇷 韩国 (South Korea) 06 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - shiqi"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

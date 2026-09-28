@@ -27,25 +27,25 @@ proxies:
   password: JCJpbRbQZNw9XFZG
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - shiqi
   server: 195.238.126.20
-  port: 9001
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
+  password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇹 立陶宛 (Lithuania) 05 - shiqi
-  server: 195.238.126.84
-  port: 9039
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qYEN5HX4JKeVCdEC
-- name: 🇱🇹 立陶宛 (Lithuania) 06 - shiqi
   server: 195.238.126.20
   port: 9002
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: b8KkNDjEd5QqFyRm
+- name: 🇱🇹 立陶宛 (Lithuania) 06 - shiqi
+  server: 195.238.126.20
+  port: 9011
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 07 - shiqi
   server: 195.238.126.20
   port: 9086
@@ -55,26 +55,19 @@ proxies:
   password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 08 - shiqi
   server: 195.238.126.20
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
-  server: 195.238.126.20
-  port: 9068
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
-- name: 🇱🇹 立陶宛 (Lithuania) 10 - shiqi
-  server: 195.238.126.20
   port: 9045
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: Lp27rqyJq72bZsqX
-- name: 🇱🇹 立陶宛 (Lithuania) 11 - shiqi
+- name: 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
+  server: 195.238.126.20
+  port: 9001
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇱🇹 立陶宛 (Lithuania) 10 - shiqi
   server: 94.176.234.161
   port: 443
   udp: true
@@ -86,7 +79,7 @@ proxies:
     public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
     short-id: dbb2ef1c7c
   servername: www.intel.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -102,7 +95,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 08 - shiqi
   - 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
   - 🇱🇹 立陶宛 (Lithuania) 10 - shiqi
-  - 🇱🇹 立陶宛 (Lithuania) 11 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -118,6 +110,5 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 08 - shiqi
   - 🇱🇹 立陶宛 (Lithuania) 09 - shiqi
   - 🇱🇹 立陶宛 (Lithuania) 10 - shiqi
-  - 🇱🇹 立陶宛 (Lithuania) 11 - shiqi
 rules:
 - MATCH,PROXIES
