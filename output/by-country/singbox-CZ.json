@@ -5,16 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - shiqi",
-      "server": "platform128.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "tag": "🇨🇿 捷克 (Czech) 01 - shiqi",
+      "server": "153.76.185.100",
+      "server_port": 3090,
+      "uuid": "e8b3f952-cd1b-4881-872e-b8d03399a6df",
       "transport": {
-        "type": "ws",
-        "path": "/platform128",
-        "headers": {
-          "Host": "platform128.halalkhor.info"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
@@ -22,14 +19,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
