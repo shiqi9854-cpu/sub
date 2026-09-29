@@ -6,6 +6,48 @@
     {
       "type": "vless",
       "tag": "🇲🇾 马来西亚 (Malaysia) 01 - shiqi",
+      "server": "platform107.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107",
+        "headers": {
+          "Host": "['platform107.halalkhor.info']"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - shiqi",
+      "server": "platform108.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 03 - shiqi",
+      "server": "platform106.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 04 - shiqi",
       "server": "platform128.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -18,18 +60,98 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 05 - shiqi",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 06 - shiqi",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 07 - shiqi",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 08 - shiqi",
+      "server": "platform115.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 09 - shiqi",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi"
+        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 02 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 03 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 04 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 05 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 06 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 07 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 08 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 09 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi"
+        "🇲🇾 马来西亚 (Malaysia) 01 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 02 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 03 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 04 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 05 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 06 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 07 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 08 - shiqi",
+        "🇲🇾 马来西亚 (Malaysia) 09 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

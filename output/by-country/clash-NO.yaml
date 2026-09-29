@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇴 挪威 (Norway) 01 - shiqi
+  server: 80.242.57.97
+  port: 1
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9qGcNiZj4uCi7DGSjxlg5Q
+- name: 🇳🇴 挪威 (Norway) 02 - shiqi
   server: 46.29.238.88
   port: 40443
   udp: true
@@ -16,13 +23,6 @@ proxies:
     short-id: f7b2
   servername: deepl.com
   client-fingerprint: qq
-- name: 🇳🇴 挪威 (Norway) 02 - shiqi
-  server: 80.242.57.97
-  port: 1
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9qGcNiZj4uCi7DGSjxlg5Q
 proxy-groups:
 - name: PROXIES
   type: select

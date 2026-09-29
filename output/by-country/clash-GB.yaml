@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - shiqi
+  server: 172.67.131.125
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8d0f652c-3caa-4570-a138-668364f3d25e
+  tls: true
+  servername: sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vl/zInkY7qcXuM6P1AZTQ?ed=2560
+    headers:
+      Host: sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev
+- name: 🇬🇧 英国 (United Kingdom) 02 - shiqi
   server: 104.16.0.1
   port: 2053
   udp: true
@@ -19,58 +33,104 @@ proxies:
     path: /eyJqdW5rIjoiSDNSSGYxT05LU2VEbyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjYyLjYwLjIxNy4yMzAiXX0=
     headers:
       Host: still-scene-fda3.devtahair.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 02 - shiqi
-  server: 188.114.96.9
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
-  tls: true
-  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrjfp=chrome
-    headers:
-      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
 - name: 🇬🇧 英国 (United Kingdom) 03 - shiqi
-  server: 188.114.97.6
+  server: 199.232.78.101
   port: 443
   udp: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  tls: true
-  servername: courses.mftplus.qzz.io
+  type: trojan
+  password: mitivpn
+  sni: ssl.fastly.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
+    path: '@mehrosabiran'
 - name: 🇬🇧 英国 (United Kingdom) 04 - shiqi
-  server: 172.67.131.125
+  server: 149.102.132.184
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 05 - shiqi
+  server: 149.102.149.207
   port: 443
   udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+- name: 🇬🇧 英国 (United Kingdom) 06 - shiqi
+  server: 149.102.149.207
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+- name: 🇬🇧 英国 (United Kingdom) 07 - shiqi
+  server: 146.70.61.18
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 08 - shiqi
+  server: 129.151.93.216
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: OLSE823mI1o8K0A56QvU38ZcxIjpyhMayqkmo2vnDIs=
+- name: 🇬🇧 英国 (United Kingdom) 09 - shiqi
+  server: 134.65.63.84
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: lzhjI3jtrWa2fM7GAWa3TNPZievCEkTqTlOzW+A0Ct8=
+- name: 🇬🇧 英国 (United Kingdom) 10 - shiqi
+  server: 66.90.104.42
+  port: 2083
+  udp: true
   type: vless
-  uuid: 8d0f652c-3caa-4570-a138-668364f3d25e
-  tls: true
-  servername: sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/zInkY7qcXuM6P1AZTQ?ed=2560
-    headers:
-      Host: sqqfq0vy-l4v0qa0zlxnjd79-ykvkw.mrmamali.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 05 - shiqi
-  server: 158.173.221.214
-  port: 11001
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇬🇧 英国 (United Kingdom) 11 - shiqi
+  server: 143.110.161.156
+  port: 17000
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+- name: 🇬🇧 英国 (United Kingdom) 12 - shiqi
+  server: 149.102.132.184
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 13 - shiqi
+  server: 51.77.225.200
+  port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: c58d16e593d44f42
-- name: 🇬🇧 英国 (United Kingdom) 06 - shiqi
+  password: zRZNBszYyWo5
+- name: 🇬🇧 英国 (United Kingdom) 14 - shiqi
+  server: 141.98.101.181
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧 英国 (United Kingdom) 15 - shiqi
+  server: 129.151.64.23
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: bgO5KO6o1ZQJ2Jm3nMXWkUplEqHxOjE5qHAgSYvDw4A=
+- name: 🇬🇧 英国 (United Kingdom) 16 - shiqi
   server: 66.90.105.211
   port: 2083
   udp: true
@@ -79,72 +139,35 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: 🇬🇧 英国 (United Kingdom) 07 - shiqi
-  server: 51.77.225.200
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-- name: 🇬🇧 英国 (United Kingdom) 08 - shiqi
-  server: 66.90.104.43
-  port: 2083
-  udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇬🇧 英国 (United Kingdom) 09 - shiqi
-  server: 149.102.149.207
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-- name: 🇬🇧 英国 (United Kingdom) 10 - shiqi
-  server: 149.102.149.207
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-- name: 🇬🇧 英国 (United Kingdom) 11 - shiqi
-  server: 94.156.250.148
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇬🇧 英国 (United Kingdom) 12 - shiqi
-  server: 149.102.132.184
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 13 - shiqi
-  server: 141.98.101.181
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧 英国 (United Kingdom) 14 - shiqi
+- name: 🇬🇧 英国 (United Kingdom) 17 - shiqi
   server: 129.151.75.241
   port: 61312
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: FQrzr8AfOOU7hZ4+8Cr8iDUUzlHz0S6dvyS44jdUe1o=
-- name: 🇬🇧 英国 (United Kingdom) 15 - shiqi
-  server: 143.110.161.156
-  port: 17000
+- name: 🇬🇧 英国 (United Kingdom) 18 - shiqi
+  server: 129.151.77.138
+  port: 61312
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
-- name: 🇬🇧 英国 (United Kingdom) 16 - shiqi
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Aa5ruIBxlM7EdchzgDPJSS4Qs8sGtE2jaapL+288G34=
+- name: 🇬🇧 英国 (United Kingdom) 19 - shiqi
+  server: 134.65.57.214
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: UNZ0W60AIJtxUPqtW9sZxhk3229fO2tam+efe3LvqZs=
+- name: 🇬🇧 英国 (United Kingdom) 20 - shiqi
+  server: 51.38.71.51
+  port: 2083
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
+- name: 🇬🇧 英国 (United Kingdom) 21 - shiqi
   server: 31.76.39.230
   port: 443
   udp: true
@@ -157,86 +180,21 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 17 - shiqi
-  server: uk73.mech-pro.online
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5dff1842-c02f-4dd4-b1ad-2e597b99dc31
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Jcuw5uGGfo9v8-Qi13dnnPagbN4ctc_Je0AnPkWKmR4
-    short-id: 2aca8d21
-  servername: uk73.mech-pro.online
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 18 - shiqi
-  server: 186.190.211.188
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 186.190.211.188
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 19 - shiqi
-  server: 51.38.71.51
-  port: 2083
+- name: 🇬🇧 英国 (United Kingdom) 22 - shiqi
+  server: 134.65.57.26
+  port: 61312
   udp: true
   type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
-- name: 🇬🇧 英国 (United Kingdom) 20 - shiqi
-  server: 146.70.61.18
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 21 - shiqi
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Sm4F5fX+ZJpWpkXMNbw0yYrWolYIiwknVYDwx8eus78=
+- name: 🇬🇧 英国 (United Kingdom) 23 - shiqi
   server: 146.70.61.37
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 22 - shiqi
-  server: 178.79.129.203
-  port: 54865
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: frK9LTk4kF7lh4-ZVCuHCQm87Oy6uboRtoS-o6Fb6WE
-    short-id: '7436'
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 23 - shiqi
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vless
-  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
-  network: ws
-  ws-opts:
-    path: /vless/
 - name: 🇬🇧 英国 (United Kingdom) 24 - shiqi
-  server: 178.79.131.26
-  port: 443
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: UvN2oqI7DGQUEB8VrOZ9c5eXs2EuEQAgAa5IyTuRcCU
-    short-id: 3436aa2833db50fa
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 25 - shiqi
   server: 178.79.149.80
   port: 22117
   udp: true
@@ -249,37 +207,21 @@ proxies:
     short-id: c7994be0
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 25 - shiqi
+  server: 178.79.129.203
+  port: 54865
+  udp: true
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: frK9LTk4kF7lh4-ZVCuHCQm87Oy6uboRtoS-o6Fb6WE
+    short-id: '7436'
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇬🇧 英国 (United Kingdom) 26 - shiqi
-  server: 149.102.132.184
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-- name: 🇬🇧 英国 (United Kingdom) 27 - shiqi
-  server: 45.158.199.33
-  port: 4
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 9qGcNiZj4uCi7DGSjxlg5Q
-- name: 🇬🇧 英国 (United Kingdom) 28 - shiqi
-  server: 146.70.23.32
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇬🇧 英国 (United Kingdom) 29 - shiqi
-  server: yg.mangshe.xyz
-  port: 2060
-  udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: yg.mangshe.xyz
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 30 - shiqi
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
+  server: 164.37.100.195
   port: 443
   udp: true
   type: vless
@@ -291,7 +233,7 @@ proxies:
     short-id: 2e124af254a65e7c
   servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 31 - shiqi
+- name: 🇬🇧 英国 (United Kingdom) 27 - shiqi
   server: 23.81.34.204
   port: 443
   udp: true
@@ -303,8 +245,28 @@ proxies:
     public-key: J_p_dxR8dIKaezk1_Ins5MZ7e4dqgrr2n9690vVuQ2s
     short-id: b19b017d6f453873
   servername: speed.cloudflare.com
-  client-fingerprint: ios
-- name: 🇬🇧 英国 (United Kingdom) 32 - shiqi
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 28 - shiqi
+  server: 178.79.131.26
+  port: 443
+  udp: true
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: UvN2oqI7DGQUEB8VrOZ9c5eXs2EuEQAgAa5IyTuRcCU
+    short-id: 3436aa2833db50fa
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 29 - shiqi
+  server: 146.70.23.32
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 30 - shiqi
   server: 186.190.211.67
   port: 443
   udp: true
@@ -318,9 +280,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-    headers:
-      Host: pahobac.org
-- name: 🇬🇧 英国 (United Kingdom) 33 - shiqi
+- name: 🇬🇧 英国 (United Kingdom) 31 - shiqi
   server: 66.163.117.58
   port: 443
   udp: true
@@ -334,7 +294,36 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
+    headers:
+      Host: aksai.org
+- name: 🇬🇧 英国 (United Kingdom) 32 - shiqi
+  server: 87.192.47.10
+  port: 52006
+  udp: true
+  type: vless
+  uuid: bc659d88-a1e0-4c65-a49a-7b51b26a7a7f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: grok.setlisting.ru
+  skip-cert-verify: false
+- name: 🇬🇧 英国 (United Kingdom) 33 - shiqi
+  server: labs.frkn.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  sni: labs.frkn.org
+  skip-cert-verify: true
 - name: 🇬🇧 英国 (United Kingdom) 34 - shiqi
+  server: 57.129.132.223
+  port: 80
+  udp: true
+  type: vless
+  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
+  network: ws
+  ws-opts:
+    path: /vless/
+- name: 🇬🇧 英国 (United Kingdom) 35 - shiqi
   server: 31.76.62.32
   port: 443
   udp: true
@@ -347,14 +336,6 @@ proxies:
     short-id: 84341e3e
   servername: lv-rix-1.koolb.org
   client-fingerprint: safari
-- name: 🇬🇧 英国 (United Kingdom) 35 - shiqi
-  server: labs.frkn.org
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  sni: labs.frkn.org
-  skip-cert-verify: true
 - name: 🇬🇧 英国 (United Kingdom) 36 - shiqi
   server: 95.85.224.51
   port: 443
@@ -367,77 +348,15 @@ proxies:
     public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
     short-id: a696de84963656de
   servername: max.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇬🇧 英国 (United Kingdom) 37 - shiqi
-  server: rankas9.api3-max.ru
-  port: 443
+  server: 94.156.250.148
+  port: 7001
   udp: true
-  type: vless
-  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rankas9.api3-max.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
 - name: 🇬🇧 英国 (United Kingdom) 38 - shiqi
-  server: uk1.xiaoliyu.us
-  port: 2056
-  udp: true
-  type: hysteria2
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  sni: uk1.xiaoliyu.us
-  skip-cert-verify: false
-- name: 🇬🇧 英国 (United Kingdom) 39 - shiqi
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇬🇧 英国 (United Kingdom) 40 - shiqi
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇬🇧 英国 (United Kingdom) 41 - shiqi
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇬🇧 英国 (United Kingdom) 42 - shiqi
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 57.129.132.223
-- name: 🇬🇧 英国 (United Kingdom) 43 - shiqi
   server: 46.250.250.149
   port: 2053
   udp: true
@@ -449,22 +368,15 @@ proxies:
     short-id: 9922313fffed1c63
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 44 - shiqi
-  server: 168.222.194.138
-  port: 9880
+- name: 🇬🇧 英国 (United Kingdom) 39 - shiqi
+  server: uk1.xiaoliyu.us
+  port: 2056
   udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 英国 (United Kingdom) 45 - shiqi
+  type: hysteria2
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  sni: uk1.xiaoliyu.us
+  skip-cert-verify: false
+- name: 🇬🇧 英国 (United Kingdom) 40 - shiqi
   server: 46.250.240.80
   port: 2053
   udp: true
@@ -475,34 +387,8 @@ proxies:
     public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
     short-id: 4cc9dc65f7770115
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 46 - shiqi
-  server: 107.181.151.241
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2f6e2b17-4d5e-4a12-8979-f53fdd347580
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5c8a8e6c615b
-  servername: www.mozilla.org
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 47 - shiqi
-  server: 107.181.151.39
-  port: 443
-  udp: true
-  type: vless
-  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 2a2ce9e42980
-  servername: www.mozilla.org
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 48 - shiqi
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 41 - shiqi
   server: 87.239.249.137
   port: 443
   udp: true
@@ -514,27 +400,48 @@ proxies:
     public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
     short-id: 91af08b1ce1f
   servername: www.foxsports.com
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 42 - shiqi
+  server: 107.181.151.39
+  port: 443
+  udp: true
+  type: vless
+  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 8325360e8bd2
+  servername: www.foxsports.com
   client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 49 - shiqi
-  server: 188.114.96.19
-  port: 80
+- name: 🇬🇧 英国 (United Kingdom) 43 - shiqi
+  server: 107.181.151.241
+  port: 443
   udp: true
-  type: vmess
-  uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /d3d3LmlyYW5ob3N0LmNvbQ==
-    headers:
-      Host: https.http.www.net.com.ramseyv2.ir.
-- name: 🇬🇧 英国 (United Kingdom) 50 - shiqi
-  server: 129.151.70.113
-  port: 61312
+  type: vless
+  uuid: 2ba7f500-017b-4891-87a0-e4e62a4ad52d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 9409f73c2fd7
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 44 - shiqi
+  server: 168.222.194.138
+  port: 9880
   udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: n12fSnv7G5u+/HcjQHq61FsQgrGuTfkXt/vbUMzRi3E=
+  type: vless
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 proxy-groups:
 - name: PROXIES
   type: select
@@ -584,12 +491,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 42 - shiqi
   - 🇬🇧 英国 (United Kingdom) 43 - shiqi
   - 🇬🇧 英国 (United Kingdom) 44 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 45 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 46 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 47 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 48 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 49 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 50 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -639,11 +540,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 42 - shiqi
   - 🇬🇧 英国 (United Kingdom) 43 - shiqi
   - 🇬🇧 英国 (United Kingdom) 44 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 45 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 46 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 47 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 48 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 49 - shiqi
-  - 🇬🇧 英国 (United Kingdom) 50 - shiqi
 rules:
 - MATCH,PROXIES
