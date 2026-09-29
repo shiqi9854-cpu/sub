@@ -6,12 +6,33 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - shiqi",
-      "server": "153.76.185.100",
+      "server": "153.76.185.155",
       "server_port": 3090,
-      "uuid": "e8b3f952-cd1b-4881-872e-b8d03399a6df",
+      "uuid": "43b15d01-8cc5-40ea-b42a-cb1a727224dc",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - shiqi",
+      "server": "188.124.59.145",
+      "server_port": 18443,
+      "uuid": "8df7343e-2427-41fb-aad1-6c563296faf6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI",
+          "short_id": "f087eb07da743e94"
+        }
       }
     },
     {
@@ -19,14 +40,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi",
+        "🇨🇿 捷克 (Czech) 02 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - shiqi"
+        "🇨🇿 捷克 (Czech) 01 - shiqi",
+        "🇨🇿 捷克 (Czech) 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

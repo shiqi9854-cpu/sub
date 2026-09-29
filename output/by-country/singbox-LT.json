@@ -7,21 +7,29 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - shiqi",
       "server": "195.238.126.20",
+      "server_port": 9078,
+      "method": "aes-256-cfb",
+      "password": "JCJpbRbQZNw9XFZG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - shiqi",
+      "server": "195.238.126.20",
       "server_port": 9001,
       "method": "aes-256-cfb",
       "password": "UkXRsXvR6buDMG2Y"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - shiqi",
       "server": "195.238.126.20",
-      "server_port": 9068,
+      "server_port": 9008,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "y9VURyNzJWNRYEGQ"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - shiqi",
       "server": "195.238.126.20",
       "server_port": 9086,
       "method": "aes-256-cfb",
@@ -29,7 +37,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - shiqi",
+      "server": "195.238.126.20",
+      "server_port": 9068,
+      "method": "aes-256-cfb",
+      "password": "mwgRg9hRq3b4Qnwb"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
       "server": "195.238.126.20",
       "server_port": 9011,
       "method": "aes-256-cfb",
@@ -37,27 +53,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - shiqi",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
       "server": "195.238.126.20",
       "server_port": 9002,
       "method": "aes-256-cfb",
       "password": "b8KkNDjEd5QqFyRm"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
-      "server": "195.238.126.20",
-      "server_port": 9078,
-      "method": "aes-256-cfb",
-      "password": "JCJpbRbQZNw9XFZG"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
-      "server": "195.238.126.20",
-      "server_port": 9008,
-      "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
     },
     {
       "type": "shadowsocks",
@@ -70,46 +70,21 @@
     {
       "type": "vless",
       "tag": "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-      "server": "176.123.165.180",
-      "server_port": 9881,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "server": "lithuania-2.kochvpn.pw",
+      "server_port": 443,
+      "uuid": "2923fef2-3b52-a9c2-cde4-c2343eb74a2c",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "lithuania-2.kochvpn.pw",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-          "short_id": "aabbccdd"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 10 - shiqi",
-      "server": "94.176.234.161",
-      "server_port": 443,
-      "uuid": "d448490d-4ee6-442f-80e1-5e1c186c4ce1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8",
-          "short_id": "dbb2ef1c7c"
-        }
+        "type": "ws",
+        "path": "/stream/ws"
       }
     },
     {
@@ -125,8 +100,7 @@
         "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi"
       ]
     },
     {
@@ -141,8 +115,7 @@
         "🇱🇹 立陶宛 (Lithuania) 06 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 07 - shiqi",
         "🇱🇹 立陶宛 (Lithuania) 08 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi",
-        "🇱🇹 立陶宛 (Lithuania) 10 - shiqi"
+        "🇱🇹 立陶宛 (Lithuania) 09 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
