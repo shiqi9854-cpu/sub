@@ -4,29 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇺 匈牙利 (Hungary) 01 - shiqi
-  server: 45.9.168.211
+- name: 🌐 其他地区 (Other) 01 - shiqi
+  server: 172.67.153.156
   port: 443
   udp: true
   type: vless
-  uuid: 7de5e70d-b95e-4019-affb-636151647b52
-  flow: xtls-rprx-vision
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  reality-opts:
-    public-key: SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8
-  servername: mzone.hu.3cloudhost.com
+  servername: ccs2g.pai50288.uk
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇺 匈牙利 (Hungary) 01 - shiqi
+  - 🌐 其他地区 (Other) 01 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇺 匈牙利 (Hungary) 01 - shiqi
+  - 🌐 其他地区 (Other) 01 - shiqi
 rules:
 - MATCH,PROXIES

@@ -4,8 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - shiqi",
+      "server": "157.228.155.198",
+      "server_port": 443,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "vimeo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GYuzgp3g96ka0Z2_qGCzFl-ueHyAr7HCc3SV5ZdXa00",
+          "short_id": "ec8febd05ca880a0"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - shiqi",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -17,27 +38,6 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - shiqi",
-      "server": "78.40.195.140",
-      "server_port": 443,
-      "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.booking.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo",
-          "short_id": "98096455d963bdbb"
-        }
       }
     },
     {
@@ -64,28 +64,28 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - shiqi",
-      "server": "94.183.224.45",
+      "server": "78.40.195.140",
       "server_port": 443,
-      "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
+      "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dzen.ru",
+        "server_name": "www.booking.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js",
-          "short_id": "a1b2c3d4e5f67890"
+          "public_key": "Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo",
+          "short_id": "98096455d963bdbb"
         }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - shiqi",
-      "server": "85.204.107.181",
+      "server": "85.204.107.178",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
@@ -97,7 +97,7 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 06 - shiqi",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
@@ -130,48 +130,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - shiqi",
-      "server": "78.17.161.75",
-      "server_port": 443,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nl.ozone.nl",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM",
-          "short_id": "c2798cd4032a02b8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - shiqi",
-      "server": "pl-2.omuvpn.tech",
-      "server_port": 443,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ozone.nl",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM",
-          "short_id": "c2798cd4032a02b8"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -182,9 +140,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - shiqi",
         "🇦🇪 阿联酋 (UAE) 05 - shiqi",
         "🇦🇪 阿联酋 (UAE) 06 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 07 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 08 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 09 - shiqi"
+        "🇦🇪 阿联酋 (UAE) 07 - shiqi"
       ]
     },
     {
@@ -197,9 +153,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - shiqi",
         "🇦🇪 阿联酋 (UAE) 05 - shiqi",
         "🇦🇪 阿联酋 (UAE) 06 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 07 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 08 - shiqi",
-        "🇦🇪 阿联酋 (UAE) 09 - shiqi"
+        "🇦🇪 阿联酋 (UAE) 07 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
