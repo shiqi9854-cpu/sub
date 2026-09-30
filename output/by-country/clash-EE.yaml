@@ -14,16 +14,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   server: 94.183.170.135
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  tls: true
-  servername: estproxy4.lockdwn.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
-  server: 94.183.170.135
   port: 443
   udp: true
   type: vless
@@ -31,7 +21,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   server: 179.254.126.173
   port: 443
   udp: true
@@ -42,7 +34,42 @@ proxies:
   reality-opts:
     public-key: 9H_heZMEI3tShkb5pXRrlAzwGWIzGFCRX_HgyPdktnU
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+  server: www.speedtest.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
+  tls: true
+  servername: netlivpn5002.whwbbb.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn5002.whwbbb.workers.dev
+- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  type: vless
+  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn5002.whwbbb.workers.dev
+- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
+  server: 94.183.170.135
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  tls: true
+  servername: estproxy4.lockdwn.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,6 +79,8 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,5 +90,7 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 03 - shiqi
   - 🇪🇪 爱沙尼亚 (Estonia) 04 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 05 - shiqi
+  - 🇪🇪 爱沙尼亚 (Estonia) 06 - shiqi
 rules:
 - MATCH,PROXIES

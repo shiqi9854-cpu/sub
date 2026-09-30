@@ -4,7 +4,20 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - shiqi
+  server: 211.174.113.172
+  port: 49642
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ac9c0a7b
+- name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
+  server: 145.239.30.17
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
   server: hk01.kfc-520.com
   port: 60001
   udp: true
@@ -17,12 +30,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 rules:
 - MATCH,PROXIES
