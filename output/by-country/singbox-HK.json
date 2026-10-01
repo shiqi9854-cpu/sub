@@ -4,24 +4,74 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - shiqi",
-      "server": "46.29.163.78",
-      "server_port": 20999,
-      "method": "aes-256-gcm",
-      "password": "6b39ae3234dfd68b"
+      "server": "els.mangshe.xyz",
+      "server_port": 2060,
+      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
+      "tls": {
+        "enabled": true,
+        "server_name": "els.mangshe.xyz",
+        "insecure": true
+      }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - shiqi",
-      "server": "36.133.74.15",
-      "server_port": 50011,
-      "uuid": "e1be6941-0667-469c-9224-6f34adb549ba",
-      "security": "auto"
+      "server": "hk4.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "f1d601f2-cc29-4fc2-bafc-7ac833af466a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk4e-launcher-static.hoyoverse.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA",
+          "short_id": "ea6b43"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - shiqi",
+      "server": "hk3.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "f1d601f2-cc29-4fc2-bafc-7ac833af466a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk4e-launcher-static.hoyoverse.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc",
+          "short_id": "b81edf7fdee4"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - shiqi",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - shiqi",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2üá®üá≥",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - shiqi",
       "server": "202.146.222.174",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -33,31 +83,19 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - shiqi",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/clashv8🇨🇳",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - shiqi",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - shiqi",
       "server": "31.57.248.176",
       "server_port": 50160,
       "password": "b0917015b656b3dd2286b5633af0c5c1",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - shiqi",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - shiqi",
       "server": "xg1.mangshe.xyz",
       "server_port": 2060,
       "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
@@ -68,45 +106,62 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - shiqi",
-      "server": "bgroup.hk1.ilovegairport.com",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - shiqi",
+      "server": "202.146.222.89",
       "server_port": 443,
-      "uuid": "8079ccd4-4b4b-44e2-92f0-8f0367ad9c24",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - shiqi",
+      "server": "hk5.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "f1d601f2-cc29-4fc2-bafc-7ac833af466a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ap-east-1.console.aws.amazon.com",
+        "server_name": "www.hsbc.com.hk",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Z0sxSuzxnWYa5FNTZ-W4ImxQd674VG4KfmOBqlcudjU",
-          "short_id": "7c7ad24684"
+          "public_key": "HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc",
+          "short_id": "a273e9ee6ac0a466"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - shiqi",
-      "server": "195.58.144.56",
-      "server_port": 11907,
-      "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - shiqi",
+      "server": "hk6.miyazono-kaori.com",
+      "server_port": 443,
+      "uuid": "f1d601f2-cc29-4fc2-bafc-7ac833af466a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "195.58.144.56",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
+        "server_name": "www.hsbc.com.hk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko",
+          "short_id": "a2d13d677624197e"
+        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - shiqi",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - shiqi",
       "server": "nas.aizhzo.com",
       "server_port": 5010,
       "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
@@ -122,67 +177,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - shiqi",
-      "server": "champion.xn--kivt58h.lol",
-      "server_port": 80,
-      "uuid": "ed2864f9-37b3-4222-8c54-014aedc400a2",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "ak.mcdonaldshamburgergoodgoodgood.xyz"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - shiqi",
-      "server": "ru1.xiaoliyu.cyou",
-      "server_port": 18333,
-      "password": "19f72087-4591-4d72-930b-2697078ec2be",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru1.xiaoliyu.cyou",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 12 - shiqi",
-      "server": "45.82.244.40",
+      "server": "hk3.569283.xyz",
       "server_port": 443,
       "uuid": "0250424c-ae75-4b6b-890f-3fe26fae36c3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hk.152568.xyz",
-        "insecure": false,
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
           "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zkPIO05A0_tpRCfRTRIHKUCUoi7kCaxt_RDg-f9zVns",
+          "short_id": "06ba"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/packages/runtime-core.tar.gz",
-        "headers": {
-          "Host": "hk.152568.xyz"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - shiqi",
-      "server": "hk2.xiaoliyu.cyou",
-      "server_port": 4433,
-      "password": "19f72087-4591-4d72-930b-2697078ec2be",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk2.xiaoliyu.cyou",
-        "insecure": true
       }
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 14 - shiqi",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - shiqi",
       "server": "194.99.79.26",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -194,19 +210,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
-        }
+        "path": "/linkvws"
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 14 - shiqi",
+      "server": "mz.hkychina.com",
+      "server_port": 8443,
+      "password": "HysTeria2026!Proxy",
+      "tls": {
+        "enabled": true,
+        "server_name": "mz.hkychina.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 15 - shiqi",
-      "server": "212.192.13.143",
-      "server_port": 20999,
-      "method": "aes-256-gcm",
-      "password": "72553320ae6bcc8f"
+      "server": "yg1.ygkkk.dpdns.org",
+      "server_port": 443,
+      "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "jmp1.907737.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
+        "headers": {
+          "Host": "jmp1.907737.xyz"
+        }
+      }
     },
     {
       "type": "vless",
@@ -232,44 +269,103 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 17 - shiqi",
-      "server": "2.27.109.179",
-      "server_port": 45464,
-      "password": "XuMweB2PWs",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 18 - shiqi",
-      "server": "157.148.7.136",
-      "server_port": 50011,
-      "uuid": "1b30f413-2865-4d40-9146-4207778718cd",
-      "security": "auto"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 19 - shiqi",
-      "server": "ru.xiaoliyu.cyou",
-      "server_port": 18333,
+      "tag": "🇭🇰 中国香港 (Hong Kong) 17 - shiqi",
+      "server": "hk2.xiaoliyu.cyou",
+      "server_port": 4433,
       "password": "19f72087-4591-4d72-930b-2697078ec2be",
       "tls": {
         "enabled": true,
-        "server_name": "ru.xiaoliyu.cyou",
+        "server_name": "hk2.xiaoliyu.cyou",
         "insecure": true
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 18 - shiqi",
+      "server": "139.162.41.109",
+      "server_port": 443,
+      "uuid": "0250424c-ae75-4b6b-890f-3fe26fae36c3",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.152568.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/packages/runtime-core.tar.gz",
+        "headers": {
+          "Host": "hk.152568.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 19 - shiqi",
+      "server": "103.21.220.248",
+      "server_port": 29608,
+      "uuid": "88ee0e1e-a2a2-477e-88ce-4875c058aeba",
+      "tls": {
+        "enabled": true,
+        "server_name": "123.714541.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Ra-vl",
+        "headers": {
+          "Host": "123.714541.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 20 - shiqi",
-      "server": "36.139.117.41",
-      "server_port": 50011,
-      "uuid": "1b30f413-2865-4d40-9146-4207778718cd",
-      "security": "auto"
+      "server": "47.238.210.5",
+      "server_port": 13779,
+      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+          "short_id": "af1bdd293097b664"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 21 - shiqi",
+      "server": "47.239.6.251",
+      "server_port": 13779,
+      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+          "short_id": "af1bdd293097b664"
+        }
+      }
     },
     {
       "type": "selector",
@@ -295,7 +391,8 @@
         "🇭🇰 中国香港 (Hong Kong) 17 - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 18 - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 19 - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 20 - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 20 - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 21 - shiqi"
       ]
     },
     {
@@ -321,7 +418,8 @@
         "🇭🇰 中国香港 (Hong Kong) 17 - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 18 - shiqi",
         "🇭🇰 中国香港 (Hong Kong) 19 - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 20 - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 20 - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 21 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

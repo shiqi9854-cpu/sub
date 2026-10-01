@@ -5,6 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 塞舌尔 (Seychelles) 01 - shiqi
+  server: 172.64.42.85
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 塞舌尔 (Seychelles) 02 - shiqi
+  server: 104.18.39.218
+  port: 80
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇸🇨 塞舌尔 (Seychelles) 03 - shiqi
   server: 154.84.56.198
   port: 443
   udp: true
@@ -16,14 +38,7 @@ proxies:
     public-key: EHQEopoNqm2q8R2uu8ffAIpI-k2q-9Z5RUWafETWVGs
     short-id: b7e4a1c9d3f60528
   servername: www.universityofcalifornia.edu
-  client-fingerprint: random
-- name: 🇸🇨 塞舌尔 (Seychelles) 02 - shiqi
-  server: 45.207.207.25
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -31,6 +46,7 @@ proxy-groups:
   - AUTO
   - 🇸🇨 塞舌尔 (Seychelles) 01 - shiqi
   - 🇸🇨 塞舌尔 (Seychelles) 02 - shiqi
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -38,5 +54,6 @@ proxy-groups:
   proxies:
   - 🇸🇨 塞舌尔 (Seychelles) 01 - shiqi
   - 🇸🇨 塞舌尔 (Seychelles) 02 - shiqi
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - shiqi
 rules:
 - MATCH,PROXIES

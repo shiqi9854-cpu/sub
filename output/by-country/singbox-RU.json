@@ -4,34 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - shiqi",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "709b1cf4-a386-4cbf-bcf4-46f03c4788a8",
-      "tls": {
-        "enabled": true,
-        "server_name": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/trUydYgvH0rYux5ihp4zgZjo4RYK412?ed=2560",
-        "headers": {
-          "Host": "q2-phbest7v2a8iuowpr.g0xigfh41wwnv39y-b3rzmht.workers.dev"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - shiqi",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - shiqi",
       "server": "94.249.187.46",
       "server_port": 1080,
       "method": "chacha20-ietf-poly1305",
@@ -39,7 +13,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - shiqi",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - shiqi",
       "server": "194.113.235.66",
       "server_port": 443,
       "uuid": "1c5ed2e1-56da-41ab-9a78-159d9892ec17",
@@ -60,48 +34,61 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - shiqi",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - shiqi",
       "server": "130.49.189.158",
       "server_port": 43558,
       "method": "chacha20-ietf-poly1305",
       "password": "IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw="
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - shiqi",
-      "server": "195.58.48.137",
-      "server_port": 20999,
-      "method": "aes-256-gcm",
-      "password": "8ad9d72a5571df86"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - shiqi",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - shiqi",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "itsallproxy.quattro-tech.ru",
+        "server_name": "91.240.86.70",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - shiqi",
-      "server": "srv-17e124.21freedom.net",
-      "server_port": 11592,
-      "password": "41edb44c8e",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - shiqi",
+      "server": "91.196.32.163",
+      "server_port": 443,
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
       "tls": {
         "enabled": true,
-        "server_name": "srv-17e124.21freedom.net",
+        "server_name": "germany3.h2corp.local",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - shiqi",
-      "server": "139.28.168.201",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - shiqi",
+      "server": "5.42.99.64",
+      "server_port": 8443,
+      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "du-rov.secureservice.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+          "short_id": "3cbc3d737fb9c4af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - shiqi",
+      "server": "china.letsconnectpoint.com",
       "server_port": 443,
       "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
       "flow": "xtls-rprx-vision",
@@ -110,7 +97,7 @@
         "server_name": "china.letsconnectpoint.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -121,53 +108,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - shiqi",
-      "server": "78.159.246.110",
-      "server_port": 443,
-      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
-      "tls": {
-        "enabled": true,
-        "server_name": "fbsv6.guardora.pro",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "fbsv6.guardora.pro"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - shiqi",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 11 - shiqi",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - shiqi",
       "server": "du-rov.secureservice.top",
       "server_port": 8443,
       "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
@@ -177,7 +118,7 @@
         "server_name": "du-rov.secureservice.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -198,10 +139,7 @@
         "🇷🇺 俄罗斯 (Russia) 05 - shiqi",
         "🇷🇺 俄罗斯 (Russia) 06 - shiqi",
         "🇷🇺 俄罗斯 (Russia) 07 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 08 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 09 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 10 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 11 - shiqi"
+        "🇷🇺 俄罗斯 (Russia) 08 - shiqi"
       ]
     },
     {
@@ -215,10 +153,7 @@
         "🇷🇺 俄罗斯 (Russia) 05 - shiqi",
         "🇷🇺 俄罗斯 (Russia) 06 - shiqi",
         "🇷🇺 俄罗斯 (Russia) 07 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 08 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 09 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 10 - shiqi",
-        "🇷🇺 俄罗斯 (Russia) 11 - shiqi"
+        "🇷🇺 俄罗斯 (Russia) 08 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

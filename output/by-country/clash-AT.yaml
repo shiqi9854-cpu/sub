@@ -23,7 +23,7 @@ proxies:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
     short-id: 43dcff53849b81e6
   servername: at.quattro-tech.ru
-  client-fingerprint: qq
+  client-fingerprint: random
 - name: 🇦🇹 奥地利 (Austria) 03 - shiqi
   server: 31.77.227.6
   port: 52006
@@ -34,21 +34,6 @@ proxies:
   tls: true
   servername: bigdick.gamegrow.ru
   skip-cert-verify: false
-- name: 🇦🇹 奥地利 (Austria) 04 - shiqi
-  server: 159.195.253.15
-  port: 8443
-  udp: true
-  type: vless
-  uuid: bc221702-dd43-4642-a203-24d8d6a81165
-  tls: true
-  servername: au1.pad-sservice.lat
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /au1
-    headers:
-      Host: au1.pad-service.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,7 +42,6 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 01 - shiqi
   - 🇦🇹 奥地利 (Austria) 02 - shiqi
   - 🇦🇹 奥地利 (Austria) 03 - shiqi
-  - 🇦🇹 奥地利 (Austria) 04 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,6 +50,5 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 01 - shiqi
   - 🇦🇹 奥地利 (Austria) 02 - shiqi
   - 🇦🇹 奥地利 (Austria) 03 - shiqi
-  - 🇦🇹 奥地利 (Austria) 04 - shiqi
 rules:
 - MATCH,PROXIES

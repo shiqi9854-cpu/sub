@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -42,30 +42,11 @@
       "tls": {
         "enabled": true,
         "server_name": "bigdick.gamegrow.ru",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - shiqi",
-      "server": "159.195.253.15",
-      "server_port": 8443,
-      "uuid": "bc221702-dd43-4642-a203-24d8d6a81165",
-      "tls": {
-        "enabled": true,
-        "server_name": "au1.pad-sservice.lat",
         "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/au1",
-        "headers": {
-          "Host": "au1.pad-service.com"
-        }
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
       }
     },
     {
@@ -75,8 +56,7 @@
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - shiqi",
         "🇦🇹 奥地利 (Austria) 02 - shiqi",
-        "🇦🇹 奥地利 (Austria) 03 - shiqi",
-        "🇦🇹 奥地利 (Austria) 04 - shiqi"
+        "🇦🇹 奥地利 (Austria) 03 - shiqi"
       ]
     },
     {
@@ -85,8 +65,7 @@
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - shiqi",
         "🇦🇹 奥地利 (Austria) 02 - shiqi",
-        "🇦🇹 奥地利 (Austria) 03 - shiqi",
-        "🇦🇹 奥地利 (Austria) 04 - shiqi"
+        "🇦🇹 奥地利 (Austria) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
