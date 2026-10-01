@@ -16,12 +16,16 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 02 - shiqi",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "server": "162.249.127.141",
+      "server_port": 8443,
+      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "tls": {
+        "enabled": true,
+        "server_name": "hop-germany-september.dynuddns.com",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
@@ -61,20 +65,41 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 05 - shiqi",
-      "server": "162.249.127.143",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "server": "146.70.124.85",
+      "server_port": 443,
+      "uuid": "40abbe13-f02e-4da2-9b19-966c2c3eb4ee",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hop-germany-september.dynuddns.com",
-        "insecure": false
+        "server_name": "www.datadoghq.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE",
+          "short_id": "fe24f8a0a560056e"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - shiqi",
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "vk.com",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - shiqi",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - shiqi",
       "server": "193.163.203.253",
       "server_port": 443,
       "uuid": "441afe11-a180-4516-bb80-80a8a6b38705",
@@ -94,16 +119,12 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - shiqi",
-      "server": "185.156.44.99",
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 08 - shiqi",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
       "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.156.44.99",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "selector",
@@ -116,7 +137,8 @@
         "🇷🇴 罗马尼亚 (Romania) 04 - shiqi",
         "🇷🇴 罗马尼亚 (Romania) 05 - shiqi",
         "🇷🇴 罗马尼亚 (Romania) 06 - shiqi",
-        "🇷🇴 罗马尼亚 (Romania) 07 - shiqi"
+        "🇷🇴 罗马尼亚 (Romania) 07 - shiqi",
+        "🇷🇴 罗马尼亚 (Romania) 08 - shiqi"
       ]
     },
     {
@@ -129,7 +151,8 @@
         "🇷🇴 罗马尼亚 (Romania) 04 - shiqi",
         "🇷🇴 罗马尼亚 (Romania) 05 - shiqi",
         "🇷🇴 罗马尼亚 (Romania) 06 - shiqi",
-        "🇷🇴 罗马尼亚 (Romania) 07 - shiqi"
+        "🇷🇴 罗马尼亚 (Romania) 07 - shiqi",
+        "🇷🇴 罗马尼亚 (Romania) 08 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
