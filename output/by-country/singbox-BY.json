@@ -5,14 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - shiqi",
-      "server": "172.67.153.156",
-      "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - shiqi",
+      "server": "ddnl0.zazazuza.ru",
+      "server_port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
+        "server_name": "wss.zazazuza.ru",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288",
+        "path": "/vpn-wss/fluxor/59011/",
         "headers": {
-          "Host": "ccs2g.pai50288.uk"
+          "Host": "wss.zazazuza.ru"
         }
       }
     },
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

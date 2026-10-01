@@ -6,21 +6,21 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - shiqi",
-      "server": "78.135.73.47",
+      "server": "85.192.48.142",
       "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.datadoghq.com",
+        "server_name": "nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
         }
       }
     },
@@ -47,30 +47,67 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-      "server": "85.192.48.142",
+      "server": "78.135.73.47",
       "server_port": 443,
-      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nvidia.com",
+        "server_name": "www.datadoghq.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "short_id": "db04ce8bdb8900f1"
+          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
+          "short_id": "f46cd3ea3d1eb72d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 04 - shiqi",
-      "server": "178.83.46.216",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+      "server": "tr2.gigobingo.ru",
+      "server_port": 443,
+      "uuid": "46e62b9b-f9db-4310-8f18-7d6e449cfd5c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr2.gigobingo.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Aj6Op88j_eYXxoBw095KS_NnKCBm5uwa874uumXdiDQ",
+          "short_id": "ef7c4e4302bd52d7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - shiqi",
+      "server": "155.103.70.53",
+      "server_port": 30303,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
+      }
     },
     {
       "type": "selector",
@@ -80,7 +117,8 @@
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
         "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 04 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 - shiqi"
       ]
     },
     {
@@ -90,7 +128,8 @@
         "🇹🇷 土耳其 (Turkey) 01 - shiqi",
         "🇹🇷 土耳其 (Turkey) 02 - shiqi",
         "🇹🇷 土耳其 (Turkey) 03 - shiqi",
-        "🇹🇷 土耳其 (Turkey) 04 - shiqi"
+        "🇹🇷 土耳其 (Turkey) 04 - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

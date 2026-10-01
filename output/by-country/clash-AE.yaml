@@ -5,40 +5,45 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - shiqi
-  server: 157.228.155.198
+  server: 162.159.152.4
   port: 443
   udp: true
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  flow: xtls-rprx-vision
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   tls: true
-  reality-opts:
-    public-key: GYuzgp3g96ka0Z2_qGCzFl-ueHyAr7HCc3SV5ZdXa00
-    short-id: ec8febd05ca880a0
-  servername: vimeo.com
-  client-fingerprint: ''
-- name: 🇦🇪 阿联酋 (UAE) 02 - shiqi
-  server: 130.49.161.70
-  port: 443
-  udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
+  servername: rayan-007.maxima.dpdns.org
   skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 03 - shiqi
-  server: 151.241.166.181
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇦🇪 阿联酋 (UAE) 02 - shiqi
+  server: 172.67.221.230
   port: 443
   udp: true
   type: vless
-  uuid: e9844617-e393-4876-afa7-11859695f4ee
-  flow: xtls-rprx-vision
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
   tls: true
-  reality-opts:
-    public-key: SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go
-  servername: pl.gazladder.work
-  client-fingerprint: chrome
+  servername: novantunnel.tech
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /Novan-AE9
+    headers:
+      Host: novantunnel.tech
+- name: 🇦🇪 阿联酋 (UAE) 03 - shiqi
+  server: 45.130.125.201
+  port: 80
+  udp: true
+  type: vless
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 04 - shiqi
   server: 78.40.195.140
   port: 443
@@ -51,16 +56,28 @@ proxies:
     public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
     short-id: 98096455d963bdbb
   servername: www.booking.com
-  client-fingerprint: firefox
+  client-fingerprint: qq
 - name: 🇦🇪 阿联酋 (UAE) 05 - shiqi
-  server: 85.204.107.178
+  server: 151.241.166.72
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4abdfe42-aec7-4b66-974d-3f891e2e8184
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go
+  servername: pl.gaz-service.shop
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
+  server: 85.204.107.171
   port: 8080
   udp: true
   type: hysteria2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
+- name: 🇦🇪 阿联酋 (UAE) 07 - shiqi
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -69,9 +86,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - shiqi
+- name: 🇦🇪 阿联酋 (UAE) 08 - shiqi
   server: 146.70.102.82
   port: 443
   udp: true
@@ -96,6 +111,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
+  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -108,5 +124,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
+  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
 rules:
 - MATCH,PROXIES

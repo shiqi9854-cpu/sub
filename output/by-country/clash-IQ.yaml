@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - shiqi
-  server: 162.159.43.187
+- name: 🇮🇶 IQ 01 - shiqi
+  server: 188.114.97.6
   port: 8080
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
   network: ws
   ws-opts:
-    path: /
+    path: /vl/zXLTmz3hE3szn64f
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - shiqi
+  - 🇮🇶 IQ 01 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - shiqi
+  - 🇮🇶 IQ 01 - shiqi
 rules:
 - MATCH,PROXIES
