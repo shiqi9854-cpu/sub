@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - shiqi
-  server: 172.64.158.146
-  port: 2086
+  server: 162.159.43.187
+  port: 2052
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -16,8 +16,8 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇺🇸 美国 (United States) 02 (移动家宽) - shiqi
-  server: 172.64.42.85
-  port: 8880
+  server: 172.64.158.146
+  port: 2095
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -26,38 +26,67 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi
-  server: aken.nightfall.best
-  port: 443
+- name: 🇺🇸 美国 (United States) 03 (家宽) - shiqi
+  server: 162.159.43.187
+  port: 80
   udp: true
   type: vless
-  uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  server: 129.153.71.28
+  port: 28863
+  udp: true
+  type: vless
+  uuid: 02073765-76e0-46d0-9109-82ccb48d3c6f
   tls: true
-  servername: aken.nightfall.best
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
   skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: rdamrwhuacfl
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi
-  server: 118.167.207.194
-  port: 24215
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi
+  server: 178.83.46.216
+  port: 2053
   udp: true
   type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi
-  server: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
-  skip-cert-verify: true
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - name: 🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi
+  server: 154.86.30.45
+  port: 24443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: bKgENdAl@8Zx3lAc-HK-BD-20260622
+- name: 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi
+  server: az-1.linkaa.xyz
+  port: 53110
+  udp: true
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /game/resources
+    headers:
+      Host: az-1.linkaa.xyz
+- name: 🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi
   server: s3.huhiuh.space
   port: 18642
   udp: true
@@ -65,7 +94,22 @@ proxies:
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi
+- name: 🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi
+  server: 185.115.207.141
+  port: 443
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi
   server: hi.northcluster.info
   port: 52300
   udp: true
@@ -78,12 +122,17 @@ proxies:
     path: /video
     headers:
       Host: hi.northcluster.info
-- name: 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi
-  server: test.keoplentuio.xyz
-  port: 2053
+- name: 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi
+  server: hinet1.2yly.com
+  port: 24215
   udp: true
   type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,12 +140,16 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - shiqi
   - 🇺🇸 美国 (United States) 02 (移动家宽) - shiqi
-  - 🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi
+  - 🇺🇸 美国 (United States) 03 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi
   - 🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi
-  - 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi
+  - 🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi
+  - 🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -104,11 +157,15 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - shiqi
   - 🇺🇸 美国 (United States) 02 (移动家宽) - shiqi
-  - 🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi
+  - 🇺🇸 美国 (United States) 03 (家宽) - shiqi
+  - 🇯🇵 日本 (Japan) 04 (家宽) - shiqi
+  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi
   - 🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi
-  - 🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi
+  - 🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi
+  - 🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi
+  - 🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi
 rules:
 - MATCH,PROXIES

@@ -6,21 +6,35 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - shiqi",
-      "server": "ccs2g.pai50288.uk",
+      "server": "173.245.49.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime36.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 02 - shiqi",
+      "server": "cu.877774.xyz",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "f3244e28-157b-49e9-9730-89832f89ebcc",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "balanced-minds-carrier-demanding.trycloudflare.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288"
+        "path": "/vmess-argo",
+        "headers": {
+          "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
+        }
       }
     },
     {
@@ -28,14 +42,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi",
+        "🌐 其他地区 (Other) 02 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi",
+        "🌐 其他地区 (Other) 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

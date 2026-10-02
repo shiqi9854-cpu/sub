@@ -4,19 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 01 (移动家宽) - shiqi",
-      "server": "aken.nightfall.best",
-      "server_port": 443,
-      "uuid": "af2bf319-ba88-4fec-8317-2b6a8cee96d1",
+      "type": "trojan",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - shiqi",
+      "server": "109.110.162.40",
+      "server_port": 23005,
+      "password": "fac593ac-d6aa-4523-bea9-b3eb2a2b3da3",
       "tls": {
         "enabled": true,
-        "server_name": "aken.nightfall.best",
+        "server_name": "82.yuanul.com",
         "insecure": false
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "rdamrwhuacfl"
       }
     },
     {
@@ -24,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 荷兰 (Netherlands) 01 (移动家宽) - shiqi"
+        "🇻🇳 越南 (Vietnam) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 荷兰 (Netherlands) 01 (移动家宽) - shiqi"
+        "🇻🇳 越南 (Vietnam) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

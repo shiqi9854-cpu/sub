@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
-      "server": "172.64.158.146",
-      "server_port": 2086,
+      "server": "162.159.43.187",
+      "server_port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -20,8 +20,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 02 (移动家宽) - shiqi",
-      "server": "172.64.42.85",
-      "server_port": 8880,
+      "server": "172.64.158.146",
+      "server_port": 2095,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -33,55 +33,82 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi",
-      "server": "aken.nightfall.best",
-      "server_port": 443,
-      "uuid": "af2bf319-ba88-4fec-8317-2b6a8cee96d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "aken.nightfall.best",
-        "insecure": false
-      },
+      "tag": "🇺🇸 美国 (United States) 03 (家宽) - shiqi",
+      "server": "162.159.43.187",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
-        "type": "grpc",
-        "service_name": "rdamrwhuacfl"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi",
-      "server": "118.167.207.194",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tag": "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
+      "server": "129.153.71.28",
+      "server_port": 28863,
+      "uuid": "02073765-76e0-46d0-9109-82ccb48d3c6f",
       "tls": {
         "enabled": true,
-        "server_name": "addons.mozilla.org",
+        "server_name": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-          "short_id": ""
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi",
+      "server": "178.83.46.216",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi",
+      "server": "154.86.30.45",
+      "server_port": 24443,
+      "method": "aes-128-gcm",
+      "password": "bKgENdAl@8Zx3lAc-HK-BD-20260622"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi",
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16115,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi",
+      "server": "az-1.linkaa.xyz",
+      "server_port": 53110,
+      "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/game/resources",
+        "headers": {
+          "Host": "az-1.linkaa.xyz"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi",
-      "server": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "5f091cbe-fb34-11ea-9777-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi",
+      "tag": "🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi",
       "server": "s3.huhiuh.space",
       "server_port": 18642,
       "password": "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2",
@@ -92,8 +119,31 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi",
+      "server": "185.115.207.141",
+      "server_port": 443,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi",
       "server": "hi.northcluster.info",
       "server_port": 52300,
       "uuid": "6E571484-4166-4699-8F58-B34A1823691F",
@@ -108,10 +158,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+      "tag": "🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
     },
     {
       "type": "selector",
@@ -120,12 +183,16 @@
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
         "🇺🇸 美国 (United States) 02 (移动家宽) - shiqi",
-        "🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi",
+        "🇺🇸 美国 (United States) 03 (家宽) - shiqi",
+        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi",
         "🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi"
       ]
     },
     {
@@ -134,12 +201,16 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - shiqi",
         "🇺🇸 美国 (United States) 02 (移动家宽) - shiqi",
-        "🇳🇱 荷兰 (Netherlands) 03 (移动家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - shiqi",
+        "🇺🇸 美国 (United States) 03 (家宽) - shiqi",
+        "🇯🇵 日本 (Japan) 04 (家宽) - shiqi",
+        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - shiqi",
         "🇸🇬 新加坡 (Singapore) 06 (家宽) - shiqi",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - shiqi",
-        "🇹🇷 土耳其 (Turkey) 08 (移动家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 07 (移动家宽) - shiqi",
+        "🇭🇰 中国香港 (Hong Kong) 08 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 09 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 10 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 11 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 12 (家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
