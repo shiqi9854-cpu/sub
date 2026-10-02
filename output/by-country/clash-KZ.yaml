@@ -5,7 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - shiqi
-  server: 38.107.234.57
+  server: 83.222.23.81
+  port: 38065
+  udp: true
+  type: vless
+  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
+  tls: true
+  reality-opts:
+    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
+    short-id: fa
+  servername: yahoo.com
+  client-fingerprint: firefox
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
   udp: true
   type: vmess
@@ -15,21 +27,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
-  server: 89.218.15.90
-  port: 10002
-  udp: true
-  type: vless
-  uuid: 392fcc7e-b995-11f1-a6b7-1b2272a86bd5
-  tls: true
-  servername: kz1.vpnjantit.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /vpnjantit
-    headers:
-      Host: kz1.vpnjantit.com
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   server: 109.248.170.119
   port: 13447
@@ -41,7 +38,7 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
     short-id: '83'
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
   server: 178.236.16.98
   port: 35728
@@ -53,18 +50,6 @@ proxies:
     public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
     short-id: 69a2
   servername: yahoo.com
-  client-fingerprint: random
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
-  server: 83.222.23.81
-  port: 38065
-  udp: true
-  type: vless
-  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-  tls: true
-  reality-opts:
-    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-    short-id: fa
-  servername: yahoo.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
@@ -75,7 +60,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,6 +69,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - shiqi
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - shiqi
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 05 - shiqi
 rules:
 - MATCH,PROXIES

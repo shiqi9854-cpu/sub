@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  server: 218.250.216.236
+  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
   port: 443
   udp: true
   type: vless
@@ -14,22 +14,22 @@ proxies:
   reality-opts:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  server: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
+  server: 3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 2193972c-tmkao0-u1vxv2-v3c2.hk3.hyhuawei.com
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  sni: 3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
-  server: 9a07c316-tmkao0-u1vxv2-v3c2.nw4.hyhuawei.com
+  server: 964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  sni: 9a07c316-tmkao0-u1vxv2-v3c2.nw4.hyhuawei.com
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  sni: 964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES

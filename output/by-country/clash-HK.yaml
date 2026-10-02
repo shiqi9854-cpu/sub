@@ -12,36 +12,35 @@ proxies:
   cipher: aes-256-gcm
   password: 6b39ae3234dfd68b
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - shiqi
-  server: telegram.khp25.com
+  server: 181.215.18.196
   port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: pno0e2keji2gsfea
+  password: manm1wouaeic9db3
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - shiqi
-  server: telegramx.khp25.com
-  port: 1080
+  server: 47.240.80.220
+  port: 2052
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: m5nsedvdczx6x06e
+  type: trojan
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  sni: vpn.12169.top
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - shiqi
-  server: nas.aizhzo.com
-  port: 5010
+  server: meowkong.nethcloud.top
+  port: 443
   udp: true
   type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: 4cbefb4d-328c-411d-bf76-780df1082df8
+  sni: meowkong.nethcloud.top
+  skip-cert-verify: false
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - shiqi
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
+  sni: 202.146.222.89
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - shiqi
   server: 202.146.222.174
@@ -49,9 +48,24 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2
+  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - shiqi
+  server: telegramx.khp25.com
+  port: 1080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: m5nsedvdczx6x06e
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - shiqi
+  server: xg1.mangshe.xyz
+  port: 2060
+  udp: true
+  type: hysteria2
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: xg1.mangshe.xyz
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - shiqi
   server: 202.146.222.29
   port: 443
   udp: true
@@ -59,15 +73,24 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: https://t.me/wangcai2
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - shiqi
-  server: goldcnmltyljgfwgov.vip52.wogcnmnnagfwgov.com
-  port: 11252
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - shiqi
+  server: 195.58.144.56
+  port: 11907
   udp: true
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - shiqi
+  type: vless
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  tls: true
+  servername: 195.58.144.56
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - shiqi
+  server: mz.hkychina.com
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
   server: 194.99.79.26
   port: 443
   udp: true
@@ -81,7 +104,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - shiqi
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   server: 2.27.109.179
   port: 45464
   udp: true
@@ -89,74 +112,16 @@ proxies:
   password: XuMweB2PWs
   sni: 2.27.109.179.sslip.io
   skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - shiqi
-  server: mz.hkychina.com
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
-  server: yg1.ygkkk.dpdns.org
-  port: 443
-  udp: true
-  type: vmess
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jmp1.907737.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-    headers:
-      Host: jmp1.907737.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
-  server: hk2.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
-  server: meowkong.nethcloud.top
-  port: 443
+  server: nas.aizhzo.com
+  port: 5010
   udp: true
   type: hysteria2
-  password: 4cbefb4d-328c-411d-bf76-780df1082df8
-  sni: meowkong.nethcloud.top
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
-  server: champion.xn--kivt58h.lol
-  port: 80
-  udp: true
-  type: vless
-  uuid: ed2864f9-37b3-4222-8c54-014aedc400a2
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
-  server: 195.58.144.56
-  port: 11907
-  udp: true
-  type: vless
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
-  tls: true
-  servername: 195.58.144.56
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
-  server: silversbgfgov.vip26.wogbcnmnagfwgov.com
-  port: 11226
-  udp: true
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 proxy-groups:
 - name: PROXIES
   type: select
@@ -176,9 +141,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -198,8 +160,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 12 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 13 - shiqi
   - 🇭🇰 中国香港 (Hong Kong) 14 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 15 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 16 - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 17 - shiqi
 rules:
 - MATCH,PROXIES
