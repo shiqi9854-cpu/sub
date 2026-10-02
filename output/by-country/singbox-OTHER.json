@@ -6,34 +6,14 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - shiqi",
-      "server": "173.245.49.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "cctvhikvision.center",
+      "server_port": 2052,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "vms.lifetime36.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 02 - shiqi",
-      "server": "cu.877774.xyz",
-      "server_port": 443,
-      "uuid": "f3244e28-157b-49e9-9730-89832f89ebcc",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "balanced-minds-carrier-demanding.trycloudflare.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess-argo",
-        "headers": {
-          "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -42,16 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - shiqi",
-        "🌐 其他地区 (Other) 02 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - shiqi",
-        "🌐 其他地区 (Other) 02 - shiqi"
+        "🌐 其他地区 (Other) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

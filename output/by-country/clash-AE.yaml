@@ -5,18 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - shiqi
-  server: 154.83.2.30
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime28.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 02 - shiqi
-  server: 104.21.67.122
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
@@ -29,7 +18,7 @@ proxies:
     path: /Novan-AE9
     headers:
       Host: novantunnel.tech
-- name: 🇦🇪 阿联酋 (UAE) 03 - shiqi
+- name: 🇦🇪 阿联酋 (UAE) 02 - shiqi
   server: 78.40.195.140
   port: 443
   udp: true
@@ -41,8 +30,8 @@ proxies:
     public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
     short-id: 98096455d963bdbb
   servername: www.booking.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 04 - shiqi
+  client-fingerprint: ios
+- name: 🇦🇪 阿联酋 (UAE) 03 - shiqi
   server: 130.49.161.70
   port: 443
   udp: true
@@ -52,7 +41,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 05 - shiqi
+- name: 🇦🇪 阿联酋 (UAE) 04 - shiqi
   server: 31.59.150.11
   port: 443
   udp: true
@@ -64,23 +53,15 @@ proxies:
     public-key: yI6maXxTQ8zRHg39X8YMQtKW-IVfNIn0_OCUIQKmcXw
   servername: google.com
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
-  server: 217.60.33.215
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-  sni: streambox.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 07 - shiqi
-  server: 144.31.49.47
+- name: 🇦🇪 阿联酋 (UAE) 05 - shiqi
+  server: admin.wwwinternetvideo.click
   port: 443
   udp: true
   type: hysteria2
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 08 - shiqi
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -89,7 +70,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇦🇪 阿联酋 (UAE) 09 - shiqi
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - shiqi
   server: 146.70.102.82
   port: 443
   udp: true
@@ -101,7 +84,7 @@ proxies:
     public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -114,8 +97,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 09 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -128,7 +109,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 09 - shiqi
 rules:
 - MATCH,PROXIES

@@ -17,21 +17,8 @@ proxies:
   type: hysteria2
   password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
   sni: fi01.clgate.network
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 03 - shiqi
-  server: 5.61.91.206
-  port: 443
-  udp: true
-  type: vless
-  uuid: bd99da97-265e-0021-82cc-4ec009fe9ce2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 0a4b7c3d
-  servername: www.amd.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -42,8 +29,8 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
   server: 45.149.147.97
   port: 443
   udp: true
@@ -56,7 +43,7 @@ proxies:
     short-id: d345ad4657adeef9
   servername: google.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 06 - shiqi
+- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
   server: 144.31.27.215
   port: 43000
   udp: true
@@ -69,7 +56,7 @@ proxies:
     short-id: 568d87a47271344e
   servername: 144.31.27.215
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 07 - shiqi
+- name: 🇫🇮 芬兰 (Finland) 06 - shiqi
   server: 144.31.212.253
   port: 443
   udp: true
@@ -77,18 +64,6 @@ proxies:
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
   sni: vps155-edge.kermemehori.ru
   skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 08 - shiqi
-  server: 35.228.61.63
-  port: 443
-  udp: true
-  type: vless
-  uuid: 06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f
-  tls: true
-  reality-opts:
-    public-key: wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU
-    short-id: d4b34bc6b3d2b5ab
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,8 +75,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - shiqi
   - 🇫🇮 芬兰 (Finland) 05 - shiqi
   - 🇫🇮 芬兰 (Finland) 06 - shiqi
-  - 🇫🇮 芬兰 (Finland) 07 - shiqi
-  - 🇫🇮 芬兰 (Finland) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -113,7 +86,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - shiqi
   - 🇫🇮 芬兰 (Finland) 05 - shiqi
   - 🇫🇮 芬兰 (Finland) 06 - shiqi
-  - 🇫🇮 芬兰 (Finland) 07 - shiqi
-  - 🇫🇮 芬兰 (Finland) 08 - shiqi
 rules:
 - MATCH,PROXIES
