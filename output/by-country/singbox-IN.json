@@ -4,24 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇳 印度 (India) 01 - shiqi",
-      "server": "194.195.119.26",
+      "server": "35.244.28.130",
       "server_port": 443,
-      "uuid": "d90087c3-54f5-4283-a13f-615260c8b0c7",
-      "flow": "xtls-rprx-vision",
+      "password": "M7v%w11Se*",
       "tls": {
         "enabled": true,
-        "server_name": "googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
-          "short_id": ""
-        }
+        "server_name": "tttyder.wsone.icu",
+        "insecure": false
       }
     },
     {
@@ -45,38 +36,12 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 03 - shiqi",
-      "server": "35.244.28.130",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "tttyder.wsone.icu",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 04 - shiqi",
-      "server": "hyfuuf6.wsone.icu",
-      "server_port": 443,
-      "password": "M7v%w11Se*",
-      "tls": {
-        "enabled": true,
-        "server_name": "hyfuuf6.wsone.icu",
-        "insecure": false
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - shiqi",
-        "🇮🇳 印度 (India) 02 - shiqi",
-        "🇮🇳 印度 (India) 03 - shiqi",
-        "🇮🇳 印度 (India) 04 - shiqi"
+        "🇮🇳 印度 (India) 02 - shiqi"
       ]
     },
     {
@@ -84,9 +49,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - shiqi",
-        "🇮🇳 印度 (India) 02 - shiqi",
-        "🇮🇳 印度 (India) 03 - shiqi",
-        "🇮🇳 印度 (India) 04 - shiqi"
+        "🇮🇳 印度 (India) 02 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

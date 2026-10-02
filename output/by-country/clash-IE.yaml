@@ -11,8 +11,23 @@ proxies:
   type: trojan
   password: Trojan@82164024
   sni: ie.tronsg.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - shiqi
+  server: 69.84.182.98
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 33a57acf-163f-4cdd-8b23-cc52a58f2362
+  tls: true
+  servername: mrx.xher0.de
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /IfUknowThenUKnow
+    headers:
+      Host: mrx.xher0.de
+- name: 🇮🇪 爱尔兰 (Ireland) 03 - shiqi
   server: 3.9.135.156
   port: 51847
   udp: true
@@ -25,6 +40,16 @@ proxies:
     short-id: 0eec442e7b34d2f2
   servername: www.tesla.com
   client-fingerprint: chrome
+- name: 🇮🇪 爱尔兰 (Ireland) 04 - shiqi
+  server: 87.192.47.10
+  port: 52006
+  udp: true
+  type: vless
+  uuid: bc659d88-a1e0-4c65-a49a-7b51b26a7a7f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: grok.setlisting.ru
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +57,8 @@ proxy-groups:
   - AUTO
   - 🇮🇪 爱尔兰 (Ireland) 01 - shiqi
   - 🇮🇪 爱尔兰 (Ireland) 02 - shiqi
+  - 🇮🇪 爱尔兰 (Ireland) 03 - shiqi
+  - 🇮🇪 爱尔兰 (Ireland) 04 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +66,7 @@ proxy-groups:
   proxies:
   - 🇮🇪 爱尔兰 (Ireland) 01 - shiqi
   - 🇮🇪 爱尔兰 (Ireland) 02 - shiqi
+  - 🇮🇪 爱尔兰 (Ireland) 03 - shiqi
+  - 🇮🇪 爱尔兰 (Ireland) 04 - shiqi
 rules:
 - MATCH,PROXIES

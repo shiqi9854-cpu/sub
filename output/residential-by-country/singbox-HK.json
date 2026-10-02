@@ -4,46 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
-      "server": "a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com",
+      "server": "d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com",
       "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+      "password": "4729b4c8-1790-11eb-8684-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-      "server": "3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "62f2374c-891b-11ef-a3f6-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi",
-      "server": "964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com",
-      "server_port": 443,
-      "password": "25b2699a-e18e-11ec-8e69-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com",
+        "server_name": "d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com",
         "insecure": true
       }
     },
@@ -52,18 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

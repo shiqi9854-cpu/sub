@@ -5,18 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - shiqi
-  server: 78.40.195.140
+  server: 130.49.161.70
   port: 443
   udp: true
-  type: vless
-  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
-    short-id: 98096455d963bdbb
-  servername: www.booking.com
-  client-fingerprint: random
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - shiqi
   server: 31.59.150.11
   port: 443
@@ -30,17 +27,20 @@ proxies:
   servername: google.com
   client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 03 - shiqi
-  server: 130.49.161.70
+  server: 78.40.195.140
   port: 443
   udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  type: vless
+  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
+    short-id: 98096455d963bdbb
+  servername: www.booking.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 04 - shiqi
-  server: 45.192.12.93
+  server: admin.wwwinternetvideo.click
   port: 443
   udp: true
   type: hysteria2
@@ -48,14 +48,6 @@ proxies:
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 05 - shiqi
-  server: 217.60.33.215
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-  sni: streambox.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
   server: 151.241.137.132
   port: 443
   udp: true
@@ -67,6 +59,17 @@ proxies:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
   servername: finland.ali-bard.online
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - shiqi
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 07 - shiqi
   server: 146.70.102.82
   port: 443
@@ -80,15 +83,6 @@ proxies:
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 08 - shiqi
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,7 +95,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -114,6 +107,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - shiqi
   - 🇦🇪 阿联酋 (UAE) 06 - shiqi
   - 🇦🇪 阿联酋 (UAE) 07 - shiqi
-  - 🇦🇪 阿联酋 (UAE) 08 - shiqi
 rules:
 - MATCH,PROXIES

@@ -5,31 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  server: a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  server: 3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com
+  server: d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  sni: 3f86f2b4-tmm5c0-tpaqgu-1smhu.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
-  server: 964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  sni: 964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com
+  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  sni: d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -37,15 +18,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - shiqi
 rules:
 - MATCH,PROXIES
