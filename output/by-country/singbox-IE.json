@@ -4,43 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
-      "server": "ie.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "ie.tronsg.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
-      "server": "69.84.182.98",
-      "server_port": 2053,
-      "uuid": "33a57acf-163f-4cdd-8b23-cc52a58f2362",
-      "tls": {
-        "enabled": true,
-        "server_name": "mrx.xher0.de",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/IfUknowThenUKnow",
-        "headers": {
-          "Host": "mrx.xher0.de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
       "server": "3.9.135.156",
       "server_port": 51847,
       "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
@@ -60,16 +25,36 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
+      "server": "ie.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "ie.tronsg.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - shiqi",
-      "server": "87.192.47.10",
-      "server_port": 52006,
-      "uuid": "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
+      "server": "198.55.102.59",
+      "server_port": 4443,
+      "uuid": "7f86f371-5a85-48be-babc-7af1ae7ffb75",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "grok.setlisting.ru",
-        "insecure": false
+        "server_name": "vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8",
+          "short_id": "ce6767c3f1"
+        }
       }
     },
     {
@@ -79,8 +64,7 @@
         "auto",
         "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi"
+        "🇮🇪 爱尔兰 (Ireland) 03 - shiqi"
       ]
     },
     {
@@ -89,8 +73,7 @@
       "outbounds": [
         "🇮🇪 爱尔兰 (Ireland) 01 - shiqi",
         "🇮🇪 爱尔兰 (Ireland) 02 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 03 - shiqi",
-        "🇮🇪 爱尔兰 (Ireland) 04 - shiqi"
+        "🇮🇪 爱尔兰 (Ireland) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

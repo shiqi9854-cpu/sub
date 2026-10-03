@@ -5,12 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
-  server: d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com
+  server: 12fbf518-tmm5c0-tzkd63-1jr1u.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  sni: d68b7bb6-tmm5c0-ts40sw-14g76.nw4.hyhuawei.com
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  sni: 12fbf518-tmm5c0-tzkd63-1jr1u.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
+  server: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  sni: 6a3b19cf-tmm5c0-tpv2b9-1o8ak.nw4.hyhuawei.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -18,11 +26,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - shiqi
 rules:
 - MATCH,PROXIES

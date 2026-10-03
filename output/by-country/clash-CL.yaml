@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇱 智利 (Chile) 01 - shiqi
-  server: platform101.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 02 - shiqi
   server: platform102.golnamakcert.top
   port: 80
   udp: true
@@ -26,6 +15,17 @@ proxies:
     path: /platform102
     headers:
       Host: platform102.halalkhor.info
+- name: 🇨🇱 智利 (Chile) 02 - shiqi
+  server: platform107.golnamakcert.top
+  port: 80
+  udp: true
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
 - name: 🇨🇱 智利 (Chile) 03 - shiqi
   server: platform103.golnamakcert.top
   port: 80
@@ -38,26 +38,17 @@ proxies:
     headers:
       Host: platform103.halalkhor.info
 - name: 🇨🇱 智利 (Chile) 04 - shiqi
-  server: platform109.golnamakcert.top
+  server: platform101.golnamakcert.top
   port: 80
   udp: true
   type: vless
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   network: ws
   ws-opts:
-    path: /platform109
-- name: 🇨🇱 智利 (Chile) 05 - shiqi
-  server: platform107.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform107
+    path: /platform101
     headers:
-      Host: platform107.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 06 - shiqi
+      Host: platform101.halalkhor.info
+- name: 🇨🇱 智利 (Chile) 05 - shiqi
   server: platform106.golnamakcert.top
   port: 80
   udp: true
@@ -68,18 +59,17 @@ proxies:
     path: /platform106
     headers:
       Host: platform106.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 07 - shiqi
-  server: 34.176.137.90
-  port: 443
+- name: 🇨🇱 智利 (Chile) 06 - shiqi
+  server: platform109.golnamakcert.top
+  port: 80
   udp: true
   type: vless
-  uuid: ad5325f8-f0b3-41c4-a561-113529b60e70
-  tls: true
-  reality-opts:
-    public-key: HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc
-    short-id: 2c2d919f5183d0b7
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,7 +81,6 @@ proxy-groups:
   - 🇨🇱 智利 (Chile) 04 - shiqi
   - 🇨🇱 智利 (Chile) 05 - shiqi
   - 🇨🇱 智利 (Chile) 06 - shiqi
-  - 🇨🇱 智利 (Chile) 07 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,6 +92,5 @@ proxy-groups:
   - 🇨🇱 智利 (Chile) 04 - shiqi
   - 🇨🇱 智利 (Chile) 05 - shiqi
   - 🇨🇱 智利 (Chile) 06 - shiqi
-  - 🇨🇱 智利 (Chile) 07 - shiqi
 rules:
 - MATCH,PROXIES

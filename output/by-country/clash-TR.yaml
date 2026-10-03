@@ -5,23 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - shiqi
-  server: 206.1.99.160
-  port: 41310
-  udp: true
-  type: vmess
-  uuid: Nitro_Skybot
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
   server: bale.xv98.ir
   port: 5051
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 68mL2QkZEBlxWa3hcslGDw
+- name: 🇹🇷 土耳其 (Turkey) 02 - shiqi
+  server: 78.135.73.47
+  port: 443
+  udp: true
+  type: vless
+  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
+    short-id: f46cd3ea3d1eb72d
+  servername: www.datadoghq.com
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 03 - shiqi
   server: 151.241.226.201
   port: 2053
@@ -35,19 +37,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  server: 78.135.73.47
-  port: 443
-  udp: true
-  type: vless
-  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
-    short-id: f46cd3ea3d1eb72d
-  servername: www.datadoghq.com
-  client-fingerprint: qq
-- name: 🇹🇷 土耳其 (Turkey) 05 - shiqi
   server: 85.192.48.142
   port: 443
   udp: true
@@ -69,7 +58,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,6 +67,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - shiqi
   - 🇹🇷 土耳其 (Turkey) 03 - shiqi
   - 🇹🇷 土耳其 (Turkey) 04 - shiqi
-  - 🇹🇷 土耳其 (Turkey) 05 - shiqi
 rules:
 - MATCH,PROXIES
