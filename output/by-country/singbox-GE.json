@@ -5,15 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - shiqi",
-      "server": "188.114.96.3",
-      "server_port": 80,
-      "uuid": "7201b2cd-0675-4c1a-9c76-07ca14ffcf08",
+      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - shiqi",
+      "server": "172.67.159.161",
+      "server_port": 443,
+      "uuid": "76ac91c5-ea82-4046-8ee7-2ffbb563ac94",
+      "tls": {
+        "enabled": true,
+        "server_name": "geo.shkola112.site",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiMm40VHVzc2JqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+        "path": "/api-vless",
         "headers": {
-          "Host": "6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev"
+          "Host": "geo.shkola112.site"
         }
       }
     },
@@ -22,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - shiqi"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - shiqi"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
