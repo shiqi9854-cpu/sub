@@ -15,7 +15,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -53,52 +53,13 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - shiqi",
-      "server": "137.23.3.238",
-      "server_port": 20000,
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "rmgyvpn.rest",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - shiqi",
-      "server": "43.255.156.57",
-      "server_port": 39518,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DQDN2w0aoQnx-T3qF1fQnA2-stCUzVbBwmayI1smO0g",
-          "short_id": "4600771a0d0d50"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - shiqi",
         "🇦🇺 澳大利亚 (Australia) 02 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 03 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 04 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 05 - shiqi"
+        "🇦🇺 澳大利亚 (Australia) 03 - shiqi"
       ]
     },
     {
@@ -107,9 +68,7 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - shiqi",
         "🇦🇺 澳大利亚 (Australia) 02 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 03 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 04 - shiqi",
-        "🇦🇺 澳大利亚 (Australia) 05 - shiqi"
+        "🇦🇺 澳大利亚 (Australia) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

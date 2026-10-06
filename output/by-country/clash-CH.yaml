@@ -5,17 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 瑞士 (Switzerland) 01 - shiqi
-  server: 208.69.78.217
-  port: 2053
+  server: 132.243.175.144
+  port: 8388
   udp: true
-  type: vless
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  tls: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-    short-id: ad86e2d52ff40ebd
-  servername: www.apple.com
-  client-fingerprint: chrome
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
 - name: 🇨🇭 瑞士 (Switzerland) 02 - shiqi
   server: 82.38.64.229
   port: 8443
@@ -25,42 +20,14 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 03 - shiqi
-  server: 208.69.78.217
-  port: 8444
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 04 - shiqi
-  server: 152.67.75.161
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: 🇨🇭 瑞士 (Switzerland) 05 - shiqi
   server: 140.238.213.114
   port: 50160
   udp: true
   type: hysteria2
   password: 84a506ca5aca505696a454d828420b3f
-  sni: 140.238.213.114
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 06 - shiqi
-  server: 104.165.205.42
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 52e3dd44-ed23-4030-b0cc-5b5a953f2d4d
-  sni: speedtestmark.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 07 - shiqi
+- name: 🇨🇭 瑞士 (Switzerland) 04 - shiqi
   server: 45.90.59.15
   port: 443
   udp: true
@@ -72,14 +39,27 @@ proxies:
     public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
     short-id: 19253fae84102271
   servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇨🇭 瑞士 (Switzerland) 08 - shiqi
-  server: 132.243.175.144
-  port: 8388
+  client-fingerprint: firefox
+- name: 🇨🇭 瑞士 (Switzerland) 05 - shiqi
+  server: 208.69.78.217
+  port: 2053
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  type: vless
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  tls: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+    short-id: ad86e2d52ff40ebd
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 06 - shiqi
+  server: 104.165.205.42
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 52e3dd44-ed23-4030-b0cc-5b5a953f2d4d
+  sni: speedtestmark.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,8 +71,6 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 04 - shiqi
   - 🇨🇭 瑞士 (Switzerland) 05 - shiqi
   - 🇨🇭 瑞士 (Switzerland) 06 - shiqi
-  - 🇨🇭 瑞士 (Switzerland) 07 - shiqi
-  - 🇨🇭 瑞士 (Switzerland) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -104,7 +82,5 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 04 - shiqi
   - 🇨🇭 瑞士 (Switzerland) 05 - shiqi
   - 🇨🇭 瑞士 (Switzerland) 06 - shiqi
-  - 🇨🇭 瑞士 (Switzerland) 07 - shiqi
-  - 🇨🇭 瑞士 (Switzerland) 08 - shiqi
 rules:
 - MATCH,PROXIES
