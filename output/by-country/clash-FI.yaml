@@ -5,28 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - shiqi
-  server: 45.149.114.171
-  port: 777
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
-- name: 🇫🇮 芬兰 (Finland) 02 - shiqi
   server: 185.103.110.68
   port: 18283
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 03 - shiqi
-  server: 144.31.212.253
-  port: 443
+- name: 🇫🇮 芬兰 (Finland) 02 - shiqi
+  server: 185.103.110.66
+  port: 18280
   udp: true
-  type: hysteria2
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: vps155-edge.kermemehori.ru
-  skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+- name: 🇫🇮 芬兰 (Finland) 03 - shiqi
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -37,34 +29,8 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: random
-- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
-  server: 188.130.209.216
-  port: 443
-  udp: true
-  type: vless
-  uuid: 444623e9-f27d-487c-b7cc-436931967e79
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: M7yPV6xLi9h6EevpqZfXLZBuxoey8kz1c6Bh0pK5fho
-    short-id: 170ab9ced015571f
-  servername: emaar.ru
-  client-fingerprint: safari
-- name: 🇫🇮 芬兰 (Finland) 06 - shiqi
-  server: 13.143.129.45
-  port: 443
-  udp: true
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: CsoM3VUYii1XxgxnrT4VEe-EALgn60k6BaKMJVP9qAM
-    short-id: 7dd08043
-  servername: addons.mozilla.org
-  client-fingerprint: randomized
-- name: 🇫🇮 芬兰 (Finland) 07 - shiqi
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - shiqi
   server: 151.241.137.132
   port: 443
   udp: true
@@ -75,6 +41,53 @@ proxies:
   reality-opts:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
   servername: finland.ali-bard.online
+  client-fingerprint: safari
+- name: 🇫🇮 芬兰 (Finland) 05 - shiqi
+  server: cdn.bulkavpn.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU
+    short-id: 94f32cfc
+  servername: cdn.bulkavpn.top
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 06 - shiqi
+  server: 144.31.27.215
+  port: 43000
+  udp: true
+  type: vless
+  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: dxCQnOekn14riFxt3vdwDNydvW47FsmwFG6BJ2mUgEg
+    short-id: 568d87a47271344e
+  servername: 144.31.27.215
+  client-fingerprint: random
+- name: 🇫🇮 芬兰 (Finland) 07 - shiqi
+  server: 144.31.212.253
+  port: 443
+  udp: true
+  type: hysteria2
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: 144.31.212.253
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 08 - shiqi
+  server: 65.108.3.59
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8df2e661-6f46-471b-9133-7fc13a0daa35
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no
+    short-id: 90ec9bba2019
+  servername: web.eitaa.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -88,6 +101,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 05 - shiqi
   - 🇫🇮 芬兰 (Finland) 06 - shiqi
   - 🇫🇮 芬兰 (Finland) 07 - shiqi
+  - 🇫🇮 芬兰 (Finland) 08 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -100,5 +114,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 05 - shiqi
   - 🇫🇮 芬兰 (Finland) 06 - shiqi
   - 🇫🇮 芬兰 (Finland) 07 - shiqi
+  - 🇫🇮 芬兰 (Finland) 08 - shiqi
 rules:
 - MATCH,PROXIES

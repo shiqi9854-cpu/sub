@@ -12,13 +12,26 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇹 奥地利 (Austria) 02 - shiqi
-  server: 77.74.123.106
-  port: 4443
+  server: 193.233.232.96
+  port: 443
   udp: true
-  type: trojan
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: false
+  type: vless
+  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: uC4W93YTVI5kbpN5ih2WZfQjikpNBn61-AhljO8ExFg
+    short-id: fa764ccf
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇦🇹 奥地利 (Austria) 03 - shiqi
+  server: zfd-boardv2.kunlun01dns.com
+  port: 16308
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -26,6 +39,7 @@ proxy-groups:
   - AUTO
   - 🇦🇹 奥地利 (Austria) 01 - shiqi
   - 🇦🇹 奥地利 (Austria) 02 - shiqi
+  - 🇦🇹 奥地利 (Austria) 03 - shiqi
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -33,5 +47,6 @@ proxy-groups:
   proxies:
   - 🇦🇹 奥地利 (Austria) 01 - shiqi
   - 🇦🇹 奥地利 (Austria) 02 - shiqi
+  - 🇦🇹 奥地利 (Austria) 03 - shiqi
 rules:
 - MATCH,PROXIES

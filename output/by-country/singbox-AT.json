@@ -12,16 +12,33 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 02 - shiqi",
-      "server": "77.74.123.106",
-      "server_port": 4443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "server": "193.233.232.96",
+      "server_port": 443,
+      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "grape-test-italy.dynuddns.net",
-        "insecure": false
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uC4W93YTVI5kbpN5ih2WZfQjikpNBn61-AhljO8ExFg",
+          "short_id": "fa764ccf"
+        }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - shiqi",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16308,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
     },
     {
       "type": "selector",
@@ -29,7 +46,8 @@
       "outbounds": [
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - shiqi",
-        "🇦🇹 奥地利 (Austria) 02 - shiqi"
+        "🇦🇹 奥地利 (Austria) 02 - shiqi",
+        "🇦🇹 奥地利 (Austria) 03 - shiqi"
       ]
     },
     {
@@ -37,7 +55,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - shiqi",
-        "🇦🇹 奥地利 (Austria) 02 - shiqi"
+        "🇦🇹 奥地利 (Austria) 02 - shiqi",
+        "🇦🇹 奥地利 (Austria) 03 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

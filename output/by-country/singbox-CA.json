@@ -4,175 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 01 - shiqi",
-      "server": "185.156.47.97",
-      "server_port": 9443,
-      "method": "aes-256-gcm",
-      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 02 - shiqi",
-      "server": "51.222.141.125",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 03 - shiqi",
+      "tag": "🇨🇦 加拿大 (Canada) 01 - shiqi",
       "server": "134.195.196.211",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 04 - shiqi",
-      "server": "51.222.107.43",
-      "server_port": 2083,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs="
-    },
-    {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 05 - shiqi",
-      "server": "198.57.27.190",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - shiqi",
-      "server": "51.79.85.185",
-      "server_port": 8118,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - shiqi",
-      "server": "138.197.141.58",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - shiqi",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - shiqi",
-      "server": "138.199.48.82",
-      "server_port": 9443,
-      "method": "aes-256-gcm",
-      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 11 - shiqi",
-      "server": "137.184.174.93",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 12 - shiqi",
+      "tag": "🇨🇦 加拿大 (Canada) 02 - shiqi",
       "server": "158.51.121.63",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto"
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - shiqi",
-      "server": "188.114.97.8",
-      "server_port": 8443,
-      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
-      "tls": {
-        "enabled": true,
-        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - shiqi",
-      "server": "149.22.95.183",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - shiqi",
-      "server": "51.222.200.165",
-      "server_port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - shiqi",
-      "server": "51.79.64.198",
-      "server_port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 17 - shiqi",
-      "server": "158.51.123.42",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 18 - shiqi",
-      "server": "51.79.49.116",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "tag": "🇨🇦 加拿大 (Canada) 03 - shiqi",
+      "server": "137.184.174.93",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 19 - shiqi",
+      "tag": "🇨🇦 加拿大 (Canada) 04 - shiqi",
       "server": "66.70.179.198",
       "server_port": 2053,
       "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
@@ -181,7 +38,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -192,132 +49,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 20 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 21 - shiqi",
-      "server": "104.21.70.21",
+      "tag": "🇨🇦 加拿大 (Canada) 05 - shiqi",
+      "server": "45.148.103.85",
       "server_port": 443,
-      "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
+      "uuid": "2b781b4a-5942-48e0-a7f3-5a07b7b488c1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "auto-scale-238b2b.infra-core-1630dd.workers.dev",
-        "insecure": false,
+        "server_name": "ca-root.sworkingvpn.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0",
-        "headers": {
-          "Host": "auto-scale-238b2b.infra-core-1630dd.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 22 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "756e8f39-04e8-436d-b5c6-905d37d9562c",
-      "tls": {
-        "enabled": true,
-        "server_name": "ez-98919a.motoricb.workers.dev",
-        "insecure": false,
-        "utls": {
+          "fingerprint": "firefox"
+        },
+        "reality": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiR1BxUFhYR0w1TlBLMTRsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ",
-        "headers": {
-          "Host": "ez-98919a.motoricb.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 23 - shiqi",
-      "server": "188.114.97.3",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "newwk1.f1w.de5.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "newwk1.f1w.de5.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 24 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+          "public_key": "AhLy7ha7FF2EQfu-3SxOFKUwExyHActYPHtyv82KNCI",
+          "short_id": "15bcc0a77c3cacdf"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 25 - shiqi",
-      "server": "51.222.12.127",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "tag": "🇨🇦 加拿大 (Canada) 06 - shiqi",
+      "server": "149.22.95.183",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - shiqi",
+      "server": "138.197.141.58",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 26 - shiqi",
-      "server": "amphetamine.adaspoloandco.com",
-      "server_port": 2087,
-      "uuid": "97ea73b6-2043-4238-903c-a1e3d4a43c96",
-      "tls": {
-        "enabled": true,
-        "server_name": "amphetamine.adaspoloandco.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/download.php"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 27 - shiqi",
+      "tag": "🇨🇦 加拿大 (Canada) 08 - shiqi",
       "server": "209.200.246.148",
       "server_port": 443,
       "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
@@ -327,7 +96,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -337,214 +106,35 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 28 - shiqi",
-      "server": "104.21.22.180",
-      "server_port": 443,
-      "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
-      "tls": {
-        "enabled": true,
-        "server_name": "auto-scale-238b2b.infra-core-1630dd.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0",
-        "headers": {
-          "Host": "auto-scale-238b2b.infra-core-1630dd.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 29 - shiqi",
-      "server": "104.21.53.160",
-      "server_port": 443,
-      "uuid": "532a9115-aee7-4d39-9638-1e5146de075b",
-      "tls": {
-        "enabled": true,
-        "server_name": "muddy-math-c1fc.tmpnriqueau89.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
-        "headers": {
-          "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 30 - shiqi",
-      "server": "free.server11peekconfig.workers.dev",
-      "server_port": 443,
-      "uuid": "63f1ce15-1a88-4698-8a0e-59b85d75e607",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.server11peekconfig.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ=="
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 31 - shiqi",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "?ed=2560",
-        "headers": {
-          "Host": "a0hbm.jvb1.28f.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 32 - shiqi",
-      "server": "158.51.123.42",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "khasav.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "khasav.org"
-        }
-      }
+      "tag": "🇨🇦 加拿大 (Canada) 09 - shiqi",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 33 - shiqi",
-      "server": "104.21.39.30",
-      "server_port": 443,
-      "uuid": "7201b2cd-0675-4c1a-9c76-07ca14ffcf08",
-      "tls": {
-        "enabled": true,
-        "server_name": "6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoicHV2Z0VMNllZQmtoZEMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-        "headers": {
-          "Host": "6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 34 - shiqi",
-      "server": "5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev",
-      "server_port": 443,
-      "uuid": "5934b979-e128-4c90-a600-744b97bffc8c",
-      "tls": {
-        "enabled": true,
-        "server_name": "5dktcuajb2a1jxix7csnrmeucg.mahrademami.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/Fi3kP8cNjBoo8UPv"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 35 - shiqi",
-      "server": "172.67.219.21",
-      "server_port": 443,
-      "uuid": "49c0ae46-767c-47d1-9703-8740e0c4b15a",
-      "tls": {
-        "enabled": true,
-        "server_name": "flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
-        "headers": {
-          "Host": "flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 36 - shiqi",
-      "server": "51.222.155.32",
-      "server_port": 5003,
-      "method": "aes-256-gcm",
-      "password": "g5MeD6Ft3CWlJId"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 37 - shiqi",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - shiqi",
       "server": "milo.rubinaz.xyz",
       "server_port": 8080,
       "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8"
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇦 加拿大 (Canada) 38 - shiqi",
-      "server": "211.20.156.191",
-      "server_port": 28152,
-      "password": "i99Cef",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 11 - shiqi",
+      "server": "51.222.141.125",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 39 - shiqi",
-      "server": "51.222.136.236",
-      "server_port": 8882,
+      "tag": "🇨🇦 加拿大 (Canada) 12 - shiqi",
+      "server": "51.79.85.185",
+      "server_port": 8118,
       "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 40 - shiqi",
-      "server": "51.222.155.113",
-      "server_port": 5601,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "type": "selector",
@@ -562,35 +152,7 @@
         "🇨🇦 加拿大 (Canada) 09 - shiqi",
         "🇨🇦 加拿大 (Canada) 10 - shiqi",
         "🇨🇦 加拿大 (Canada) 11 - shiqi",
-        "🇨🇦 加拿大 (Canada) 12 - shiqi",
-        "🇨🇦 加拿大 (Canada) 13 - shiqi",
-        "🇨🇦 加拿大 (Canada) 14 - shiqi",
-        "🇨🇦 加拿大 (Canada) 15 - shiqi",
-        "🇨🇦 加拿大 (Canada) 16 - shiqi",
-        "🇨🇦 加拿大 (Canada) 17 - shiqi",
-        "🇨🇦 加拿大 (Canada) 18 - shiqi",
-        "🇨🇦 加拿大 (Canada) 19 - shiqi",
-        "🇨🇦 加拿大 (Canada) 20 - shiqi",
-        "🇨🇦 加拿大 (Canada) 21 - shiqi",
-        "🇨🇦 加拿大 (Canada) 22 - shiqi",
-        "🇨🇦 加拿大 (Canada) 23 - shiqi",
-        "🇨🇦 加拿大 (Canada) 24 - shiqi",
-        "🇨🇦 加拿大 (Canada) 25 - shiqi",
-        "🇨🇦 加拿大 (Canada) 26 - shiqi",
-        "🇨🇦 加拿大 (Canada) 27 - shiqi",
-        "🇨🇦 加拿大 (Canada) 28 - shiqi",
-        "🇨🇦 加拿大 (Canada) 29 - shiqi",
-        "🇨🇦 加拿大 (Canada) 30 - shiqi",
-        "🇨🇦 加拿大 (Canada) 31 - shiqi",
-        "🇨🇦 加拿大 (Canada) 32 - shiqi",
-        "🇨🇦 加拿大 (Canada) 33 - shiqi",
-        "🇨🇦 加拿大 (Canada) 34 - shiqi",
-        "🇨🇦 加拿大 (Canada) 35 - shiqi",
-        "🇨🇦 加拿大 (Canada) 36 - shiqi",
-        "🇨🇦 加拿大 (Canada) 37 - shiqi",
-        "🇨🇦 加拿大 (Canada) 38 - shiqi",
-        "🇨🇦 加拿大 (Canada) 39 - shiqi",
-        "🇨🇦 加拿大 (Canada) 40 - shiqi"
+        "🇨🇦 加拿大 (Canada) 12 - shiqi"
       ]
     },
     {
@@ -608,35 +170,7 @@
         "🇨🇦 加拿大 (Canada) 09 - shiqi",
         "🇨🇦 加拿大 (Canada) 10 - shiqi",
         "🇨🇦 加拿大 (Canada) 11 - shiqi",
-        "🇨🇦 加拿大 (Canada) 12 - shiqi",
-        "🇨🇦 加拿大 (Canada) 13 - shiqi",
-        "🇨🇦 加拿大 (Canada) 14 - shiqi",
-        "🇨🇦 加拿大 (Canada) 15 - shiqi",
-        "🇨🇦 加拿大 (Canada) 16 - shiqi",
-        "🇨🇦 加拿大 (Canada) 17 - shiqi",
-        "🇨🇦 加拿大 (Canada) 18 - shiqi",
-        "🇨🇦 加拿大 (Canada) 19 - shiqi",
-        "🇨🇦 加拿大 (Canada) 20 - shiqi",
-        "🇨🇦 加拿大 (Canada) 21 - shiqi",
-        "🇨🇦 加拿大 (Canada) 22 - shiqi",
-        "🇨🇦 加拿大 (Canada) 23 - shiqi",
-        "🇨🇦 加拿大 (Canada) 24 - shiqi",
-        "🇨🇦 加拿大 (Canada) 25 - shiqi",
-        "🇨🇦 加拿大 (Canada) 26 - shiqi",
-        "🇨🇦 加拿大 (Canada) 27 - shiqi",
-        "🇨🇦 加拿大 (Canada) 28 - shiqi",
-        "🇨🇦 加拿大 (Canada) 29 - shiqi",
-        "🇨🇦 加拿大 (Canada) 30 - shiqi",
-        "🇨🇦 加拿大 (Canada) 31 - shiqi",
-        "🇨🇦 加拿大 (Canada) 32 - shiqi",
-        "🇨🇦 加拿大 (Canada) 33 - shiqi",
-        "🇨🇦 加拿大 (Canada) 34 - shiqi",
-        "🇨🇦 加拿大 (Canada) 35 - shiqi",
-        "🇨🇦 加拿大 (Canada) 36 - shiqi",
-        "🇨🇦 加拿大 (Canada) 37 - shiqi",
-        "🇨🇦 加拿大 (Canada) 38 - shiqi",
-        "🇨🇦 加拿大 (Canada) 39 - shiqi",
-        "🇨🇦 加拿大 (Canada) 40 - shiqi"
+        "🇨🇦 加拿大 (Canada) 12 - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
