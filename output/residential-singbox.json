@@ -4,12 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - shiqi",
-      "server": "zfd-hkv1.kunlun01dns.com",
-      "server_port": 16114,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
+      "server": "42.200.173.5",
+      "server_port": 443,
+      "uuid": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.ap-east-1.amazonaws.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
+          "short_id": "1a"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -20,20 +33,45 @@
       "password": "qwerREWQ@@"
     },
     {
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
+      "server": "sbgfgov.vip24.wogacnmnagfwgov.com",
+      "server_port": 11224,
+      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
+      "security": "auto",
+      "alter_id": 2
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 新加坡 (Singapore) 04 (家宽) - shiqi",
+      "server": "s3.huhiuh.space",
+      "server_port": 18642,
+      "password": "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.huhiuh.space",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - shiqi",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 04 (家宽) - shiqi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - shiqi",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - shiqi"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - shiqi",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - shiqi",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - shiqi",
+        "🇸🇬 新加坡 (Singapore) 04 (家宽) - shiqi"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
